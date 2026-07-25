@@ -1,0 +1,409 @@
+/* ── Layout shell ──────────────────────────────────────────────────────── */
+.page {
+  min-height: 100svh;
+}
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+.masthead__inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+.brand__mark {
+  font-family: var(--serif-gk);
+  font-size: 26px;
+  color: var(--gold);
+  border: 1px solid var(--gold-line);
+  border-radius: 999px;
+  padding: 4px 16px;
+  white-space: nowrap;
+}
+.brand__text h1 {
+  font-family: var(--serif-en);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--ink);
+}
+.brand__text p {
+  margin: 2px 0 0;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+.chapter-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: var(--sans);
+  line-height: 1.25;
+  text-align: right;
+}
+.chapter-nav__book {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.chapter-nav__ch {
+  font-size: 15px;
+  color: var(--ink);
+}
+.chapter-nav__title {
+  font-family: var(--serif-en);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--gold);
+}
+
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 32px 96px;
+}
+
+.intro {
+  max-width: 760px;
+  margin: 40px auto 8px;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.intro strong {
+  color: var(--ink);
+}
+
+/* ── The three-column grid ─────────────────────────────────────────────── */
+.reader {
+  margin-top: 28px;
+}
+.columns-head,
+.verse {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1.05fr) minmax(0, 1fr);
+  column-gap: 40px;
+}
+
+.columns-head {
+  position: sticky;
+  top: 66px;
+  z-index: 10;
+  padding: 10px 0;
+  background: color-mix(in srgb, var(--paper) 90%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule-strong);
+  margin-bottom: 8px;
+}
+.col-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+.col-label span {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+.verse {
+  padding: 26px 0;
+  border-bottom: 1px solid var(--rule);
+  align-items: start;
+  row-gap: 20px;
+}
+.verse__num {
+  grid-row: 1;
+  grid-column: 1;
+}
+.col--gk {
+  grid-row: 1;
+  grid-column: 2;
+}
+.col--en {
+  grid-row: 1;
+  grid-column: 3;
+}
+/* Annotations: full-width band beneath the verse's two text columns. */
+.verse__notes {
+  grid-row: 2;
+  grid-column: 1 / -1;
+  display: grid;
+  /* One column per annotation, capped at 3 (set inline via --note-cols). */
+  grid-template-columns: repeat(var(--note-cols, 3), minmax(0, 1fr));
+  gap: 12px;
+}
+.verse:hover .verse__num {
+  color: var(--gold);
+}
+.verse__num {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  text-align: right;
+  padding-top: 6px;
+  transition: color 0.2s;
+}
+
+.col--gk {
+  font-family: var(--serif-gk);
+  font-size: 25px;
+  line-height: 1.85;
+  color: var(--ink);
+}
+.col--en {
+  font-family: var(--serif-en);
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
+/* ── Tokens & highlighting ─────────────────────────────────────────────── */
+.tok {
+  border-radius: 5px;
+  padding: 0.5px 2px;
+  margin: 0 -1px;
+  cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease, box-shadow 0.14s ease;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+}
+.tok:hover {
+  text-decoration-color: var(--gold-line);
+}
+.tok--supplied {
+  color: var(--ink-faint);
+  font-style: italic;
+  cursor: default;
+}
+.tok--supplied:hover {
+  text-decoration-color: transparent;
+}
+.tok.is-active {
+  background: var(--gold-bg);
+  color: var(--ink);
+  box-shadow: inset 0 -1.5px 0 var(--gold-line);
+}
+.tok.is-pinned {
+  background: var(--gold-bg);
+  box-shadow: inset 0 -2px 0 var(--gold);
+}
+.punct {
+  color: var(--ink-soft);
+}
+
+/* ── Annotations ───────────────────────────────────────────────────────── */
+.note {
+  font-family: var(--sans);
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--rule-strong);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: border-color 0.16s, box-shadow 0.16s, transform 0.16s;
+}
+.note:hover {
+  box-shadow: var(--shadow-sm);
+}
+.note.is-active {
+  border-left-color: var(--note-hue, var(--gold));
+  box-shadow: var(--shadow-md);
+}
+.note--translation {
+  --note-hue: var(--k-translation);
+}
+.note--concept {
+  --note-hue: var(--k-concept);
+}
+.note--grammar {
+  --note-hue: var(--k-grammar);
+}
+.note--text {
+  --note-hue: var(--k-text);
+}
+.note--p66 {
+  --note-hue: var(--k-p66);
+  border-left-color: var(--k-p66);
+  border-left-width: 3px;
+  background: color-mix(in srgb, var(--paper-2) 84%, var(--k-p66) 8%);
+}
+.note__head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+.note__kind {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--note-hue, var(--ink-faint));
+}
+.note__lemma {
+  font-family: var(--serif-gk);
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+.note__title {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+.note__body {
+  font-size: 13.5px;
+  line-height: 1.62;
+  color: var(--ink-soft);
+}
+.note__body strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.note__body em {
+  font-style: italic;
+}
+.note__body code {
+  font-family: var(--serif-gk);
+  font-style: normal;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+/* ── Inspector ─────────────────────────────────────────────────────────── */
+.inspector {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 30;
+  min-width: 240px;
+  max-width: 320px;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  padding: 14px 16px;
+  animation: pop 0.16s ease;
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.inspector__word {
+  font-family: var(--serif-gk);
+  font-size: 30px;
+  color: var(--gold);
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.inspector__grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3px 12px;
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 13px;
+}
+.inspector__grid dt {
+  color: var(--ink-faint);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.inspector__grid dd {
+  margin: 0;
+  color: var(--ink);
+}
+.inspector__translit {
+  font-style: italic;
+}
+
+/* ── Colophon ──────────────────────────────────────────────────────────── */
+.colophon {
+  max-width: 760px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--ink-faint);
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .masthead__inner,
+  main {
+    padding-inline: 18px;
+  }
+  .columns-head {
+    display: none;
+  }
+  .verse {
+    grid-template-columns: 1fr;
+    row-gap: 14px;
+    position: relative;
+    padding-left: 0;
+  }
+  /* Stack everything into one column on narrow screens. */
+  .verse__num {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    text-align: left;
+    grid-column: 1;
+  }
+  .col--gk,
+  .col--en,
+  .verse__notes {
+    grid-column: 1;
+    grid-row: auto;
+    padding-left: 1.75rem;
+  }
+  .col--gk {
+    font-size: 23px;
+  }
+  .verse__notes {
+    grid-template-columns: 1fr;
+  }
+  .inspector {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    max-width: none;
+  }
+}

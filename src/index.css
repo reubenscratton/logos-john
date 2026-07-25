@@ -1,0 +1,85 @@
+/* ── Design tokens ─────────────────────────────────────────────────────── */
+:root {
+  /* Warm "paper" light theme */
+  --paper: #faf7f0;
+  --paper-2: #f3eee2;
+  --ink: #211d17;
+  --ink-soft: #5c554a;
+  --ink-faint: #8a8172;
+  --rule: #e4dccb;
+  --rule-strong: #d6ccb6;
+
+  /* Accents: manuscript gold + a cool scholarly blue */
+  --gold: #b6892d;
+  --gold-bg: rgba(191, 145, 42, 0.16);
+  --gold-line: rgba(191, 145, 42, 0.55);
+  --blue: #2f6d8c;
+
+  /* Annotation category hues */
+  --k-translation: #9c5a1f;
+  --k-concept: #6a4c93;
+  --k-grammar: #2f6d8c;
+  --k-text: #8a6d1f;
+  --k-p66: #9a3b3b;
+
+  --shadow-sm: 0 1px 2px rgba(33, 29, 23, 0.06), 0 2px 8px rgba(33, 29, 23, 0.05);
+  --shadow-md: 0 6px 24px rgba(33, 29, 23, 0.1);
+
+  --serif-en: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --serif-gk: 'Cardo', 'Gentium Plus', 'New Athena Unicode', Georgia, serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #17150f;
+    --paper-2: #1f1c15;
+    --ink: #ece5d6;
+    --ink-soft: #b7ad9a;
+    --ink-faint: #8f8674;
+    --rule: #322d22;
+    --rule-strong: #443d2e;
+
+    --gold: #d8ac52;
+    --gold-bg: rgba(216, 172, 82, 0.16);
+    --gold-line: rgba(216, 172, 82, 0.5);
+    --blue: #79b5d1;
+
+    --k-translation: #d69a5a;
+    --k-concept: #b39ddb;
+    --k-grammar: #79b5d1;
+    --k-text: #d6bd6a;
+    --k-p66: #e08a8a;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif-en);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--gold-bg);
+}

@@ -34,7 +34,7 @@ export const UI: Record<Lang, UIStrings> = {
       'counterpart in the other column and the notes that discuss it. The base text is the public-domain ' +
       '*Nestle 1904*; where Papyrus 66 (𝔓⁶⁶, c. 200 CE) bears witness, it is discussed in the margin.',
     greekLabel: 'Greek',
-    greekSource: '· Nestle 1904',
+    greekSource: '· Nestle 1904 & Papyrus 66 (𝔓⁶⁶)',
     transLabel: 'English',
     transSource: '· this edition',
     colophon:
@@ -62,7 +62,7 @@ export const UI: Record<Lang, UIStrings> = {
       'för att tända dess motsvarighet i den andra spalten och de noter som behandlar det. Grundtexten är den ' +
       'fria *Nestle 1904*; där Papyrus 66 (𝔓⁶⁶, ca 200 e.Kr.) vittnar diskuteras det i marginalen.',
     greekLabel: 'Grekiska',
-    greekSource: '· Nestle 1904',
+    greekSource: '· Nestle 1904 & Papyrus 66 (𝔓⁶⁶)',
     transLabel: 'Svenska',
     transSource: '· denna utgåva',
     colophon:

@@ -186,9 +186,7 @@ main {
 
 /* ── Chapter summary ───────────────────────────────────────────────────── */
 .chapter-summary {
-  margin: 30px 0 0;
-  padding: 0 0 20px;
-  border-bottom: 1px solid var(--rule);
+  margin: 30px 0 4px;
 }
 .chapter-summary__label {
   font-family: var(--sans);

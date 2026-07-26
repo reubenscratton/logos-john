@@ -131,9 +131,6 @@ function Study() {
             <p className="chapter-summary__text">{renderMarkup(chapter.summary)}</p>
           </section>
         ) : null}
-        <div className="intro">
-          <p>{renderMarkup(ui.intro)}</p>
-        </div>
         <Reader
           key={`${chapterIdx}-${lang}`}
           chapter={chapter}

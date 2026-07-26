@@ -36,6 +36,11 @@ export const CONTENT = {
         title: "Vad 𝔓⁶⁶ faktiskt visar här — med en ärlig reservation",
         body: "I 𝔓⁶⁶ skrivs de två förekomsterna av *Gud* i v. 1 som *nomina sacra* — de heliga förkortningarna **θ̅ν̅** (θεόν) och **θ̅ς̅** (θεός), var och en under ett vågrätt streck — medan **λόγος**, ”Ordet”, skrivs *fullt ut* varje gång och **inte** behandlas som ett heligt namn. Men läsaren förtjänar uppriktighet: papyrusens första sidas övre del är skadad, och enligt IGNTP:s transkription faller **alla** θεός-formerna i vv. 1–2 i en *lakun* och är redaktionellt **utfyllda** — rekonstruerade, inte läsbara. 𝔓⁶⁶ vittnar alltså om radernas *utformning och ordalydelse*, men dess berömda θ̅ς̅ vid ”Ordet var Gud” är en rekonstruktion av text som saknas, inte bläck vi ännu kan läsa. (Handskriftens datering är själv omtvistad: Martins ~200 e.Kr. mot senare uppskattningar in på 300-talet.)",
       },
+      {
+        kind: "reading", refs: "g1.1.5 g1.14.4 g1.14.13",
+        title: "Ordet: hur man läser Prologen",
+        body: "Innan Johannes berättar en enda historia sjunger han en uvertyr — och den framför det djärvaste anspråket i Nya testamentet. **”Ordet”** (*Logos*) var redan ett ord tjockt av betydelse: för grekiska tänkare den förnuftsprincip som ordnar kosmos; för judiska läsare Guds *dabar* genom vilket världen blev till (1 Mos 1) och gestalten **Visheten**, närvarande vid skapelsen (Ords 8). Johannes griper efter allt detta — och gör sedan något oerhört. Denna kosmiska ordningsprincip, säger han, **”blev kött”** (v. 14): den har ett människoansikte, en by, ett namn. Det eviga förnuftet bakom verkligheten identifieras med en galilé från första århundradet som blir trött, gråter och dör. Detta är mindre ett bevis än en *lins*: Prologen säger hur man ska läsa allt som följer — snickaren är Ordet, och att ha mött honom (”vi **skådade hans härlighet**”) är att ha mött Guds eget självuttryck. Allt som kommer sedan är utvecklingen av ett anspråk som redan framförts: Gud har talat, och talet är en person.",
+      },
     ],
   },
 
@@ -518,6 +523,11 @@ export const CONTENT = {
         kind: "translation", refs: "g1.29.17 g1.29.19", lemma: "ὁ αἴρων τὴν ἁμαρτίαν",
         title: "”Tar bort” — och tar på sig",
         body: "**αἴρω** betyder både att *lyfta upp, ta på sig* och att *bära bort, avlägsna*. Lammet gör bådadera: det *bär* synden och *bär bort* den (offret och syndabocken i ett). Och **ἁμαρτίαν** står i *singular* — inte en uppräkning av felsteg utan ”**världens synd**”, mänsklighetens främlingskap samlat till en enda massa och lyft av.",
+      },
+      {
+        kind: "reading", refs: "g1.29.13 g1.29.19",
+        title: "”Guds Lamm”: hur denna räddning ser ut",
+        body: "Israel väntade på många slags befriare — en kung som David, en profet som Mose, en himmelsk domare. Vad nästan ingen väntade sig var ett **lamm**. Johannes Döparens rop namnger hela detta evangeliums märkliga logik: Messias räddar inte genom att erövra utan genom att *offras*. Bilden smälter samman flera offer på en gång — **påskalammet** vars blod skyddar från döden, det tysta lammet som ”förs bort till att slaktas” och bär andras skuld (Jes 53), det dagliga tempeloffret — och pekar dem alla framåt mot korset. Lägg märke till räckvidden: inte Israels synder utan **”världens synd”**, samlad till en enda massa och buren bort. Om tecknet i Kana antydde att Guds makt ser ut som givmild självutgivelse snarare än våld, säger denna titel det rakt ut. Lejonet av Juda visar sig vara ett Lamm — och den omvändningen ligger nära kärnan i vad Nya testamentet menar med ”härlighet”.",
       },
     ],
   },

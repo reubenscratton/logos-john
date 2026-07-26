@@ -37,6 +37,14 @@ const CHAPTERS = [
       sv: 'Vid ett bröllop i **Kana** förvandlar Jesus vatten till vin — det första av hans *tecken* — och uppenbarar stilla sin härlighet. Sedan, vid påsken i **Jerusalem**, rensar han templet från handelsmännen och talar om att resa upp ”detta tempel” på tre dagar, med sin egen kropp menat. Många kommer till tro när de ser hans tecken, men han anförtror sig inte åt dem, ty han vet vad som bor i människohjärtat.',
     },
   },
+  {
+    num: 3,
+    titles: { en: 'Nicodemus & the Friend of the Bridegroom', sv: 'Nikodemus och brudgummens vän' },
+    summaries: {
+      en: 'By night a ruler named **Nicodemus** comes to Jesus, who tells him no one can see God’s kingdom without being **born from above** — of water and Spirit, as free and untraceable as the wind. The discourse opens onto the Gospel’s most famous words: God *so loved the world* that he gave his only Son, not to condemn it but to save it — and the judgment is simply that the light has come, and people prefer the dark. Then John the Baptist, questioned about baptizing, gives his last and gladdest testimony: *he must increase, but I must decrease.*',
+      sv: 'Om natten kommer en rådsherre vid namn **Nikodemus** till Jesus, som säger honom att ingen kan se Guds rike utan att bli **född ovanifrån** — av vatten och Ande, lika fri och ospårbar som vinden. Samtalet mynnar ut i evangeliets mest kända ord: Gud *älskade världen så* att han gav sin ende Son, inte för att döma den utan för att rädda den — och domen är helt enkelt att ljuset har kommit, och människorna föredrar mörkret. Sedan ger Johannes Döparen, tillfrågad om sitt dop, sitt sista och gladaste vittnesbörd: *han måste växa till, men jag måste avta.*',
+    },
+  },
 ];
 
 const cap = (s) => s[0].toUpperCase() + s.slice(1);

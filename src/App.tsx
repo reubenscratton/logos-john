@@ -105,6 +105,9 @@ function Study() {
               </div>
             </div>
             <div className="brand__chapter">{chapter.title}</div>
+            {chapter.summary ? (
+              <p className="brand__summary">{renderMarkup(chapter.summary)}</p>
+            ) : null}
           </div>
           <div className="masthead__right">
             <div className="langtoggle" role="group" aria-label="Language / Språk">
@@ -120,17 +123,11 @@ function Study() {
                 </button>
               ))}
             </div>
-            <p className="masthead__credit">{ui.subtitle}</p>
           </div>
         </div>
       </header>
 
       <main>
-        {chapter.summary ? (
-          <section className="chapter-summary">
-            <p className="chapter-summary__text">{renderMarkup(chapter.summary)}</p>
-          </section>
-        ) : null}
         <Reader
           key={`${chapterIdx}-${lang}`}
           chapter={chapter}
@@ -163,6 +160,7 @@ function Study() {
         </nav>
 
         <footer className="colophon">
+          <p className="colophon__credit">{ui.subtitle}</p>
           <p>{ui.colophon}</p>
         </footer>
       </main>

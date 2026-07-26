@@ -4,11 +4,7 @@
 }
 
 .masthead {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: saturate(1.4) blur(10px);
+  background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
 .masthead__inner {
@@ -52,14 +48,14 @@
   align-items: flex-end;
   gap: 8px;
 }
-.masthead__credit {
-  margin: 0;
-  max-width: 230px;
-  text-align: right;
-  font-family: var(--sans);
-  font-size: 11.5px;
-  line-height: 1.45;
-  color: var(--ink-faint);
+.brand__summary {
+  margin: 6px 0 0;
+  max-width: 760px;
+  font-family: var(--serif-en);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
 }
 .langtoggle {
   display: inline-flex;
@@ -184,26 +180,6 @@ main {
   color: var(--ink);
 }
 
-/* ── Chapter summary ───────────────────────────────────────────────────── */
-.chapter-summary {
-  margin: 30px 0 4px;
-}
-.chapter-summary__label {
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  margin-bottom: 6px;
-}
-.chapter-summary__text {
-  font-family: var(--serif-en);
-  font-size: 17px;
-  line-height: 1.62;
-  color: var(--ink);
-}
-
 /* ── The three-column grid ─────────────────────────────────────────────── */
 .reader {
   margin-top: 28px;
@@ -218,7 +194,7 @@ main {
 
 .columns-head {
   position: sticky;
-  top: 66px;
+  top: 0;
   z-index: 10;
   padding: 10px 0;
   background: color-mix(in srgb, var(--paper) 90%, transparent);
@@ -489,6 +465,13 @@ main {
   font-family: var(--sans);
   font-size: 12.5px;
   color: var(--ink-faint);
+}
+.colophon__credit {
+  font-family: var(--serif-en);
+  font-style: italic;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
 }
 
 /* ── Responsive ────────────────────────────────────────────────────────── */

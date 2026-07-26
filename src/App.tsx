@@ -103,11 +103,8 @@ function Study() {
                   ›
                 </button>
               </div>
+              <div className="brand__chapter">{chapter.title}</div>
             </div>
-            <div className="brand__chapter">{chapter.title}</div>
-            {chapter.summary ? (
-              <p className="brand__summary">{renderMarkup(chapter.summary)}</p>
-            ) : null}
           </div>
           <div className="masthead__right">
             <div className="langtoggle" role="group" aria-label="Language / Språk">
@@ -125,6 +122,9 @@ function Study() {
             </div>
           </div>
         </div>
+        {chapter.summary ? (
+          <p className="masthead__summary">{renderMarkup(chapter.summary)}</p>
+        ) : null}
       </header>
 
       <main>

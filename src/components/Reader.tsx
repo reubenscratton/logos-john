@@ -1,9 +1,6 @@
-import type { CSSProperties } from 'react';
-import type { Annotation, AnnotationKind, Chapter, EnglishToken, GreekToken, Verse } from '../data/types';
+import type { Annotation, Chapter, EnglishToken, GreekToken, Verse } from '../data/types';
 import { useHighlight } from './HighlightContext';
 import { renderMarkup } from '../lib/markup';
-
-type KindLabels = Record<AnnotationKind, string>;
 
 function GreekWord({ token }: { token: GreekToken }) {
   const { isActive, isPinned, hover, endHover, toggle } = useHighlight();
@@ -59,7 +56,7 @@ function EnglishWord({ token, focusFor }: { token: EnglishToken; focusFor: (id: 
   );
 }
 
-function Note({ note, kinds }: { note: Annotation; kinds: KindLabels }) {
+function Note({ note }: { note: Annotation }) {
   const { isActive, hover, endHover, toggle } = useHighlight();
   const cls = ['note', `note--${note.kind}`, isActive(note.refs) ? 'is-active' : ''].filter(Boolean).join(' ');
   return (
@@ -69,17 +66,18 @@ function Note({ note, kinds }: { note: Annotation; kinds: KindLabels }) {
       onMouseLeave={endHover}
       onClick={() => toggle(note.refs)}
     >
-      <div className="note__head">
-        <span className={`note__kind note__kind--${note.kind}`}>{kinds[note.kind]}</span>
-        {note.lemma ? <span className="note__lemma">{note.lemma}</span> : null}
-      </div>
+      {note.lemma ? (
+        <div className="note__head">
+          <span className="note__lemma">{note.lemma}</span>
+        </div>
+      ) : null}
       <div className="note__title">{note.title}</div>
       <p className="note__body">{renderMarkup(note.body)}</p>
     </div>
   );
 }
 
-function VerseRow({ verse, kinds }: { verse: Verse; kinds: KindLabels }) {
+function VerseRow({ verse }: { verse: Verse }) {
   const byId = new Map(verse.greek.map((g) => [g.id, g]));
   const focusFor = (id: string) => byId.get(id) ?? null;
   return (
@@ -96,12 +94,9 @@ function VerseRow({ verse, kinds }: { verse: Verse; kinds: KindLabels }) {
         ))}
       </div>
       {verse.annotations.length > 0 && (
-        <div
-          className="verse__notes"
-          style={{ '--note-cols': Math.min(verse.annotations.length, 3) } as CSSProperties}
-        >
+        <div className="verse__notes">
           {verse.annotations.map((a) => (
-            <Note key={a.id} note={a} kinds={kinds} />
+            <Note key={a.id} note={a} />
           ))}
         </div>
       )}
@@ -109,7 +104,7 @@ function VerseRow({ verse, kinds }: { verse: Verse; kinds: KindLabels }) {
   );
 }
 
-export function Reader({ chapter, kinds }: { chapter: Chapter; kinds: KindLabels }) {
+export function Reader({ chapter }: { chapter: Chapter }) {
   const { clear } = useHighlight();
   return (
     <div
@@ -120,7 +115,7 @@ export function Reader({ chapter, kinds }: { chapter: Chapter; kinds: KindLabels
       }}
     >
       {chapter.verses.map((v) => (
-        <VerseRow key={v.ref} verse={v} kinds={kinds} />
+        <VerseRow key={v.ref} verse={v} />
       ))}
     </div>
   );

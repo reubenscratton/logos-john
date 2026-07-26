@@ -219,8 +219,8 @@ main {
   /* Left edge aligns with the Greek text column (column 2), not the number gutter. */
   grid-column: 2 / -1;
   display: grid;
-  /* One column per annotation, capped at 3 (set inline via --note-cols). */
-  grid-template-columns: repeat(var(--note-cols, 3), minmax(0, 1fr));
+  /* Every annotation is full width, stacked vertically. */
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px;
 }
 .verse:hover .verse__num {
@@ -288,7 +288,8 @@ main {
   font-family: var(--sans);
   background: var(--paper-2);
   border: 1px solid var(--rule);
-  border-left: 3px solid var(--rule-strong);
+  /* The left bar carries the annotation's kind colour (now that the label is gone). */
+  border-left: 3px solid var(--note-hue, var(--rule-strong));
   border-radius: 8px;
   padding: 12px 14px;
   cursor: pointer;
@@ -339,13 +340,6 @@ main {
   gap: 10px;
   margin-bottom: 5px;
   flex-wrap: wrap;
-}
-.note__kind {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--note-hue, var(--ink-faint));
 }
 .note__lemma {
   font-family: var(--serif-gk);

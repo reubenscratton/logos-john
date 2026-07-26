@@ -92,14 +92,14 @@ function VerseRow({ verse, kinds }: { verse: Verse; kinds: KindLabels }) {
   return (
     <div className="verse" id={verse.ref.replace(':', '-')}>
       <div className="verse__num">{verse.verse}</div>
-      <div className="col col--gk" lang="grc">
-        {verse.greek.map((g) => (
-          <GreekWord key={g.id} token={g} />
-        ))}
-      </div>
       <div className="col col--en">
         {verse.english.map((e) => (
           <EnglishWord key={e.id} token={e} focusFor={focusFor} />
+        ))}
+      </div>
+      <div className="col col--gk" lang="grc">
+        {verse.greek.map((g) => (
+          <GreekWord key={g.id} token={g} />
         ))}
       </div>
       {verse.annotations.length > 0 && (
@@ -137,10 +137,10 @@ export function Reader({
       <div className="columns-head" aria-hidden>
         <div className="verse__num" />
         <div className="col-label">
-          {labels.greekLabel} <span>{labels.greekSource}</span>
+          {labels.transLabel} <span>{labels.transSource}</span>
         </div>
         <div className="col-label">
-          {labels.transLabel} <span>{labels.transSource}</span>
+          {labels.greekLabel} <span>{labels.greekSource}</span>
         </div>
       </div>
       {chapter.verses.map((v) => (

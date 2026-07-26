@@ -211,7 +211,8 @@ main {
 .columns-head,
 .verse {
   display: grid;
-  grid-template-columns: 2.25rem minmax(0, 1.05fr) minmax(0, 1fr);
+  /* [ number gutter | translation | Greek ] — Greek on the right. */
+  grid-template-columns: 2.25rem minmax(0, 1fr) minmax(0, 1.05fr);
   column-gap: 40px;
 }
 
@@ -251,11 +252,11 @@ main {
   grid-row: 1;
   grid-column: 1;
 }
-.col--gk {
+.col--en {
   grid-row: 1;
   grid-column: 2;
 }
-.col--en {
+.col--gk {
   grid-row: 1;
   grid-column: 3;
 }

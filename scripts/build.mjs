@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 5,
+    titles: { en: 'The Healing at Bethesda, and the Son’s Authority', sv: 'Botandet vid Betesda och Sonens fullmakt' },
+    summaries: {
+      en: 'At a Jerusalem feast Jesus heals a man **paralyzed for thirty-eight years** at the pool of Bethesda — and does it on the **Sabbath**, telling him to carry his mat. When the authorities object, and all the more when he calls God *his own Father*, making himself **equal with God**, Jesus answers with the Gospel’s fullest claim about himself: the Son does only what he sees the Father doing, yet the Father has given him to *give life* and to *judge*, so that all should honor the Son as they honor the Father. To *hear his word* is to have crossed already *from death to life*. Four witnesses confirm him — John, his works, the Father, and the Scriptures — yet they will not come to him for life.',
+      sv: 'Vid en högtid i Jerusalem botar Jesus en man som varit **förlamad i trettioåtta år** vid Betesdadammen — och gör det på **sabbaten**, och säger honom att bära sin bädd. När myndigheterna protesterar, och än mer när han kallar Gud *sin egen Fader* och gör sig **jämlik med Gud**, svarar Jesus med evangeliets fullaste anspråk om sig själv: Sonen gör bara det han ser Fadern göra, men Fadern har gett honom att *ge liv* och att *döma*, så att alla ska ära Sonen som de ärar Fadern. Att *höra hans ord* är att redan ha gått *från döden till livet*. Fyra vittnen bekräftar honom — Johannes, hans gärningar, Fadern och Skrifterna — men de vill inte komma till honom för att få liv.',
+    },
+  },
+  {
     num: 3,
     titles: { en: 'Nicodemus & the Friend of the Bridegroom', sv: 'Nikodemus och brudgummens vän' },
     summaries: {

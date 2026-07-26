@@ -38,6 +38,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 4,
+    titles: { en: 'The Samaritan Woman, and the Official’s Son', sv: 'Den samariska kvinnan och ämbetsmannens son' },
+    summaries: {
+      en: 'Passing through **Samaria**, tired at Jacob’s well, Jesus asks a lone woman for a drink and offers her **living water** — a spring welling up to eternal life. He knows her five husbands, unveils that true worship will be *in spirit and truth*, and tells her plainly, **“I am he.”** She leaves her jar and brings her whole town, and many Samaritans come to believe he is *the Savior of the world*. Back in **Cana**, Jesus heals a royal official’s dying son from a distance — his second sign — and the man’s whole household believes.',
+      sv: 'På väg genom **Samarien**, trött vid Jakobs brunn, ber Jesus en ensam kvinna om vatten och erbjuder henne **levande vatten** — en källa som väller fram till evigt liv. Han känner hennes fem män, uppenbarar att sann tillbedjan ska ske *i ande och sanning*, och säger henne rakt ut: **”Det är jag.”** Hon lämnar sin kruka och hämtar hela sin stad, och många samarier kommer till tro att han är *världens Frälsare*. Tillbaka i **Kana** botar Jesus en kunglig ämbetsmans döende son på avstånd — hans andra tecken — och mannens hela hus kommer till tro.',
+    },
+  },
+  {
     num: 3,
     titles: { en: 'Nicodemus & the Friend of the Bridegroom', sv: 'Nikodemus och brudgummens vän' },
     summaries: {

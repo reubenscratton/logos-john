@@ -66,11 +66,6 @@ function Note({ note }: { note: Annotation }) {
       onMouseLeave={endHover}
       onClick={() => toggle(note.refs)}
     >
-      {note.lemma ? (
-        <div className="note__head">
-          <span className="note__lemma">{note.lemma}</span>
-        </div>
-      ) : null}
       <div className="note__title">{note.title}</div>
       <p className="note__body">{renderMarkup(note.body)}</p>
     </div>

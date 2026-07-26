@@ -190,9 +190,10 @@ main {
 }
 .verse {
   display: grid;
-  /* [ number gutter | translation | Greek ] — Greek on the right. */
-  grid-template-columns: 2.25rem minmax(0, 1fr) minmax(0, 1.05fr);
+  /* [ translation | Greek ] — the verse number hangs in the left margin. */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
   column-gap: 40px;
+  position: relative;
 }
 .verse {
   padding: 26px 0;
@@ -202,22 +203,25 @@ main {
   row-gap: 20px;
 }
 .verse__num {
-  grid-row: 1;
-  grid-column: 1;
+  /* Hangs in the left margin, aligned with the annotation titles' left edge. */
+  position: absolute;
+  left: 17px;
+  top: 26px;
 }
 .col--en {
   grid-row: 1;
-  grid-column: 2;
+  grid-column: 1;
+  /* Clear the hanging verse number. */
+  padding-left: 1.9rem;
 }
 .col--gk {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2;
 }
 /* Annotations: full-width band beneath the verse's two text columns. */
 .verse__notes {
   grid-row: 2;
-  /* Left edge aligns with the Greek text column (column 2), not the number gutter. */
-  grid-column: 2 / -1;
+  grid-column: 1 / -1;
   display: grid;
   /* Every annotation is full width, stacked vertically. */
   grid-template-columns: minmax(0, 1fr);
@@ -231,7 +235,7 @@ main {
   font-size: 12px;
   font-weight: 600;
   color: var(--ink-faint);
-  text-align: right;
+  text-align: left;
   transition: color 0.2s;
 }
 
@@ -333,18 +337,6 @@ main {
 .note--reading .note__body {
   font-size: 14px;
   line-height: 1.68;
-}
-.note__head {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  margin-bottom: 5px;
-  flex-wrap: wrap;
-}
-.note__lemma {
-  font-family: var(--serif-gk);
-  font-size: 15px;
-  color: var(--ink-soft);
 }
 .note__title {
   font-size: 14.5px;

@@ -141,4 +141,193 @@ export const CONTENT = {
       },
     ],
   },
+
+  12: {
+    english: [
+      ["Efter", "g2.12.1"], ["detta", "g2.12.2"], ["gick", "g2.12.3"], ["ner", "g2.12.3", true], ["till", "g2.12.4"], ["Kapernaum,", "g2.12.5"],
+      ["han", "g2.12.6"], ["och", "g2.12.7"], ["hans", "g2.12.10"], ["mor", "g2.12.8 g2.12.9"], ["och", "g2.12.11"], ["hans", "", true], ["bröder", "g2.12.12 g2.12.13"],
+      ["och", "g2.12.14"], ["hans", "g2.12.17"], ["lärjungar,", "g2.12.15 g2.12.16"], ["och", "g2.12.18"], ["där", "g2.12.19"], ["stannade", "g2.12.20"], ["de", "", true],
+      ["inte", "g2.12.21"], ["många", "g2.12.22"], ["dagar.", "g2.12.23"],
+    ],
+    annotations: [],
+  },
+
+  13: {
+    english: [
+      ["Och", "g2.13.1"], ["judarnas", "g2.13.6 g2.13.7"], ["påsk", "g2.13.4 g2.13.5"], ["var", "g2.13.3"], ["nära,", "g2.13.2"],
+      ["och", "g2.13.8"], ["Jesus", "g2.13.12 g2.13.13"], ["gick", "g2.13.9"], ["upp", "g2.13.9"], ["till", "g2.13.10"], ["Jerusalem.", "g2.13.11"],
+    ],
+    annotations: [
+      {
+        kind: "text", refs: "g2.13.5 g2.13.9", lemma: "τὸ πάσχα",
+        title: "En påsk — och en tempelrening tidigt lagd",
+        body: "Detta är den första av **tre påskhögtider** som Johannes noterar (2:13; 6:4; 11:55), stommen som han hänger en verksamhet på omkring tre år. Det väcker också en berömd fråga: Johannes lägger tempelreningen i *början* av Jesu offentliga verk, medan Matteus, Markus och Lukas placerar den i den sista veckan. Somliga antar två reningar; mer troligt har varje evangelist ordnat den för sitt eget syfte — Johannes använder den redan här som ett programmatiskt tecken på vad Jesus kommit för att göra.",
+      },
+    ],
+  },
+
+  14: {
+    english: [
+      ["Och", "g2.14.1"], ["i", "g2.14.3"], ["templet", "g2.14.4 g2.14.5"], ["fann", "g2.14.2"], ["han", "", true], ["dem", "g2.14.6"], ["som", "", true], ["sålde", "g2.14.7"],
+      ["oxar", "g2.14.8"], ["och", "g2.14.9"], ["får", "g2.14.10"], ["och", "g2.14.11"], ["duvor,", "g2.14.12"], ["och", "g2.14.13"], ["växlarna", "g2.14.14 g2.14.15"], ["som", "", true], ["satt", "g2.14.16"], ["där.", "", true],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.14.5 g2.14.15", lemma: "ἐν τῷ ἱερῷ",
+        title: "Tempelmarknaden",
+        body: "Handeln fyllde den yttersta **hednagården** — det enda utrymme där icke-judar kunde be. Djur såldes till offer, och växlarna bytte romerskt och grekiskt mynt (som bar bilder) mot den tempelskattens gångbara tyriska sikel. Systemet var nödvändigt; det är dess *placering*, som trängde undan folkens bönehus, som Jesus vänder sig mot. (Ordet här är **ἱερόν**, hela tempelområdet — inte **ναός**, själva helgedomen, som återkommer i v. 19.)",
+      },
+    ],
+  },
+
+  15: {
+    english: [
+      ["Och", "g2.15.1"], ["han", "", true], ["gjorde", "g2.15.2"], ["ett", "g2.15.3", true], ["gissel", "g2.15.3"], ["av", "g2.15.4"], ["rep", "g2.15.5"], ["och", "", true], ["drev", "g2.15.7"], ["ut", "g2.15.7", true], ["dem", "", true], ["alla", "g2.15.6"],
+      ["ur", "g2.15.8"], ["templet,", "g2.15.9 g2.15.10"], ["både", "g2.15.12"], ["fåren", "g2.15.11 g2.15.13"], ["och", "g2.15.14"], ["oxarna;", "g2.15.15 g2.15.16"],
+      ["och", "g2.15.17"], ["han", "", true], ["hällde", "g2.15.20"], ["ut", "g2.15.20", true], ["växlarnas", "g2.15.18 g2.15.19"], ["mynt", "g2.15.21 g2.15.22"], ["och", "g2.15.23"], ["välte", "g2.15.26"], ["deras", "", true], ["bord,", "g2.15.24 g2.15.25"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.15.3 g2.15.6", lemma: "φραγέλλιον ἐκ σχοινίων",
+        title: "Giselet av rep",
+        body: "Bara Johannes berättar om **giselet**, hastigt gjort av det vassgräs som användes som strö åt djuren. Grammatiken lämnar det öppet om **πάντας** (”alla”) betyder alla *djuren* eller *människorna* med; hur som helst är handlingen avsiktlig och profetisk, inte ett utbrott av vrede. Jesus smyger inte in en protest — han iscensätter en.",
+      },
+    ],
+  },
+
+  16: {
+    english: [
+      ["och", "g2.16.1"], ["till", "g2.16.2"], ["dem", "g2.16.2", true], ["som", "", true], ["sålde", "g2.16.5"], ["duvorna", "g2.16.3 g2.16.4"], ["sade", "g2.16.6"], ["han:", "", true],
+      ["”Ta", "g2.16.7"], ["bort", "g2.16.7", true], ["det", "g2.16.8"], ["här", "g2.16.8", true], ["härifrån;", "g2.16.9"], ["gör", "g2.16.11"], ["inte", "g2.16.10"],
+      ["min", "g2.16.16"], ["Faders", "g2.16.14 g2.16.15"], ["hus", "g2.16.12 g2.16.13"], ["till", "", true], ["en", "g2.16.17", true], ["handelsbod.”", "g2.16.17 g2.16.18"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.16.15 g2.16.18", lemma: "τὸν οἶκον τοῦ Πατρός μου",
+        title: "”Min Faders hus”",
+        body: "Här kallar Jesus för första gången Gud **”min Fader”** i detta evangelium — ett förtroligt, exklusivt anspråk som myndigheterna inte kommer att missa (5:18). Där synoptikerna citerar ”ett rövarnäste” (Jer 7:11) säger Johannes Jesus **”en handelsbod”** (*emporion*), med eko av Sakarjas syn om den yttersta dagen då ”det inte längre ska finnas någon köpman i HERRENS hus” (Sak 14:21). Frågan gäller inte bara oärlighet utan handelns blotta närvaro i Faderns hus.",
+      },
+    ],
+  },
+
+  17: {
+    english: [
+      ["Hans", "g2.17.4"], ["lärjungar", "g2.17.2 g2.17.3"], ["kom", "g2.17.1"], ["ihåg", "g2.17.1", true], ["att", "g2.17.5"], ["det", "", true], ["står", "g2.17.7"], ["skrivet:", "g2.17.6"],
+      ["”Nitälskan", "g2.17.8 g2.17.9"], ["för", "", true], ["ditt", "g2.17.12"], ["hus", "g2.17.10 g2.17.11"], ["ska", "g2.17.13"], ["förtära", "g2.17.13"], ["mig.”", "g2.17.14"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.17.9 g2.17.13", lemma: "ὁ ζῆλος … καταφάγεταί με",
+        title: "”Nitälskan för ditt hus ska förtära mig”",
+        body: "Lärjungarna minns Psalm 69:9. Johannes ändrar psalmens verb till **futurum** — *ska förtära* — så att den nitälskan som renar templet redan pekar mot vart den leder: handlingen sätter igång den fiendskap som ska sluta vid korset. Psalm 69 är en av evangeliets stora lidandestexter (jfr 15:25; 19:28–29).",
+      },
+    ],
+  },
+
+  18: {
+    english: [
+      ["Då", "g2.18.2"], ["svarade", "g2.18.1"], ["judarna", "g2.18.3 g2.18.4"], ["och", "g2.18.5"], ["sade", "g2.18.6"], ["till", "g2.18.7"], ["honom:", "g2.18.7"],
+      ["”Vilket", "g2.18.8"], ["tecken", "g2.18.9"], ["visar", "g2.18.10"], ["du", "g2.18.10", true], ["oss,", "g2.18.11"], ["eftersom", "g2.18.12"], ["du", "", true], ["gör", "g2.18.14"], ["detta?”", "g2.18.13"],
+    ],
+    annotations: [],
+  },
+
+  19: {
+    english: [
+      ["Jesus", "g2.19.2"], ["svarade", "g2.19.1"], ["och", "g2.19.3"], ["sade", "g2.19.4"], ["till", "g2.19.5"], ["dem:", "g2.19.5"],
+      ["”Bryt", "g2.19.6"], ["ner", "g2.19.6", true], ["detta", "g2.19.9"], ["tempel,", "g2.19.7 g2.19.8"], ["så", "", true], ["ska", "g2.19.14"], ["jag", "", true], ["resa", "g2.19.14"], ["upp", "g2.19.14", true], ["det", "g2.19.15"], ["på", "g2.19.11"], ["tre", "g2.19.12"], ["dagar.”", "g2.19.13"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.19.8 g2.19.12", lemma: "Λύσατε τὸν ναὸν τοῦτον",
+        title: "”Bryt ner detta tempel”",
+        body: "Ordet växlar från **ἱερόν** (området, vv. 14–15) till **ναός** — *helgedomen*, Guds boning — och däri ligger gåtan. Jesus talar om sin egen kropp som den sanna mötesplatsen mellan Gud och människa (v. 21). De **tre dagarna** är uppståndelsen på förhand; imperativen ”bryt ner” räcker hans åhörare, ovetande, den roll de ska spela. Ordet är så laddat att det kastas tillbaka mot honom vid rättegången (Mark 14:58) och vid korset (Mark 15:29).",
+      },
+    ],
+  },
+
+  20: {
+    english: [
+      ["Då", "g2.20.2"], ["sade", "g2.20.1"], ["judarna:", "g2.20.3 g2.20.4"],
+      ["”I", "", true], ["fyrtiosex", "g2.20.5 g2.20.6 g2.20.7"], ["år", "g2.20.8"], ["har", "g2.20.9"], ["detta", "g2.20.12"], ["tempel", "g2.20.10 g2.20.11"], ["byggts,", "g2.20.9", true],
+      ["och", "g2.20.13"], ["du", "g2.20.14"], ["ska", "g2.20.18"], ["resa", "g2.20.18", true], ["upp", "", true], ["det", "g2.20.19"], ["på", "g2.20.15"], ["tre", "g2.20.16"], ["dagar?”", "g2.20.17"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.20.5 g2.20.9", lemma: "Τεσσεράκοντα καὶ ἓξ ἔτεσιν",
+        title: "”Fyrtiosex år”",
+        body: "Herodes den store började bygga om templet omkring 20/19 f.Kr.; fyrtiosex år senare placerar denna scen nära **27–28 e.Kr.**, ett användbart hållpunkt för att datera Jesu verksamhet (arbetet blev helt färdigt först på 60-talet e.Kr.). Invändningen är också ren johanneisk ironi: de mäter en *byggnad* medan han talar om sin *kropp* — och missförstår tecknet genom att ta det bokstavligt, som gestalterna i detta evangelium så ofta gör.",
+      },
+    ],
+  },
+
+  21: {
+    english: [
+      ["Men", "g2.21.2"], ["han", "g2.21.1"], ["talade", "g2.21.3"], ["om", "g2.21.4"], ["sin", "g2.21.9"], ["kropps", "g2.21.7 g2.21.8"], ["tempel.", "g2.21.5 g2.21.6"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.21.6 g2.21.8", lemma: "τοῦ ναοῦ τοῦ σώματος αὐτοῦ",
+        title: "Hans kropps tempel",
+        body: "Berättaren lyfter på förlåten: den sanna **ναός** är Jesu uppståndna kropp. Platsen där Gud möts är inte längre en byggnad på ett berg utan en person — temat som löper vidare till ”varken på detta berg eller i Jerusalem … utan i ande och sanning” (4:21–24). Stentemplet, hur praktfullt det än är, pensioneras tyst.",
+      },
+    ],
+  },
+
+  22: {
+    english: [
+      ["När", "g2.22.1"], ["han", "", true], ["sedan", "g2.22.2"], ["hade", "g2.22.3"], ["uppstått", "g2.22.3"], ["från", "g2.22.4"], ["de", "", true], ["döda,", "g2.22.5"],
+      ["kom", "g2.22.6"], ["hans", "g2.22.9"], ["lärjungar", "g2.22.7 g2.22.8"], ["ihåg", "g2.22.6", true], ["att", "g2.22.10"], ["han", "", true], ["hade", "g2.22.12"], ["sagt", "g2.22.12"], ["detta,", "g2.22.11"],
+      ["och", "g2.22.13"], ["de", "", true], ["trodde", "g2.22.14"], ["på", "", true], ["Skriften", "g2.22.15 g2.22.16"], ["och", "g2.22.17"], ["på", "", true], ["det", "g2.22.18"], ["ord", "g2.22.19"], ["som", "g2.22.20"], ["Jesus", "g2.22.22 g2.22.23"], ["hade", "g2.22.21"], ["sagt.", "g2.22.21"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.22.6 g2.22.16 g2.22.19", lemma: "ἐμνήσθησαν … ἐπίστευσαν",
+        title: "Förstått först efteråt",
+        body: "Detta är en av Johannes uppriktiga sidokommentarer: lärjungarna fattade **inte** ordet där och då — först *efter* uppståndelsen ”kom de ihåg” och trodde (jfr 12:16; 14:26, där Anden påminner om allt). Och lägg märke till vad de tror på: **Skriften och det ord som Jesus hade sagt**, sida vid sida. Jesu egna ord bär redan Skriftens tyngd.",
+      },
+    ],
+  },
+
+  23: {
+    english: [
+      ["Medan", "g2.23.1"], ["han", "", true], ["var", "g2.23.3"], ["i", "g2.23.4"], ["Jerusalem", "g2.23.5 g2.23.6"], ["vid", "g2.23.7"], ["påsken,", "g2.23.8 g2.23.9"], ["under", "g2.23.10"], ["högtiden,", "g2.23.11 g2.23.12"],
+      ["kom", "", true], ["många", "g2.23.13"], ["till", "", true], ["tro", "g2.23.14"], ["på", "g2.23.15"], ["hans", "g2.23.18"], ["namn,", "g2.23.16 g2.23.17"], ["när", "", true], ["de", "", true], ["såg", "g2.23.19"], ["hans", "g2.23.20"], ["tecken", "g2.23.21 g2.23.22"], ["som", "g2.23.23"], ["han", "", true], ["gjorde.", "g2.23.24"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.23.14 g2.23.22", lemma: "πολλοὶ ἐπίστευσαν … θεωροῦντες",
+        title: "En tro som ännu inte är förtröstan",
+        body: "Många ”kom till tro på hans namn” — men nästa vers säger att Jesus *inte* anförtrodde sig åt dem. Johannes drar en noggrann gräns mellan en tro som väckts enbart av **tecken** (imponerande men grund) och den tro som tar emot personen. Tecken ska leda någonstans; en tro som stannar vid undret har ännu inte kommit fram.",
+      },
+    ],
+  },
+
+  24: {
+    english: [
+      ["Men", "g2.24.2"], ["Jesus", "g2.24.3"], ["själv", "g2.24.1"], ["anförtrodde", "g2.24.5"], ["sig", "g2.24.6"], ["inte", "g2.24.4"], ["åt", "g2.24.7"], ["dem,", "g2.24.7"],
+      ["eftersom", "g2.24.8 g2.24.9"], ["han", "g2.24.10"], ["kände", "g2.24.11"], ["alla,", "g2.24.12"],
+    ],
+    annotations: [
+      {
+        kind: "translation", refs: "g2.24.5", lemma: "οὐκ ἐπίστευεν αὑτόν",
+        title: "De ”trodde” — han ”anförtrodde” sig inte",
+        body: "En spetsig ordlek som svenskan bara kan fotnotera: folkskaran **ἐπίστευσαν** (”trodde”) *på* honom (v. 23), men Jesus **οὐκ ἐπίστευεν** (”trodde inte / anförtrodde sig inte”) *själv* åt dem — samma verb, **πιστεύω**, vänt mot sig självt. Deras tro på honom motsvarades inte av hans tro på dem, ty han såg rakt igenom den.",
+      },
+    ],
+  },
+
+  25: {
+    english: [
+      ["och", "g2.25.1"], ["därför", "g2.25.2"], ["att", "g2.25.2", true], ["han", "", true], ["inte", "g2.25.3"], ["behövde", "g2.25.4 g2.25.5"], ["att", "g2.25.6"], ["någon", "g2.25.7"], ["skulle", "g2.25.8", true], ["vittna", "g2.25.8"], ["om", "g2.25.9"], ["människan,", "g2.25.10 g2.25.11"],
+      ["ty", "g2.25.13"], ["han", "g2.25.12"], ["visste", "g2.25.14"], ["själv", "g2.25.12", true], ["vad", "g2.25.15"], ["som", "", true], ["fanns", "g2.25.16"], ["i", "g2.25.17"], ["människan.", "g2.25.18 g2.25.19"],
+    ],
+    annotations: [
+      {
+        kind: "concept", refs: "g2.25.14 g2.25.19", lemma: "αὐτὸς … ἐγίνωσκεν τί ἦν ἐν τῷ ἀνθρώπῳ",
+        title: "”Han visste vad som fanns i människan”",
+        body: "Kapitlet slutar med Jesu oroande insikt i människohjärtat — samma allseende kunskap som namngav Natanael under fikonträdet (1:47–48) och ska blotta den samaritiska kvinnans liv (4:18). **ἄνθρωπος** är här *människan* i allmänhet: han behöver inget vittnesmål om människor, ty han läser dem. Det är den fulländade övergången till nästa scen, där ”en människa” — Nikodemus — kommer till honom om natten (3:1).",
+      },
+    ],
+  },
 };

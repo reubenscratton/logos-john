@@ -22,7 +22,7 @@ const LANGS = ['en', 'sv'];
 
 const CHAPTERS = [
   { num: 1, titles: { en: 'The Prologue & the First Witnesses', sv: 'Prologen och de första vittnena' } },
-  { num: 2, titles: { en: 'The Wedding at Cana', sv: 'Bröllopet i Kana' } },
+  { num: 2, titles: { en: 'Cana and the Temple', sv: 'Kana och templet' } },
 ];
 
 const cap = (s) => s[0].toUpperCase() + s.slice(1);

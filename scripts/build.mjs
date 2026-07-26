@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 6,
+    titles: { en: 'The Bread of Life', sv: 'Livets bröd' },
+    summaries: {
+      en: 'Jesus feeds **five thousand** from five barley loaves, and the crowd, missing the sign, tries to make him **king** by force; that night he comes to the disciples **walking on the sea** — *“It is I; do not be afraid.”* Back in Capernaum he meets a crowd chasing more bread with the discourse that names him **“I am the bread of life”**: the true bread from heaven, greater than the manna, who gives himself — *“the bread that I will give is my flesh, for the life of the world.”* The saying is *hard*, and **many disciples turn back**; but when he asks the Twelve whether they too will go, Peter answers, *“Lord, to whom shall we go? You have the words of eternal life.”* And Jesus notes that one of them is a betrayer.',
+      sv: 'Jesus mättar **fem tusen** av fem kornbröd, och folkskaran, som missar tecknet, försöker med våld göra honom till **kung**; samma natt kommer han till lärjungarna **gående på sjön** — *”Det är jag; var inte rädda.”* Tillbaka i Kapernaum möter han en skara som jagar mer bröd med talet som namnger honom **”Jag är livets bröd”**: det sanna brödet från himlen, större än mannat, som ger sig själv — *”det bröd jag ska ge är mitt kött, för världens liv.”* Talet är *hårt*, och **många lärjungar vänder tillbaka**; men när han frågar de tolv om också de vill gå, svarar Petrus: *”Herre, till vem skulle vi gå? Du har det eviga livets ord.”* Och Jesus märker att en av dem är en förrädare.',
+    },
+  },
+  {
     num: 5,
     titles: { en: 'The Healing at Bethesda, and the Son’s Authority', sv: 'Botandet vid Betesda och Sonens fullmakt' },
     summaries: {

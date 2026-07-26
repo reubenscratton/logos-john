@@ -245,7 +245,8 @@ main {
 .verse {
   padding: 26px 0;
   border-bottom: 1px solid var(--rule);
-  align-items: start;
+  /* Align the translation and Greek by their first baseline. */
+  align-items: baseline;
   row-gap: 20px;
 }
 .verse__num {
@@ -279,14 +280,13 @@ main {
   font-weight: 600;
   color: var(--ink-faint);
   text-align: right;
-  padding-top: 6px;
   transition: color 0.2s;
 }
 
 .col--gk {
   font-family: var(--serif-gk);
-  font-size: 25px;
-  line-height: 1.85;
+  font-size: 20px;
+  line-height: 1.8;
   color: var(--ink);
 }
 .col--en {
@@ -527,9 +527,6 @@ main {
     grid-column: 1;
     grid-row: auto;
     padding-left: 1.75rem;
-  }
-  .col--gk {
-    font-size: 23px;
   }
   .verse__notes {
     grid-template-columns: 1fr;

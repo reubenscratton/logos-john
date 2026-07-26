@@ -1,10 +1,18 @@
 import { useHighlight } from './HighlightContext';
+import { UI, type Lang } from '../data/ui';
+import { svGloss, svMorph } from '../data/lexicon.sv';
 
 // A small floating card that reveals the parse of the Greek word currently
-// under the cursor — lemma, transliteration, morphology, gloss.
-export function Inspector() {
+// under the cursor — lemma, transliteration, morphology, gloss. The gloss and
+// morphology are localized to Swedish when the Swedish edition is active.
+export function Inspector({ lang }: { lang: Lang }) {
   const { focus } = useHighlight();
   if (!focus) return null;
+
+  const labels = UI[lang].inspector;
+  const gloss = lang === 'sv' ? svGloss(focus.lemma) ?? focus.gloss : focus.gloss;
+  const morph = lang === 'sv' ? svMorph(focus.morph) : focus.morph;
+
   return (
     <div className="inspector" role="status">
       <div className="inspector__word" lang="grc">
@@ -13,26 +21,26 @@ export function Inspector() {
       <dl className="inspector__grid">
         {focus.translit ? (
           <>
-            <dt>translit.</dt>
+            <dt>{labels.translit}</dt>
             <dd className="inspector__translit">{focus.translit}</dd>
           </>
         ) : null}
         {focus.lemma ? (
           <>
-            <dt>lemma</dt>
+            <dt>{labels.lemma}</dt>
             <dd lang="grc">{focus.lemma}</dd>
           </>
         ) : null}
-        {focus.morph ? (
+        {morph ? (
           <>
-            <dt>parse</dt>
-            <dd>{focus.morph}</dd>
+            <dt>{labels.parse}</dt>
+            <dd>{morph}</dd>
           </>
         ) : null}
-        {focus.gloss ? (
+        {gloss ? (
           <>
-            <dt>gloss</dt>
-            <dd>{focus.gloss}</dd>
+            <dt>{labels.gloss}</dt>
+            <dd>{gloss}</dd>
           </>
         ) : null}
       </dl>

@@ -17,6 +17,7 @@ export interface UIStrings {
   transSource: string;
   colophon: string;
   kinds: Record<AnnotationKind, string>;
+  inspector: { translit: string; lemma: string; parse: string; gloss: string };
 }
 
 export const UI: Record<Lang, UIStrings> = {
@@ -44,6 +45,7 @@ export const UI: Record<Lang, UIStrings> = {
       text: 'Text-critical',
       p66: '𝔓⁶⁶ Papyrus 66',
     },
+    inspector: { translit: 'translit.', lemma: 'lemma', parse: 'parse', gloss: 'gloss' },
   },
   sv: {
     langName: 'Svenska',
@@ -69,5 +71,6 @@ export const UI: Record<Lang, UIStrings> = {
       text: 'Textkritik',
       p66: '𝔓⁶⁶ Papyrus 66',
     },
+    inspector: { translit: 'translit.', lemma: 'uppslagsord', parse: 'form', gloss: 'betydelse' },
   },
 };

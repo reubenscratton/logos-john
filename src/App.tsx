@@ -93,7 +93,7 @@ export default function App() {
           </footer>
         </main>
 
-        <Inspector />
+        <Inspector lang={lang} />
       </div>
     </HighlightProvider>
   );

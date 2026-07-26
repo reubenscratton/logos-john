@@ -80,34 +80,31 @@ function Study() {
           <div className="brand">
             <div className="brand__headline">
               <h1>{ui.brandTitle}</h1>
-              <nav className="chapter-nav">
-                <div className="chapter-stepper">
-                  <button
-                    type="button"
-                    className="chapter-stepper__btn"
-                    disabled={!hasPrev}
-                    aria-label="Previous chapter"
-                    onClick={() => goChapter(chapterIdx - 1)}
-                  >
-                    ‹
-                  </button>
-                  <span className="chapter-nav__ch">
-                    {ui.chapterWord} {chapter.chapter}
-                  </span>
-                  <button
-                    type="button"
-                    className="chapter-stepper__btn"
-                    disabled={!hasNext}
-                    aria-label="Next chapter"
-                    onClick={() => goChapter(chapterIdx + 1)}
-                  >
-                    ›
-                  </button>
-                </div>
-                <span className="chapter-nav__title">{chapter.title}</span>
-              </nav>
+              <div className="chapter-stepper">
+                <button
+                  type="button"
+                  className="chapter-stepper__btn"
+                  disabled={!hasPrev}
+                  aria-label="Previous chapter"
+                  onClick={() => goChapter(chapterIdx - 1)}
+                >
+                  ‹
+                </button>
+                <span className="chapter-nav__ch">
+                  {ui.chapterWord} {chapter.chapter}
+                </span>
+                <button
+                  type="button"
+                  className="chapter-stepper__btn"
+                  disabled={!hasNext}
+                  aria-label="Next chapter"
+                  onClick={() => goChapter(chapterIdx + 1)}
+                >
+                  ›
+                </button>
+              </div>
             </div>
-            <p className="brand__subtitle">{ui.subtitle}</p>
+            <div className="brand__chapter">{chapter.title}</div>
           </div>
           <div className="masthead__right">
             <div className="langtoggle" role="group" aria-label="Language / Språk">
@@ -123,20 +120,20 @@ function Study() {
                 </button>
               ))}
             </div>
+            <p className="masthead__credit">{ui.subtitle}</p>
           </div>
         </div>
       </header>
 
       <main>
-        <div className="intro">
-          <p>{renderMarkup(ui.intro)}</p>
-        </div>
         {chapter.summary ? (
-          <section className="chapter-summary" aria-label={ui.summaryLabel}>
-            <div className="chapter-summary__label">{ui.summaryLabel}</div>
+          <section className="chapter-summary">
             <p className="chapter-summary__text">{renderMarkup(chapter.summary)}</p>
           </section>
         ) : null}
+        <div className="intro">
+          <p>{renderMarkup(ui.intro)}</p>
+        </div>
         <Reader
           key={`${chapterIdx}-${lang}`}
           chapter={chapter}

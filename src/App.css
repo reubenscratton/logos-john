@@ -222,6 +222,8 @@ main {
 .verse__notes {
   grid-row: 2;
   grid-column: 1 / -1;
+  /* Left edge lines up with the translation text, not the number margin. */
+  padding-left: 1.9rem;
   display: grid;
   /* Every annotation is full width, stacked vertically. */
   grid-template-columns: minmax(0, 1fr);

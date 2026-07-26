@@ -1792,6 +1792,7 @@ const OVERLAY: Record<number, { english: EnglishToken[]; annotations: Annotation
 export const john1Sv: Chapter = {
   ...john1,
   title: "Prologen och de första vittnena",
+  summary: "Prologen besjunger det eviga **Ordet** — som var hos Gud, var Gud och blev kött. Sedan vittnar Johannes Döparen och pekar bort från sig själv mot *Guds Lamm*, och Jesus samlar sina första lärjungar — Andreas, Petrus, Filippus och Natanael — och slutar med löftet att de ska se himlen öppen över Människosonen.",
   verses: john1.verses.map((v) => ({
     ...v,
     english: OVERLAY[v.verse]?.english ?? v.english,

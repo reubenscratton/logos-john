@@ -334,6 +334,11 @@ export const CONTENT = {
         title: "The first of the “signs”",
         body: "John never calls Jesus’ miracles “wonders” or “mighty works”; they are **σημεῖα**, *signs* — pointers beyond themselves to who he is. This is the **first** of seven such signs in the Gospel. And its result is exactly what 1:14 promised: he **“manifested his glory,”** and those who saw **believed into him** — the response the whole book is written to evoke (20:30–31).",
       },
+      {
+        kind: "reading", refs: "g2.11.5 g2.6.9 g2.10.22 g2.4.14",
+        title: "Water into wine: reading the sign",
+        body: "It can seem an odd first miracle — a party trick, hardly a display of divine power. But John never calls Jesus’ miracles displays of *power*; they are **signs** (**σημεῖα**), and a sign exists to point past itself. This one is almost hidden — only the servants know how it happened. So the question is less *how* than *what it means*, and John layers the meaning on purpose. The water stood in jars **for purification**: the old rites of washing become the wine of a new age — and the steward’s “you have kept the good wine **until now**” is John’s quiet parable, that God saves the best for last. The sheer **volume** (some 450–680 litres) is the prophets’ image of the age of salvation, when “the mountains shall drip sweet wine” (Amos 9:13; Isa 25:6). It happens at a **wedding**, where in Scripture the bridegroom is God himself (Hos 2; and Jesus is named the bridegroom at 3:29), pointing on to the marriage supper of the Lamb (Rev 19). And John plants here the words “my **hour** has not yet come” — the hour that means the cross (12:23) — so the wine already shadows the blood soon to be poured out. That is why *this* is the opening sign: the Son of God is disclosed not by overwhelming people but by turning ordinary water into extravagant joy, and giving far more than anyone asked.",
+      },
     ],
   },
 

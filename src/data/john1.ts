@@ -8,6 +8,7 @@ export const john1: Chapter = {
   book: 'John',
   chapter: 1,
   title: "The Prologue & the First Witnesses",
+  summary: "The Prologue hymns the eternal **Word** — who was with God, was God, and became flesh. Then John the Baptist bears witness, pointing away from himself to *the Lamb of God*, and Jesus gathers his first disciples — Andrew, Peter, Philip, and Nathanael — closing with the promise that they will see heaven opened upon the Son of Man.",
   verses: [
     {
       ref: '1:1',

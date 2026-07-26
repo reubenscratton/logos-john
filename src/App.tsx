@@ -132,6 +132,12 @@ function Study() {
         <div className="intro">
           <p>{renderMarkup(ui.intro)}</p>
         </div>
+        {chapter.summary ? (
+          <section className="chapter-summary" aria-label={ui.summaryLabel}>
+            <div className="chapter-summary__label">{ui.summaryLabel}</div>
+            <p className="chapter-summary__text">{renderMarkup(chapter.summary)}</p>
+          </section>
+        ) : null}
         <Reader
           key={`${chapterIdx}-${lang}`}
           chapter={chapter}

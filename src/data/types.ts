@@ -38,7 +38,8 @@ export type AnnotationKind =
   | 'concept' // the idea in play, background, interpretations
   | 'grammar' // morphology / syntax
   | 'text' // text-critical: manuscripts & variants
-  | 'p66'; // what Papyrus 66 specifically witnesses
+  | 'p66' // what Papyrus 66 specifically witnesses
+  | 'reading'; // a longer interpretive reflection on the passage
 
 /** A note tied to one or more Greek tokens. Selecting those tokens surfaces it. */
 export interface Annotation {
@@ -67,5 +68,6 @@ export interface Chapter {
   book: string; // "John"
   chapter: number;
   title: string; // e.g. "The Prologue"
+  summary?: string; // a short orientation shown at the top of the chapter
   verses: Verse[];
 }

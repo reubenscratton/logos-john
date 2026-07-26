@@ -139,6 +139,11 @@ export const CONTENT = {
         title: "Det första av ”tecknen”",
         body: "Johannes kallar aldrig Jesu under ”underverk” eller ”kraftgärningar”; de är **σημεῖα**, *tecken* — som pekar bortom sig själva mot vem han är. Detta är det **första** av sju sådana tecken i evangeliet. Och dess följd är just vad 1:14 lovade: han **”uppenbarade sin härlighet”**, och de som såg **trodde på honom** — det gensvar hela boken är skriven för att väcka (20:30–31).",
       },
+      {
+        kind: "reading", refs: "g2.11.5 g2.6.9 g2.10.22 g2.4.14",
+        title: "Vatten till vin: att läsa tecknet",
+        body: "Det kan verka som ett underligt första under — ett trick snarare än ett bevis på gudomlig makt. Men Johannes kallar aldrig Jesu under för *makt*; de är **tecken** (**σημεῖα**), och ett tecken finns till för att peka bortom sig självt. Detta är nästan dolt — bara tjänarna vet hur det gick till. Frågan är alltså mindre *hur* än *vad det betyder*, och Johannes lägger meningen på med avsikt. Vattnet stod i krukor **för rening**: tvagningsritualernas vatten blir den nya tidsålderns vin — och hovmästarens ”du har sparat det goda vinet **till nu**” är Johannes stilla liknelse, att Gud sparar det bästa till sist. Den väldiga **mängden** (omkring 450–680 liter) är profeternas bild av frälsningens tid, då ”bergen ska drypa av sött vin” (Amos 9:13; Jes 25:6). Det sker vid ett **bröllop**, där brudgummen i Skriften är Gud själv (Hos 2; och Jesus kallas brudgummen i 3:29), med blicken mot Lammets bröllopsmåltid (Upp 19). Och Johannes planterar här orden ”min **stund** har ännu inte kommit” — den stund som betyder korset (12:23) — så att vinet redan skuggar det blod som snart ska utgjutas. Därför är just *detta* det första tecknet: Guds Son röjs inte genom att övermanna människor utan genom att förvandla vanligt vatten till överdådig glädje, och ge långt mer än någon bett om.",
+      },
     ],
   },
 

@@ -5,13 +5,6 @@ import { renderMarkup } from '../lib/markup';
 
 type KindLabels = Record<AnnotationKind, string>;
 
-export interface ReaderLabels {
-  greekLabel: string;
-  greekSource: string;
-  transLabel: string;
-  transSource: string;
-}
-
 function GreekWord({ token }: { token: GreekToken }) {
   const { isActive, isPinned, hover, endHover, toggle } = useHighlight();
   const ids = [token.id];
@@ -116,15 +109,7 @@ function VerseRow({ verse, kinds }: { verse: Verse; kinds: KindLabels }) {
   );
 }
 
-export function Reader({
-  chapter,
-  labels,
-  kinds,
-}: {
-  chapter: Chapter;
-  labels: ReaderLabels;
-  kinds: KindLabels;
-}) {
+export function Reader({ chapter, kinds }: { chapter: Chapter; kinds: KindLabels }) {
   const { clear } = useHighlight();
   return (
     <div
@@ -134,15 +119,6 @@ export function Reader({
         if (e.target === e.currentTarget) clear();
       }}
     >
-      <div className="columns-head" aria-hidden>
-        <div className="verse__num" />
-        <div className="col-label">
-          {labels.transLabel} <span>{labels.transSource}</span>
-        </div>
-        <div className="col-label">
-          {labels.greekLabel} <span>{labels.greekSource}</span>
-        </div>
-      </div>
       {chapter.verses.map((v) => (
         <VerseRow key={v.ref} verse={v} kinds={kinds} />
       ))}

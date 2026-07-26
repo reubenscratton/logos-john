@@ -4,6 +4,9 @@
 }
 
 .masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
@@ -185,40 +188,12 @@ main {
 .reader {
   margin-top: 28px;
 }
-.columns-head,
 .verse {
   display: grid;
   /* [ number gutter | translation | Greek ] — Greek on the right. */
   grid-template-columns: 2.25rem minmax(0, 1fr) minmax(0, 1.05fr);
   column-gap: 40px;
 }
-
-.columns-head {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  padding: 10px 0;
-  background: color-mix(in srgb, var(--paper) 90%, transparent);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--rule-strong);
-  margin-bottom: 8px;
-}
-.col-label {
-  font-family: var(--sans);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  font-weight: 600;
-}
-.col-label span {
-  text-transform: none;
-  letter-spacing: 0;
-  font-weight: 400;
-  font-style: italic;
-  opacity: 0.75;
-}
-
 .verse {
   padding: 26px 0;
   border-bottom: 1px solid var(--rule);
@@ -488,9 +463,6 @@ main {
   }
   .masthead__right {
     align-items: flex-start;
-  }
-  .columns-head {
-    display: none;
   }
   .verse {
     grid-template-columns: 1fr;

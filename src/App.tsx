@@ -128,17 +128,7 @@ function Study() {
       </header>
 
       <main>
-        <Reader
-          key={`${chapterIdx}-${lang}`}
-          chapter={chapter}
-          labels={{
-            greekLabel: ui.greekLabel,
-            greekSource: ui.greekSource,
-            transLabel: ui.transLabel,
-            transSource: ui.transSource,
-          }}
-          kinds={ui.kinds}
-        />
+        <Reader key={`${chapterIdx}-${lang}`} chapter={chapter} kinds={ui.kinds} />
 
         <nav className="chapter-foot">
           {hasPrev ? (

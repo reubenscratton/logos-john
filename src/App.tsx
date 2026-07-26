@@ -78,9 +78,6 @@ function Study() {
       <header className="masthead">
         <div className="masthead__inner">
           <div className="brand">
-            <span className="brand__mark" lang="grc">
-              Ἐν ἀρχῇ
-            </span>
             <div className="brand__text">
               <h1>{ui.brandTitle}</h1>
               <p>{ui.subtitle}</p>

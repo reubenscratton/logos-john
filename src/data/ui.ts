@@ -23,8 +23,8 @@ export interface UIStrings {
 export const UI: Record<Lang, UIStrings> = {
   en: {
     langName: 'English',
-    brandTitle: 'The Annotated John',
-    subtitle: 'A source-critical translation of the earliest Greek, read line by line.',
+    brandTitle: 'John',
+    subtitle: "An annotated translation from the earliest known sources, by Anthropic's Opus 4.8",
     book: 'John',
     chapterWord: 'Chapter',
     intro:
@@ -49,8 +49,8 @@ export const UI: Record<Lang, UIStrings> = {
   },
   sv: {
     langName: 'Svenska',
-    brandTitle: 'Johannes med kommentarer',
-    subtitle: 'En källkritisk översättning av den äldsta grekiskan, läst rad för rad.',
+    brandTitle: 'Johannes',
+    subtitle: 'En kommenterad översättning från de äldsta kända källorna, av Anthropics Opus 4.8',
     book: 'Johannes',
     chapterWord: 'Kapitel',
     intro:

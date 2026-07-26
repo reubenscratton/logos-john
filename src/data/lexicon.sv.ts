@@ -53,6 +53,27 @@ const GLOSS: Record<string, string> = {
   'αἷμα': 'blod', 'αἴρω': 'ta bort, lyfta upp', 'Φαρισαῖος': 'farisé', 'Μεσσίας': 'Messias',
   'Λευίτης': 'levit', 'Κηφᾶς': 'Kefas', 'Γαλιλαία': 'Galileen', 'Βηθσαϊδά': 'Betsaida',
   'Βηθανία': 'Betania',
+  // John 2 vocabulary
+  'Κανά': 'Kana', 'Καφαρναούμ': 'Kapernaum', 'βοῦς': 'oxe, nötkreatur', 'γάμος': 'bröllop',
+  'γάρ': 'ty, för', 'γεμίζω': 'fylla', 'γεύομαι': 'smaka', 'γραφή': 'Skrift', 'γυνή': 'kvinna',
+  'δείκνυμι': 'visa', 'διάκονος': 'tjänare', 'ζῆλος': 'iver, nitälskan', 'θεωρέω': 'betrakta, se',
+  'κάθημαι': 'sitta', 'κέρμα': 'mynt', 'καθαρισμός': 'rening', 'καλός': 'god, fin',
+  'κατά': 'enligt, mot', 'κατεσθίω': 'förtära', 'κερματιστής': 'växlare', 'κεῖμαι': 'ligga, stå',
+  'κολλυβιστής': 'växlare', 'λίθινος': 'av sten', 'μή': 'inte, icke', 'μήτηρ': 'moder',
+  'μεθύω': 'vara berusad', 'μετά': 'med, efter', 'μετρητής': 'mått (metret)', 'μιμνῄσκω': 'minnas',
+  'ναός': 'tempel, helgedom', 'νεκρός': 'död', 'νυμφίος': 'brudgum', 'νῦν': 'nu',
+  'οἰκοδομέω': 'bygga', 'οἶκος': 'hus', 'οἶνος': 'vin', 'οὔπω': 'ännu inte', 'πάσχα': 'påsk',
+  'ποιέω': 'göra', 'πολύς': 'mycken, många', 'πρόβατον': 'får', 'πωλέω': 'sälja', 'σημεῖον': 'tecken',
+  'σχοινίον': 'rep, snöre', 'σῶμα': 'kropp', 'τέ': 'och', 'τίθημι': 'lägga, sätta',
+  'τεσσεράκοντα': 'fyrtio', 'τηρέω': 'hålla, bevara', 'τράπεζα': 'bord', 'τρίτος': 'tredje',
+  'τρεῖς': 'tre', 'φέρω': 'bära, föra', 'φραγέλλιον': 'gissel, piska', 'χρεία': 'behov',
+  'χωρέω': 'rymma', 'ἀνά': 'vardera', 'ἀνατρέπω': 'välta', 'ἀντλέω': 'ösa (vatten)',
+  'ἀρχιτρίκλινος': 'hovmästare', 'ἄνω': 'upp, upptill', 'ἄρτι': 'nu, just nu', 'ἐγγύς': 'nära',
+  'ἐγείρω': 'resa upp, uppväcka', 'ἐκβάλλω': 'driva ut', 'ἐκεῖ': 'där', 'ἐκχέω': 'hälla ut',
+  'ἐλάσσων': 'sämre, mindre', 'ἐμπόριον': 'handelsplats', 'ἐντεῦθεν': 'härifrån', 'ἑαυτοῦ': 'sig själv',
+  'ἑορτή': 'högtid', 'ἔτος': 'år', 'ἔχω': 'ha', 'ἕξ': 'sex', 'ἕως': 'till, ända till',
+  'ἤ': 'eller', 'ἥκω': 'ha kommit', 'ἱερός': 'helig; templet', 'ὅταν': 'när, närhelst',
+  'ὑδρία': 'vattenkruka', 'ὑστερέω': 'fattas, tryta',
 };
 
 // Normalize keys to NFC so lookups match the (NFC-normalized) token lemmas.

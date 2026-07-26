@@ -37,7 +37,7 @@ export const UI: Record<Lang, UIStrings> = {
     transSource: '· this edition',
     colophon:
       'Greek: Nestle 1904 (public domain). Translation & annotations: this edition. ' +
-      'A working prototype — the complete Gospel of John, chapter 1 (verses 1–51).',
+      'A working prototype — the Gospel of John, chapter by chapter.',
     kinds: {
       translation: 'Translation',
       concept: 'Concept',
@@ -63,7 +63,7 @@ export const UI: Record<Lang, UIStrings> = {
     transSource: '· denna utgåva',
     colophon:
       'Grekiska: Nestle 1904 (fri text). Översättning och noter: denna utgåva. ' +
-      'En prototyp under arbete — hela Johannesevangeliets första kapitel (verserna 1–51).',
+      'En prototyp under arbete — Johannesevangeliet, kapitel för kapitel.',
     kinds: {
       translation: 'Översättning',
       concept: 'Begrepp',

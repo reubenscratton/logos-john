@@ -105,6 +105,77 @@
   font-size: 15px;
   color: var(--gold);
 }
+.chapter-stepper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.chapter-stepper__btn {
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  background: var(--paper-2);
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.chapter-stepper__btn:hover:not(:disabled) {
+  color: var(--ink);
+  border-color: var(--gold-line);
+}
+.chapter-stepper__btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* Bottom prev/next chapter navigation */
+.chapter-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 52px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+}
+.chapter-foot__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-family: var(--sans);
+  text-align: left;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.chapter-foot__btn--next {
+  text-align: right;
+  align-items: flex-end;
+}
+.chapter-foot__btn:hover {
+  border-color: var(--gold-line);
+  box-shadow: var(--shadow-sm);
+}
+.chapter-foot__dir {
+  font-size: 11px;
+  color: var(--ink-faint);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.chapter-foot__title {
+  font-family: var(--serif-en);
+  font-size: 16px;
+  color: var(--ink);
+}
 
 main {
   max-width: 1500px;

@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 8,
+    titles: { en: 'Light of the World, and “Before Abraham Was, I Am”', sv: 'Världens ljus, och ”Innan Abraham blev till, är jag”' },
+    summaries: {
+      en: 'The chapter opens with the treasured (and textually uncertain) story of the **woman caught in adultery** — *“Let him who is without sin cast the first stone… neither do I condemn you.”* Then, against the lamps of Tabernacles, Jesus declares **“I am the light of the world.”** A long, sharpening dispute follows: his testimony and the Father’s, the warning that *“unless you believe that I am he, you will die in your sins,”* the promise that **“the truth will set you free,”** and a fierce exchange over fatherhood — Abraham’s children, or the devil’s? It climaxes in the most staggering claim of all: **“Before Abraham was, I am.”** They take up stones; he slips away.',
+      sv: 'Kapitlet öppnar med den älskade (och textkritiskt osäkra) berättelsen om **kvinnan som greps i äktenskapsbrott** — *”Den av er som är utan synd, kasta första stenen… inte heller jag dömer dig.”* Sedan, mot lövhyddohögtidens lampor, förklarar Jesus **”Jag är världens ljus.”** En lång, allt skarpare tvist följer: hans vittnesbörd och Faderns, varningen att *”om ni inte tror att det är jag, ska ni dö i era synder,”* löftet att **”sanningen ska göra er fria,”** och ett häftigt ordskifte om faderskap — Abrahams barn, eller djävulens? Det kulminerar i det mest häpnadsväckande anspråket av alla: **”Innan Abraham blev till, är jag.”** De tar upp stenar; han undkommer.',
+    },
+  },
+  {
     num: 7,
     titles: { en: 'At the Feast of Tabernacles', sv: 'Vid lövhyddohögtiden' },
     summaries: {

@@ -337,4 +337,16 @@ export const GLOSS_EN = {
   "Ἕλλην": "Greek", "ποταμός": "river", "ῥέω": "to flow", "οὐδέπω": "not yet",
   "δοξάζω": "to glorify", "σπέρμα": "seed, offspring", "Δαυίδ": "David", "Βηθλέεμ": "Bethlehem",
   "κώμη": "village", "σχίσμα": "division, split", "οὐδέποτε": "never", "ἐπάρατος": "accursed",
+  // Chapter 8
+  "ἐλαία": "olive (tree)", "ὄρθρος": "dawn, early morning", "λαός": "people", "καθίζω": "to sit down",
+  "γραμματεύς": "scribe", "μοιχεία": "adultery", "ἐπαυτοφώρῳ": "in the very act", "μοιχεύω": "to commit adultery",
+  "ἐντέλλομαι": "to command", "λιθοβολέω": "to stone", "κάτω": "down, below", "κύπτω": "to bend down, stoop",
+  "δάκτυλος": "finger", "ἐπιμένω": "to persist, continue", "ἀνακύπτω": "to straighten up", "ἀναμάρτητος": "without sin",
+  "λίθος": "stone", "συνείδησις": "conscience", "καθεῖς": "one by one", "ἄρχω": "to begin, rule",
+  "πρεσβύτερος": "elder", "καταλείπω": "to leave behind", "μηδείς": "no one", "πλήν": "except",
+  "κατήγορος": "accuser", "κατακρίνω": "to condemn", "κἄν": "even if, and if", "γαζοφυλάκιον": "treasury",
+  "ἀρεστός": "pleasing", "ἐλευθερόω": "to set free", "Ἀβραάμ": "Abraham", "δουλεύω": "to serve, be a slave",
+  "ἐλεύθερος": "free", "ὄντως": "really, indeed", "πορνεία": "sexual immorality", "ἐπιθυμία": "desire, lust",
+  "ἀνθρωποκτόνος": "murderer", "ψεῦδος": "lie, falsehood", "ψεύστης": "liar", "ἀτιμάζω": "to dishonour",
+  "ὅστις": "whoever, who", "ὅμοιος": "like, similar", "πεντήκοντα": "fifty", "κρύπτω": "to hide",
 };

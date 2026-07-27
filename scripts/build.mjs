@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 17,
+    titles: { en: 'The High Priestly Prayer', sv: 'Den översteprästerliga bönen' },
+    summaries: {
+      en: 'Jesus lifts his eyes to heaven and prays. First **for himself**: *“Father, the hour has come; glorify your Son”* — and he names eternal life itself: **“that they know you, the only true God, and Jesus Christ whom you have sent.”** Then **for his disciples**, whom the Father gave him out of the world: *keep them* from the evil one — not taken out of the world but guarded in it — and *sanctify them in the truth; your word is truth*, for as the Father sent him, so he sends them. Finally **for all who will believe** through their word: **“that they may all be one, as you, Father, are in me and I in you… so that the world may believe that you have sent me.”** He longs for them to be with him and to see his glory — and that the Father’s own love may be in them.',
+      sv: 'Jesus lyfter blicken mot himlen och ber. Först **för sig själv**: *”Fader, stunden har kommit; förhärliga din Son”* — och han namnger själva det eviga livet: **”att de känner dig, den ende sanne Guden, och Jesus Kristus som du har sänt.”** Sedan **för sina lärjungar**, som Fadern gett honom ur världen: *bevara dem* från den onde — inte tagna ur världen utan bevarade i den — och *helga dem i sanningen; ditt ord är sanning*, för så som Fadern sänt honom sänder han dem. Till sist **för alla som ska komma till tro** genom deras ord: **”att de alla ska vara ett, så som du, Fader, är i mig och jag i dig… för att världen ska tro att du har sänt mig.”** Han längtar efter att de ska vara med honom och se hans härlighet — och att Faderns egen kärlek ska vara i dem.',
+    },
+  },
+  {
     num: 16,
     titles: { en: 'The Spirit, and Sorrow Turned to Joy', sv: 'Anden, och sorg vänd till glädje' },
     summaries: {

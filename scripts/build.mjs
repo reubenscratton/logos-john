@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 7,
+    titles: { en: 'At the Feast of Tabernacles', sv: 'Vid lövhyddohögtiden' },
+    summaries: {
+      en: 'Jesus goes up **secretly** to the **Feast of Tabernacles**, where the city buzzes and divides over him — a good man, or a deceiver? Teaching in the temple, he answers the charge that he is untrained (*“My teaching is not mine, but his who sent me”*), presses the crowd that seeks to kill him, and stakes the test of truth on the will: *whoever wants to do God’s will shall know.* On the great last day of the feast he cries out the promise of the Spirit — **“Out of his heart will flow rivers of living water.”** The crowd splits — the Prophet? the Christ? — but “no prophet comes from Galilee.” The temple officers sent to arrest him return empty-handed: **“No one ever spoke like this man.”** And Nicodemus, alone, asks whether the law condemns a man unheard.',
+      sv: 'Jesus går upp **i hemlighet** till **lövhyddohögtiden**, där staden sjuder och är splittrad om honom — en god man, eller en villolärare? När han undervisar i templet bemöter han anklagelsen att han är olärd (*”Min lära är inte min, utan hans som har sänt mig”*), pressar skaran som vill döda honom, och gör viljan till sanningens prov: *den som vill göra Guds vilja ska förstå.* På högtidens stora sista dag ropar han ut löftet om Anden — **”Från hans innersta ska strömmar av levande vatten flyta.”** Skaran delar sig — Profeten? Messias? — men ”ingen profet kommer från Galileen.” Tempelvakterna som sänts att gripa honom återvänder tomhänta: **”Aldrig har någon människa talat som denne.”** Och Nikodemus, ensam, frågar om lagen dömer en man ohörd.',
+    },
+  },
+  {
     num: 6,
     titles: { en: 'The Bread of Life', sv: 'Livets bröd' },
     summaries: {

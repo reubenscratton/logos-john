@@ -326,4 +326,15 @@ export const GLOSS_EN = {
   "συναγωγή": "synagogue", "διδάσκω": "to teach", "σκληρός": "hard, harsh", "σκανδαλίζω": "to offend, cause to stumble",
   "πρότερος": "former, before", "ὠφελέω": "to profit, help", "παραδίδωμι": "to hand over, betray", "ἐκλέγω": "to choose",
   "διάβολος": "devil, slanderer", "Ἰούδας": "Judas", "Ἰσκαριώθ": "Iscariot",
+  // Chapter 7
+  "σκηνοπηγία": "Feast of Tabernacles", "κρυπτός": "hidden, secret", "παρρησία": "openness, boldness", "πάρειμι": "to be present, have come",
+  "ὑμέτερος": "your", "ἕτοιμος": "ready", "τότε": "then", "φανερῶς": "openly",
+  "γογγυσμός": "muttering, murmuring", "μέν": "on the one hand", "πλανάω": "to lead astray, deceive", "φόβος": "fear",
+  "μεσόω": "to be in the middle", "διδαχή": "teaching", "πότερον": "whether", "ἀδικία": "unrighteousness, falsehood",
+  "δαιμόνιον": "demon", "περιτομή": "circumcision", "περιτέμνω": "to circumcise", "χολάω": "to be angry",
+  "ὄψις": "appearance, face", "Ἱεροσολυμίτης": "a person of Jerusalem", "πιάζω": "to seize, arrest", "ἐπιβάλλω": "to lay on",
+  "ἀρχιερεύς": "chief priest", "ὑπηρέτης": "officer, attendant", "μικρός": "little, small", "διασπορά": "Dispersion, Diaspora",
+  "Ἕλλην": "Greek", "ποταμός": "river", "ῥέω": "to flow", "οὐδέπω": "not yet",
+  "δοξάζω": "to glorify", "σπέρμα": "seed, offspring", "Δαυίδ": "David", "Βηθλέεμ": "Bethlehem",
+  "κώμη": "village", "σχίσμα": "division, split", "οὐδέποτε": "never", "ἐπάρατος": "accursed",
 };

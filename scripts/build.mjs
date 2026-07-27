@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 19,
+    titles: { en: 'The Crucifixion: “It Is Finished”', sv: 'Korsfästelsen: ”Det är fullbordat”' },
+    summaries: {
+      en: 'Pilate has Jesus flogged; the soldiers crown him with thorns and hail him in mockery. **“Behold the man!”** — and again, **“Behold your King!”** — but the crowd cries *“Crucify!”* and *“We have no king but Caesar.”* At **Golgotha** he is crucified between two others, and Pilate’s placard names him, in three languages, *King of the Jews*. From the cross Jesus gives his mother to the beloved disciple: **“Behold your son… behold your mother.”** Then, knowing all was accomplished, he says **“I thirst,”** and having received the sour wine, **“It is finished,”** and gives up his spirit. A spear opens his side, and out come **blood and water**. Not a bone is broken; they look on him whom they pierced. **Joseph of Arimathea** and **Nicodemus** wrap him in linen and spices and lay him in a new tomb in a garden.',
+      sv: 'Pilatus låter gissla Jesus; soldaterna kröner honom med törnen och hyllar honom hånfullt. **”Se, mannen!”** — och åter, **”Se, er konung!”** — men folket ropar *”Korsfäst!”* och *”Vi har ingen konung utom kejsaren.”* På **Golgata** korsfästs han mellan två andra, och Pilatus skylt namnger honom, på tre språk, som *judarnas konung*. Från korset ger Jesus sin mor åt den älskade lärjungen: **”Se, din son… se, din mor.”** Sedan, medveten om att allt var fullbordat, säger han **”Jag törstar,”** och när han tagit emot den sura vinen: **”Det är fullbordat,”** och ger upp andan. Ett spjut öppnar hans sida, och ut kommer **blod och vatten**. Inget ben krossas; de ska se upp till honom som de har genomborrat. **Josef från Arimatea** och **Nikodemus** lindar honom i linne och kryddor och lägger honom i en ny grav i en trädgård.',
+    },
+  },
+  {
     num: 18,
     titles: { en: 'The Arrest, and Jesus Before Pilate', sv: 'Fängslandet, och Jesus inför Pilatus' },
     summaries: {

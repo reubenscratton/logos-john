@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 10,
+    titles: { en: 'The Good Shepherd', sv: 'Den gode herden' },
+    summaries: {
+      en: 'Jesus draws the great pastoral picture: he is both the **door of the sheepfold** — “whoever enters by me will be saved” — and the **good shepherd**, who does not flee like a hired hand but *lays down his life for the sheep*. He knows his own and they know his voice; he has **other sheep** not of this fold, and there will be *one flock, one shepherd*. To his own he gives eternal life: **“no one will snatch them out of my hand… I and the Father are one.”** At the winter **Feast of Dedication** the claim brings stones and a charge of blasphemy; Jesus answers from their own Scripture and points to *the works of the Father*. He withdraws across the Jordan, where many believe.',
+      sv: 'Jesus tecknar den stora herdebilden: han är både **fårfållans dörr** — ”den som går in genom mig ska bli frälst” — och **den gode herden**, som inte flyr som en lejd dräng utan *ger sitt liv för fåren*. Han känner sina egna och de känner hans röst; han har **andra får** som inte hör till denna fålla, och det ska bli *en hjord, en herde*. Åt sina egna ger han evigt liv: **”ingen ska rycka dem ur min hand… jag och Fadern är ett.”** Vid den vintriga **tempelinvigningsfesten** väcker anspråket stenar och en anklagelse om hädelse; Jesus svarar ur deras egen Skrift och pekar på *Faderns gärningar*. Han drar sig undan öster om Jordan, där många kommer till tro.',
+    },
+  },
+  {
     num: 9,
     titles: { en: 'The Man Born Blind', sv: 'Den blindfödde' },
     summaries: {

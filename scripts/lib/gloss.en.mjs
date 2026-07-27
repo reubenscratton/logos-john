@@ -357,4 +357,14 @@ export const GLOSS_EN = {
   "ποτέ": "once, formerly", "ἁμαρτωλός": "sinner, sinful", "ἡλικία": "age, maturity", "συντίθημι": "to agree, arrange",
   "ἀποσυνάγωγος": "put out of the synagogue", "ἐπερωτάω": "to ask, question", "λοιδορέω": "to revile, insult", "θαυμαστός": "amazing, marvellous",
   "θεοσεβής": "God-fearing, devout", "κρίμα": "judgement",
+  // Chapter 10
+  "θύρα": "door, gate", "αὐλή": "courtyard, fold", "ἀλλαχόθεν": "from another place", "κλέπτης": "thief",
+  "λῃστής": "robber, bandit", "ποιμήν": "shepherd", "θυρωρός": "doorkeeper, gatekeeper", "ἐξάγω": "to lead out",
+  "ἀλλότριος": "stranger, another's", "φεύγω": "to flee", "παροιμία": "figure of speech, proverb", "νομή": "pasture",
+  "κλέπτω": "to steal", "θύω": "to kill, sacrifice", "περισσός": "abundant, more than enough", "ψυχή": "life, soul",
+  "μισθωτός": "hired hand", "λύκος": "wolf", "σκορπίζω": "to scatter", "μέλει": "it is a care, it matters",
+  "ποίμνη": "flock", "ἐντολή": "commandment, charge", "μαίνομαι": "to be out of one's mind", "δαιμονίζομαι": "to be demon-possessed",
+  "ἐγκαίνια": "Feast of Dedication", "χειμών": "winter", "Σολομών": "Solomon", "κυκλόω": "to surround, encircle",
+  "βαστάζω": "to pick up, carry", "λιθάζω": "to stone", "ποῖος": "what kind of, which", "βλασφημία": "blasphemy",
+  "ἁγιάζω": "to consecrate, make holy", "βλασφημέω": "to blaspheme",
 };

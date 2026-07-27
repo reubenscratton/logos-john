@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 14,
+    titles: { en: 'The Way, and the Promise of the Spirit', sv: 'Vägen och löftet om Anden' },
+    summaries: {
+      en: 'Into the disciples’ fear Jesus speaks comfort: **“Let not your hearts be troubled… In my Father’s house are many rooms,”** and *I go to prepare a place for you.* To Thomas’ “how can we know the way?” comes the great answer: **“I am the way, and the truth, and the life; no one comes to the Father except through me.”** To Philip’s “show us the Father,” another: **“Whoever has seen me has seen the Father.”** He promises **another Helper, the Spirit of truth**, to be with them forever — *“I will not leave you as orphans.”* Love him and keep his word, and Father and Son will come and make their home with you. His parting gift: **“Peace I leave with you; my peace I give to you. Not as the world gives.”**',
+      sv: 'In i lärjungarnas rädsla talar Jesus tröst: **”Låt inte era hjärtan oroas… I min Faders hus finns många rum,”** och *jag går för att bereda plats åt er.* På Tomas ”hur kan vi veta vägen?” kommer det stora svaret: **”Jag är vägen, sanningen och livet; ingen kommer till Fadern utom genom mig.”** På Filippus ”visa oss Fadern” ett annat: **”Den som har sett mig har sett Fadern.”** Han lovar **en annan Hjälpare, sanningens Ande**, att vara med dem för alltid — *”jag ska inte lämna er faderlösa.”* Älska honom och håll hans ord, så ska Fadern och Sonen komma och ta sin boning hos er. Hans avskedsgåva: **”Frid lämnar jag åt er; min frid ger jag er. Inte som världen ger.”**',
+    },
+  },
+  {
     num: 13,
     titles: { en: 'The Footwashing and the New Commandment', sv: 'Fottvagningen och det nya budet' },
     summaries: {

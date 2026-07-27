@@ -402,4 +402,7 @@ export const GLOSS_EN = {
   "νεύω": "to nod, motion", "στῆθος": "chest, breast", "βάπτω": "to dip", "ψωμίον": "morsel, piece of bread",
   "Σατανᾶς": "Satan", "ἐπεί": "since, because", "τεκνίον": "little child", "καινός": "new",
   "ὕστερος": "later, afterward", "ἀλέκτωρ": "rooster, cock", "τρίς": "three times",
+  // Chapter 14
+  "μονή": "dwelling place, room", "ἑτοιμάζω": "to prepare", "παράκλητος": "Helper, Advocate, Comforter", "ὀρφανός": "orphan",
+  "ἐμφανίζω": "to manifest, make known", "ὑπομιμνῄσκω": "to remind, bring to remembrance", "εἰρήνη": "peace", "δειλιάω": "to be afraid, be cowardly",
 };

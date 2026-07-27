@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 9,
+    titles: { en: 'The Man Born Blind', sv: 'Den blindfödde' },
+    summaries: {
+      en: 'Jesus heals a man **blind from birth** — not because anyone sinned, but *that the works of God might be displayed* — anointing his eyes with mud and sending him to wash at **Siloam** (which means *Sent*). The Sabbath healing sets off an escalating interrogation. The man’s answers grow bolder as the authorities’ grow harder: *“One thing I know — I was blind, now I see.”* Threatened with being **put out of the synagogue**, his parents dodge; the man argues rings around his examiners and is **cast out**. Jesus finds him, and to the outcast alone reveals himself — *“Lord, I believe,”* and he worships. The chapter ends on its great reversal: the sighted are blind, the blind man sees; *“for judgment I came into this world.”*',
+      sv: 'Jesus botar en man som varit **blind från födseln** — inte för att någon syndat, utan *för att Guds gärningar skulle uppenbaras* — smörjer hans ögon med lera och sänder honom att tvätta sig vid **Siloa** (som betyder *Sänd*). Botandet på en sabbat utlöser ett allt hårdare förhör. Mannens svar blir djärvare medan myndigheternas blir hårdare: *”Ett vet jag — jag var blind, nu ser jag.”* Hotade med att bli **utstötta ur synagogan** viker hans föräldrar undan; mannen argumenterar sina förhörare i botten och blir **utkastad**. Jesus finner honom, och för den utstötte ensam uppenbarar han sig — *”Herre, jag tror,”* och han tillber. Kapitlet slutar i sin stora omkastning: de seende är blinda, den blinde ser; *”till en dom har jag kommit till denna värld.”*',
+    },
+  },
+  {
     num: 8,
     titles: { en: 'Light of the World, and “Before Abraham Was, I Am”', sv: 'Världens ljus, och ”Innan Abraham blev till, är jag”' },
     summaries: {

@@ -19,6 +19,8 @@ import { john7 } from './data/john7';
 import { john7Sv } from './data/john7.sv';
 import { john8 } from './data/john8';
 import { john8Sv } from './data/john8.sv';
+import { john9 } from './data/john9';
+import { john9Sv } from './data/john9.sv';
 import { UI, type Lang } from './data/ui';
 import type { Chapter } from './data/types';
 import './App.css';
@@ -33,6 +35,7 @@ const BOOK: { en: Chapter; sv: Chapter }[] = [
   { en: john6, sv: john6Sv },
   { en: john7, sv: john7Sv },
   { en: john8, sv: john8Sv },
+  { en: john9, sv: john9Sv },
 ];
 const LANGS: Lang[] = ['en', 'sv'];
 

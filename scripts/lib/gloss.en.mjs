@@ -349,4 +349,12 @@ export const GLOSS_EN = {
   "ἐλεύθερος": "free", "ὄντως": "really, indeed", "πορνεία": "sexual immorality", "ἐπιθυμία": "desire, lust",
   "ἀνθρωποκτόνος": "murderer", "ψεῦδος": "lie, falsehood", "ψεύστης": "liar", "ἀτιμάζω": "to dishonour",
   "ὅστις": "whoever, who", "ὅμοιος": "like, similar", "πεντήκοντα": "fifty", "κρύπτω": "to hide",
+  // Chapter 9
+  "παράγω": "to pass by", "γενετή": "birth", "γονεύς": "parent", "πτύω": "to spit",
+  "χαμαί": "on the ground", "πηλός": "mud, clay", "πτύσμα": "saliva, spittle", "ἐπιτίθημι": "to put on, lay on",
+  "νίπτω": "to wash", "Σιλωάμ": "Siloam", "γείτων": "neighbour", "προσαίτης": "beggar",
+  "προσαιτέω": "to beg", "οὐχί": "no, not (emphatic)", "ἐπιχρίω": "to smear on, anoint", "ἀναβλέπω": "to receive sight, look up",
+  "ποτέ": "once, formerly", "ἁμαρτωλός": "sinner, sinful", "ἡλικία": "age, maturity", "συντίθημι": "to agree, arrange",
+  "ἀποσυνάγωγος": "put out of the synagogue", "ἐπερωτάω": "to ask, question", "λοιδορέω": "to revile, insult", "θαυμαστός": "amazing, marvellous",
+  "θεοσεβής": "God-fearing, devout", "κρίμα": "judgement",
 };

@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 11,
+    titles: { en: 'The Raising of Lazarus', sv: 'Lasarus uppväckelse' },
+    summaries: {
+      en: 'Word comes that Lazarus of Bethany, whom Jesus loves, is ill — but Jesus stays two days longer, *that the Son of God may be glorified*. By the time he arrives, Lazarus has been four days in the tomb. To grieving Martha he makes the seventh great sign the ground of the greatest word: **“I am the resurrection and the life; whoever believes in me, though he die, yet shall he live.”** At the grave, moved to tears and to anger at death itself, he cries, **“Lazarus, come out!”** — and the dead man walks out bound in grave-clothes. Many believe; but the raising seals Jesus’ own death. The council meets, and **Caiaphas** unwittingly prophesies that one man should die *for the people* — and for the scattered children of God, to gather them into one.',
+      sv: 'Bud kommer att Lasarus i Betania, som Jesus älskar, är sjuk — men Jesus dröjer kvar två dagar till, *för att Guds Son ska förhärligas*. När han kommer fram har Lasarus legat fyra dagar i graven. Till den sörjande Marta gör han det sjunde stora tecknet till grunden för det största ordet: **”Jag är uppståndelsen och livet; den som tror på mig ska leva om han än dör.”** Vid graven, rörd till tårar och till vrede mot själva döden, ropar han: **”Lasarus, kom ut!”** — och den döde går ut, lindad i bindlar. Många kommer till tro; men uppväckelsen beseglar Jesu egen död. Rådet samlas, och **Kaifas** profeterar utan att veta det att en man ska dö *för folket* — och för Guds skingrade barn, för att samla dem till ett.',
+    },
+  },
+  {
     num: 10,
     titles: { en: 'The Good Shepherd', sv: 'Den gode herden' },
     summaries: {

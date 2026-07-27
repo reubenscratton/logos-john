@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 16,
+    titles: { en: 'The Spirit, and Sorrow Turned to Joy', sv: 'Anden, och sorg vänd till glädje' },
+    summaries: {
+      en: 'Jesus warns of coming persecution — even death at the hands of those who think they serve God — then turns to comfort: **“It is to your advantage that I go away,”** for only then will the Helper come. When the **Spirit of truth** comes he will *convict the world* concerning sin, righteousness, and judgment, and *guide you into all the truth*, glorifying Christ. A riddle — *“a little while, and you will see me no more; and again a little while, and you will see me”* — puzzles the disciples, until he unfolds it: like a **woman in labor**, their sorrow will be turned into a joy no one can take away. Ask the Father in his name, and receive. He came from the Father and returns to him. His last word before the prayer: **“In the world you will have tribulation. But take heart; I have overcome the world.”**',
+      sv: 'Jesus varnar för kommande förföljelse — till och med död för deras hand som tror sig tjäna Gud — och vänder sedan till tröst: **”Det är bäst för er att jag går bort,”** för först då kommer Hjälparen. När **sanningens Ande** kommer ska han *överbevisa världen* om synd, rättfärdighet och dom, och *leda er in i hela sanningen*, och förhärliga Kristus. En gåta — *”en liten stund, och ni ser mig inte längre; och åter en liten stund, och ni ska se mig”* — förbryllar lärjungarna, tills han förklarar den: som en **kvinna i födslovånda** ska deras sorg vändas till en glädje ingen kan ta ifrån dem. Be Fadern i hans namn, och ta emot. Han kom från Fadern och återvänder till honom. Hans sista ord före bönen: **”I världen får ni lida. Men var vid gott mod; jag har övervunnit världen.”**',
+    },
+  },
+  {
     num: 15,
     titles: { en: 'The True Vine', sv: 'Den sanna vinstocken' },
     summaries: {

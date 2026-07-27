@@ -409,4 +409,8 @@ export const GLOSS_EN = {
   "ἄμπελος": "vine", "γεωργός": "farmer, vinedresser", "κλῆμα": "branch", "καθαίρω": "to prune, cleanse",
   "ξηραίνω": "to wither, dry up", "πῦρ": "fire", "γνωρίζω": "to make known", "μνημονεύω": "to remember",
   "πρόφασις": "excuse, pretext", "δωρεάν": "without cause, freely, for nothing",
+  // Chapter 16
+  "λατρεία": "service, worship", "προσφέρω": "to offer, present", "λύπη": "sorrow, grief", "δικαιοσύνη": "righteousness",
+  "ὁδηγέω": "to guide, lead", "θρηνέω": "to lament, mourn", "λυπέω": "to grieve, cause sorrow", "τίκτω": "to give birth",
+  "θλῖψις": "affliction, tribulation", "ἀπαγγέλλω": "to announce, report", "θαρσέω": "to take heart, be of good cheer", "νικάω": "to conquer, overcome",
 };

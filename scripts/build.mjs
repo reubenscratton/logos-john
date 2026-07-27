@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 13,
+    titles: { en: 'The Footwashing and the New Commandment', sv: 'Fottvagningen och det nya budet' },
+    summaries: {
+      en: 'At the last supper, *having loved his own, he loved them to the end.* Knowing that all things are in his hands, Jesus rises, wraps a towel around himself, and **washes the disciples’ feet** — the work of the lowest slave done by the Lord — over Peter’s protest: *“If I do not wash you, you have no share with me.”* He gives it as a pattern: **“I have given you an example, that you also should do as I have done.”** Then, troubled in spirit, he names his betrayer, hands Judas the morsel — and Judas goes out; *and it was night.* To those who remain he gives his legacy: **“A new commandment I give you, that you love one another; as I have loved you… By this all people will know that you are my disciples.”** Peter vows to die for him; Jesus foretells his threefold denial before the cock crows.',
+      sv: 'Vid den sista måltiden, *sedan han älskat sina egna, älskade han dem intill änden.* Medveten om att allt är i hans händer reser sig Jesus, binder en linnehandduk om sig och **tvättar lärjungarnas fötter** — den lägste slavens arbete utfört av Herren — trots Petrus protest: *”Om jag inte tvättar dig har du ingen del i mig.”* Han ger det som ett mönster: **”Jag har gett er ett föredöme, för att ni ska göra som jag har gjort.”** Sedan, upprörd i anden, pekar han ut sin förrädare, räcker Judas brödstycket — och Judas går ut; *och det var natt.* Åt dem som blir kvar ger han sitt arv: **”Ett nytt bud ger jag er: att ni ska älska varandra; så som jag har älskat er… Av detta ska alla förstå att ni är mina lärjungar.”** Petrus svär att dö för honom; Jesus förutsäger hans trefaldiga förnekelse innan tuppen gal.',
+    },
+  },
+  {
     num: 12,
     titles: { en: 'The Anointing, the Entry, and the Grain of Wheat', sv: 'Smörjelsen, intåget och vetekornet' },
     summaries: {

@@ -394,4 +394,12 @@ export const GLOSS_EN = {
   "σημαίνω": "to signify, indicate", "ἀκοή": "report, hearing, message", "βραχίων": "arm", "ἀποκαλύπτω": "to reveal",
   "τυφλόω": "to blind", "πωρόω": "to harden", "καρδία": "heart", "νοέω": "to understand, perceive",
   "ὅμως": "nevertheless, yet", "ἤπερ": "than", "ἀθετέω": "to reject, set aside",
+  // Chapter 13
+  "τέλος": "end, completion", "ἱμάτιον": "garment, cloak", "λέντιον": "towel", "διαζώννυμι": "to gird, tie around",
+  "εἶτα": "then, next", "νιπτήρ": "basin", "μέρος": "part, share", "κεφαλή": "head",
+  "λούω": "to bathe, wash", "καθαρός": "clean, pure", "ὀφείλω": "to owe, ought", "ὑπόδειγμα": "example, pattern",
+  "ἀπόστολος": "one sent, apostle", "μακάριος": "blessed, happy", "πτέρνα": "heel", "ἀπορέω": "to be at a loss, perplexed",
+  "νεύω": "to nod, motion", "στῆθος": "chest, breast", "βάπτω": "to dip", "ψωμίον": "morsel, piece of bread",
+  "Σατανᾶς": "Satan", "ἐπεί": "since, because", "τεκνίον": "little child", "καινός": "new",
+  "ὕστερος": "later, afterward", "ἀλέκτωρ": "rooster, cock", "τρίς": "three times",
 };

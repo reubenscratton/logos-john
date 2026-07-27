@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 20,
+    titles: { en: 'The Resurrection', sv: 'Uppståndelsen' },
+    summaries: {
+      en: 'On the first day of the week, while it is still dark, **Mary Magdalene** finds the stone rolled away. Peter and the beloved disciple run to the tomb; the latter sees the grave-clothes lying, and *saw and believed.* Mary, weeping, mistakes the risen Jesus for the gardener — until he speaks her name, **“Mary,”** and she cries, **“Rabboni!”** That evening, behind locked doors, Jesus stands among the disciples: **“Peace be with you,”** shows them his hands and side, sends them as the Father sent him, and breathes on them: *“Receive the Holy Spirit.”* Thomas, absent, will not believe without touching the wounds — but a week later he meets the risen Lord and confesses, **“My Lord and my God!”** *Blessed are those who have not seen and yet have believed.* And John states his purpose: **these are written that you may believe… and that believing you may have life in his name.**',
+      sv: 'På första veckodagen, medan det ännu är mörkt, finner **Maria från Magdala** stenen bortrullad. Petrus och den älskade lärjungen springer till graven; den senare ser linnebindlarna ligga, och *såg och trodde.* Maria, gråtande, tar den uppståndne Jesus för trädgårdsmästaren — tills han säger hennes namn, **”Maria,”** och hon ropar: **”Rabbuni!”** Den kvällen, bakom låsta dörrar, står Jesus mitt bland lärjungarna: **”Frid vare med er,”** visar dem sina händer och sin sida, sänder dem som Fadern sänt honom, och andas på dem: *”Ta emot helig Ande.”* Tomas, frånvarande, vill inte tro utan att röra vid såren — men en vecka senare möter han den uppståndne Herren och bekänner: **”Min Herre och min Gud!”** *Saliga är de som inte har sett men ändå tror.* Och Johannes anger sitt syfte: **detta är skrivet för att ni ska tro… och för att ni genom tron ska ha liv i hans namn.**',
+    },
+  },
+  {
     num: 19,
     titles: { en: 'The Crucifixion: “It Is Finished”', sv: 'Korsfästelsen: ”Det är fullbordat”' },
     summaries: {

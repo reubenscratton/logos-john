@@ -445,4 +445,10 @@ export const GLOSS_EN = {
   "Ἁριμαθαία": "Arimathea", "ἐπιτρέπω": "to permit, allow", "μίγμα": "mixture", "σμύρνα": "myrrh",
   "ἀλόη": "aloes", "ἑκατόν": "hundred", "ὀθόνιον": "linen cloth", "ἄρωμα": "spice, aromatic",
   "ἔθος": "custom", "ἐνταφιάζω": "to prepare for burial, bury",
+  // Chapter 20
+  "τρέχω": "to run", "προτρέχω": "to run ahead", "παρακύπτω": "to stoop and look in", "ἐντυλίσσω": "to wrap, fold up",
+  "κηπουρός": "gardener", "ῥαββουνί": "Rabboni (my Teacher)", "ἅπτω": "to touch, cling to", "ἀγγέλλω": "to announce, report",
+  "κλείω": "to shut, lock", "ἐμφυσάω": "to breathe on", "κρατέω": "to hold, retain", "τύπος": "mark, imprint",
+  "ἧλος": "nail", "ἔσω": "inside, within", "ἄπιστος": "unbelieving, faithless", "πιστός": "believing, faithful",
+  "ἐνώπιον": "before, in the presence of", "βιβλίον": "book, scroll",
 };

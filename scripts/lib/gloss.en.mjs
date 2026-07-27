@@ -405,4 +405,8 @@ export const GLOSS_EN = {
   // Chapter 14
   "μονή": "dwelling place, room", "ἑτοιμάζω": "to prepare", "παράκλητος": "Helper, Advocate, Comforter", "ὀρφανός": "orphan",
   "ἐμφανίζω": "to manifest, make known", "ὑπομιμνῄσκω": "to remind, bring to remembrance", "εἰρήνη": "peace", "δειλιάω": "to be afraid, be cowardly",
+  // Chapter 15
+  "ἄμπελος": "vine", "γεωργός": "farmer, vinedresser", "κλῆμα": "branch", "καθαίρω": "to prune, cleanse",
+  "ξηραίνω": "to wither, dry up", "πῦρ": "fire", "γνωρίζω": "to make known", "μνημονεύω": "to remember",
+  "πρόφασις": "excuse, pretext", "δωρεάν": "without cause, freely, for nothing",
 };

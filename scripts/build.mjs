@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 15,
+    titles: { en: 'The True Vine', sv: 'Den sanna vinstocken' },
+    summaries: {
+      en: 'The last of the “I am” sayings opens the discourse’s heart: **“I am the true vine, and my Father is the vinedresser… I am the vine, you are the branches.”** The one word that beats through it is **abide** — remain in me, and I in you, for *apart from me you can do nothing*, and the branch that does not abide withers and is burned. Abiding bears **much fruit**, to the Father’s glory, and its fruit is love: **“love one another as I have loved you.”** He raises them from servants to **friends** — *“greater love has no one than this, that someone lay down his life for his friends”* — chosen and appointed to lasting fruit. Then a sober warning: the world that hated him will hate them too. But the **Spirit of truth** will come and bear witness — and so will they.',
+      sv: 'Det sista av ”Jag är”-orden öppnar avskedstalets hjärta: **”Jag är den sanna vinstocken, och min Fader är vingårdsmannen… Jag är vinstocken, ni är grenarna.”** Det enda ord som pulserar genom det är **förbli** — förbli i mig, och jag i er, för *utan mig kan ni ingenting göra*, och grenen som inte förblir vissnar och bränns upp. Att förbli bär **rik frukt**, till Faderns ära, och dess frukt är kärlek: **”älska varandra som jag har älskat er.”** Han lyfter dem från tjänare till **vänner** — *”ingen har större kärlek än att han ger sitt liv för sina vänner”* — utvalda och satta att bära bestående frukt. Sedan en allvarlig varning: världen som hatade honom ska hata också dem. Men **sanningens Ande** ska komma och vittna — och det ska de också.',
+    },
+  },
+  {
     num: 14,
     titles: { en: 'The Way, and the Promise of the Spirit', sv: 'Vägen och löftet om Anden' },
     summaries: {

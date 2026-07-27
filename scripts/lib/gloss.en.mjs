@@ -415,4 +415,17 @@ export const GLOSS_EN = {
   "θλῖψις": "affliction, tribulation", "ἀπαγγέλλω": "to announce, report", "θαρσέω": "to take heart, be of good cheer", "νικάω": "to conquer, overcome",
   // Chapter 17
   "ἀπώλεια": "destruction, ruin", "καταβολή": "foundation, beginning",
+  // Chapter 18
+  "χείμαρρος": "brook, winter stream", "Κεδρών": "Kidron", "κῆπος": "garden", "πολλάκις": "often",
+  "σπεῖρα": "cohort, band of soldiers", "φανός": "lantern", "λαμπάς": "torch, lamp", "ὅπλον": "weapon",
+  "Ναζωραῖος": "Nazarene, of Nazareth", "μάχαιρα": "sword", "παίω": "to strike", "ἀποκόπτω": "to cut off",
+  "ὠτάριον": "ear", "δεξιός": "right", "Μάλχος": "Malchus", "θήκη": "sheath",
+  "ποτήριον": "cup", "χιλίαρχος": "commander (of a thousand)", "συλλαμβάνω": "to seize, arrest", "Ἅννας": "Annas",
+  "πενθερός": "father-in-law", "συμβουλεύω": "to counsel, advise", "γνωστός": "known, acquaintance", "εἰσάγω": "to bring in",
+  "παιδίσκη": "servant girl", "ἀνθρακιά": "charcoal fire", "ψῦχος": "cold", "θερμαίνω": "to warm",
+  "παρίστημι": "to stand by", "ῥάπισμα": "a blow, slap", "κακῶς": "wrongly, badly", "κακός": "evil, wrong",
+  "δέρω": "to strike, beat", "συγγενής": "relative, kinsman", "ὠτίον": "ear", "πραιτώριον": "praetorium, governor's headquarters",
+  "πρωΐ": "early morning", "μιαίνω": "to defile", "Πιλᾶτος": "Pilate", "κατηγορία": "accusation, charge",
+  "ἀγωνίζομαι": "to fight, struggle", "οὐκοῦν": "so then, therefore", "αἰτία": "cause, guilt, charge", "συνήθεια": "custom",
+  "ἀπολύω": "to release", "βούλομαι": "to want, wish", "Βαραββᾶς": "Barabbas",
 };

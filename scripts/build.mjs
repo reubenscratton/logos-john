@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 18,
+    titles: { en: 'The Arrest, and Jesus Before Pilate', sv: 'Fängslandet, och Jesus inför Pilatus' },
+    summaries: {
+      en: 'In the garden across the Kidron, Judas comes with soldiers and torches. Jesus, *knowing all that would happen*, steps forward — and at his **“I am he”** the arresting party falls to the ground. He shields his disciples (*“let these men go”*) and stops Peter’s sword: *“shall I not drink the cup the Father has given me?”* Led first to **Annas**, then Caiaphas, he answers the high priest openly. Meanwhile, at a **charcoal fire**, Peter denies him three times, and the rooster crows. Brought at dawn to **Pilate**, Jesus is questioned about kingship: **“My kingdom is not of this world.”** He came *to bear witness to the truth* — and Pilate asks, **“What is truth?”** then declares, *“I find no guilt in him.”* Yet the crowd cries for Barabbas.',
+      sv: 'I trädgården på andra sidan Kidron kommer Judas med soldater och facklor. Jesus, som *visste allt som skulle hända*, träder fram — och vid hans **”Det är jag”** faller de som griper honom till marken. Han skyddar sina lärjungar (*”låt dessa gå”*) och hejdar Petrus svärd: *”ska jag inte dricka den kalk som Fadern har gett mig?”* Förd först till **Hannas**, sedan Kaifas, svarar han översteprästen öppet. Under tiden, vid en **koleld**, förnekar Petrus honom tre gånger, och tuppen gal. Förd i gryningen till **Pilatus** förhörs Jesus om kungadöme: **”Mitt rike är inte av denna värld.”** Han kom *för att vittna om sanningen* — och Pilatus frågar: **”Vad är sanning?”** och förklarar sedan: *”Jag finner honom inte skyldig.”* Ändå ropar folket på Barabbas.',
+    },
+  },
+  {
     num: 17,
     titles: { en: 'The High Priestly Prayer', sv: 'Den översteprästerliga bönen' },
     summaries: {

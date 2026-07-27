@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 12,
+    titles: { en: 'The Anointing, the Entry, and the Grain of Wheat', sv: 'Smörjelsen, intåget och vetekornet' },
+    summaries: {
+      en: 'At Bethany, **Mary** pours out a pound of costly nard on Jesus’ feet and wipes them with her hair — worship Judas calls waste, but Jesus receives as anointing *for the day of my burial*. The next day the crowds hail him into Jerusalem with palms and **“Hosanna!”**, and he answers their hopes by riding a humble donkey. When **Greeks** ask to see him, Jesus knows the hour has come and gives its meaning: **“unless a grain of wheat falls into the earth and dies… it bears much fruit.”** His soul is troubled — *“Father, save me from this hour”* — yet he chooses it, and a **voice from heaven** answers. **“I, when I am lifted up, will draw all people to myself.”** Despite so many signs, most will not believe, as Isaiah foretold — but the light has come into the world.',
+      sv: 'I Betania öser **Maria** ut ett skålpund dyrbar nardus på Jesu fötter och torkar dem med sitt hår — tillbedjan som Judas kallar slöseri, men som Jesus tar emot som smörjelse *till min begravningsdag*. Nästa dag hyllar folkskarorna honom in i Jerusalem med palmblad och **”Hosianna!”**, och han svarar på deras förhoppningar genom att rida på en ödmjuk åsna. När **greker** ber att få se honom vet Jesus att stunden har kommit och ger dess mening: **”om vetekornet inte faller i jorden och dör… bär det rik frukt.”** Hans själ är upprörd — *”Fader, rädda mig undan denna stund”* — men han väljer den, och en **röst från himlen** svarar. **”När jag har blivit upphöjd ska jag dra alla till mig.”** Trots så många tecken vill de flesta inte tro, som Jesaja förutsade — men ljuset har kommit till världen.',
+    },
+  },
+  {
     num: 11,
     titles: { en: 'The Raising of Lazarus', sv: 'Lasarus uppväckelse' },
     summaries: {

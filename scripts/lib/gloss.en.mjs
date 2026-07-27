@@ -383,4 +383,15 @@ export const GLOSS_EN = {
   "ἐνιαυτός": "year", "λογίζομαι": "to reckon, consider", "συμφέρω": "to be better, be profitable", "προφητεύω": "to prophesy",
   "διασκορπίζω": "to scatter abroad", "βουλεύω": "to plan, resolve", "Ἐφραίμ": "Ephraim", "κἀκεῖ": "and there",
   "ἁγνίζω": "to purify", "μηνύω": "to report, disclose", "ὅπως": "so that, in order that",
+  // Chapter 12
+  "δεῖπνον": "dinner, supper", "διακονέω": "to serve, wait on", "σύν": "with", "λίτρα": "pound (Roman)",
+  "νάρδος": "nard, spikenard", "πιστικός": "pure, genuine", "πολύτιμος": "very costly", "ὀσμή": "fragrance, odor",
+  "πιπράσκω": "to sell", "τριακόσιοι": "three hundred", "πτωχός": "poor, beggar", "γλωσσόκομον": "moneybag, purse",
+  "ἐνταφιασμός": "burial, preparation for burial", "βάϊον": "palm branch", "φοῖνιξ": "palm tree", "ὑπάντησις": "a meeting",
+  "ὡσαννά": "Hosanna (save now!)", "εὐλογέω": "to bless", "ὀνάριον": "young donkey", "θυγάτηρ": "daughter",
+  "Σιών": "Zion", "πῶλος": "colt, foal", "ὄνος": "donkey", "προσέρχομαι": "to come to, approach",
+  "κόκκος": "grain, seed", "σῖτος": "wheat, grain", "φυλάσσω": "to guard, keep", "βροντή": "thunder",
+  "σημαίνω": "to signify, indicate", "ἀκοή": "report, hearing, message", "βραχίων": "arm", "ἀποκαλύπτω": "to reveal",
+  "τυφλόω": "to blind", "πωρόω": "to harden", "καρδία": "heart", "νοέω": "to understand, perceive",
+  "ὅμως": "nevertheless, yet", "ἤπερ": "than", "ἀθετέω": "to reject, set aside",
 };

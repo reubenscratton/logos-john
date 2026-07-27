@@ -46,6 +46,14 @@ const CHAPTERS = [
     },
   },
   {
+    num: 21,
+    titles: { en: 'Epilogue: “Do You Love Me?”', sv: 'Efterord: ”Älskar du mig?”' },
+    summaries: {
+      en: 'By the Sea of Tiberias the disciples fish all night and catch nothing — until, at the word of a stranger on the shore, they cast on the right side and the net fills. *“It is the Lord!”* Peter throws himself into the sea; they haul in **153 fish**, and the net is not torn. Jesus has bread and fish waiting over a **charcoal fire** — and there, at a fire like the one where Peter denied him, he restores him: three times, **“Simon, do you love me?”**, three times a commission — *“Feed my lambs… tend my sheep.”* He foretells the death by which Peter will glorify God, and calls him again: **“Follow me.”** Of the beloved disciple he says only, *“If it is my will that he remain… what is that to you?”* That disciple is the one who wrote these things, and his testimony is true. And there is far more Jesus did — more than all the books in the world could contain.',
+      sv: 'Vid Tiberias sjö fiskar lärjungarna hela natten utan att fånga något — tills de, på en främlings ord från stranden, kastar ut på högra sidan och nätet fylls. *”Det är Herren!”* Petrus kastar sig i sjön; de drar in **153 fiskar**, och nätet brister inte. Jesus har bröd och fisk redo över en **koleld** — och där, vid en eld lik den där Petrus förnekade honom, upprättar han honom: tre gånger, **”Simon, älskar du mig?”**, tre gånger ett uppdrag — *”För mina lamm… var herde för mina får.”* Han förutsäger den död genom vilken Petrus ska förhärliga Gud, och kallar honom åter: **”Följ mig.”** Om den älskade lärjungen säger han bara: *”Om jag vill att han ska bli kvar… vad rör det dig?”* Den lärjungen är den som skrev detta, och hans vittnesbörd är sant. Och Jesus gjorde långt mer — mer än alla böcker i världen kunde rymma.',
+    },
+  },
+  {
     num: 20,
     titles: { en: 'The Resurrection', sv: 'Uppståndelsen' },
     summaries: {

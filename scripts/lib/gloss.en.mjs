@@ -451,4 +451,12 @@ export const GLOSS_EN = {
   "κλείω": "to shut, lock", "ἐμφυσάω": "to breathe on", "κρατέω": "to hold, retain", "τύπος": "mark, imprint",
   "ἧλος": "nail", "ἔσω": "inside, within", "ἄπιστος": "unbelieving, faithless", "πιστός": "believing, faithful",
   "ἐνώπιον": "before, in the presence of", "βιβλίον": "book, scroll",
+  // Chapter 21
+  "Ζεβεδαῖος": "Zebedee", "ἁλιεύω": "to fish", "πρωΐα": "morning, dawn", "αἰγιαλός": "shore, beach",
+  "προσφάγιον": "fish, food eaten with bread", "δίκτυον": "net", "ἰσχύω": "to be able, be strong", "ἰχθύς": "fish",
+  "ἐπενδύτης": "outer garment", "γυμνός": "naked, stripped for work", "μακράν": "far", "πῆχυς": "cubit",
+  "σύρω": "to drag, haul", "ἀποβαίνω": "to step off, go out", "ἀριστάω": "to have breakfast, eat a meal", "τολμάω": "to dare",
+  "ἐξετάζω": "to question, examine", "βόσκω": "to feed, tend", "ἀρνίον": "lamb", "ποιμαίνω": "to shepherd, tend",
+  "προβάτιον": "sheep, little sheep", "νέος": "young", "ζωννύω": "to gird, dress", "γηράσκω": "to grow old",
+  "ἐκτείνω": "to stretch out", "ἐπιστρέφω": "to turn around", "οἴομαι": "to suppose, think",
 };

@@ -89,7 +89,13 @@ export const CONTENT = {
     english: [
       ["While", "g17.12.1", true], ["I", "g17.12.5", true], ["was", "g17.12.2", true], ["with", "g17.12.3"], ["them,", "g17.12.4"], ["I", "g17.12.5", true], ["kept", "g17.12.6"], ["them", "g17.12.7"], ["in", "g17.12.8"], ["your", "g17.12.11"], ["name,", "g17.12.9 g17.12.10"], ["which", "g17.12.12"], ["you", "g17.12.13", true], ["have", "g17.12.13", true], ["given", "g17.12.13"], ["me.", "g17.12.14"], ["I", "g17.12.16", true], ["have", "g17.12.16", true], ["guarded", "g17.12.16"], ["them,", "g17.12.16", true], ["and", "g17.12.17"], ["not", "g17.12.18", true], ["one", "g17.12.18"], ["of", "g17.12.19", true], ["them", "g17.12.20"], ["has", "g17.12.21", true], ["been", "g17.12.21", true], ["lost", "g17.12.21"], ["except", "g17.12.22 g17.12.23"], ["the", "g17.12.24"], ["son", "g17.12.25"], ["of", "g17.12.26", true], ["destruction,", "g17.12.27"], ["that", "g17.12.28"], ["the", "g17.12.30"], ["Scripture", "g17.12.30", true], ["might", "g17.12.31", true], ["be", "g17.12.31", true], ["fulfilled.", "g17.12.31"],
     ],
-    annotations: [],
+    annotations: [
+      {
+        kind: "concept", refs: "g17.12.21 g17.12.25 g17.12.27", lemma: "ὁ υἱὸς τῆς ἀπωλείας",
+        title: "“The son of destruction”",
+        body: "The one exception to Jesus’ *“I lost none”* is **Judas Iscariot**. **“Son of destruction”** (*ho huios tēs apōleias*) is a Hebrew idiom — “son of X” meaning *one marked by, and destined for, X* (as in “sons of light,” 12:36) — so it names Judas as the one who belonged to ruin. There is a wordplay the English cannot quite carry: Jesus says none was **lost** (*apōleto*) except the son of **loss** (*apōleias*); the single exception to “I kept them all” is the one who was loss itself. John holds two truths together without dissolving either: the fall of Judas *“fulfilled the Scripture”* (here Psalm 41:9, which Jesus quoted at the supper, 13:18) — it was foreseen and woven into the Father’s purpose — and yet Judas chose it freely, opening himself to Satan (13:27) and acting of his own will. Neither the divine plan nor the human guilt cancels the other. The only other place this exact phrase appears in the New Testament is 2 Thessalonians 2:3, of the end-time “man of lawlessness”; the shared title casts Judas as a kind of archetype of the ultimate betrayer — the one who stands nearest the light and turns wholly against it.",
+      },
+    ],
   },
   13: {
     english: [

@@ -89,7 +89,13 @@ export const CONTENT = {
     english: [
       ["Medan", "g17.12.1", true], ["jag", "g17.12.5", true], ["var", "g17.12.2", true], ["med", "g17.12.3"], ["dem,", "g17.12.4"], ["bevarade", "g17.12.6"], ["jag", "g17.12.5", true], ["dem", "g17.12.7"], ["i", "g17.12.8"], ["ditt", "g17.12.11"], ["namn,", "g17.12.9 g17.12.10"], ["som", "g17.12.12"], ["du", "g17.12.13", true], ["har", "g17.12.13", true], ["gett", "g17.12.13"], ["mig.", "g17.12.14"], ["Jag", "g17.12.16", true], ["vaktade", "g17.12.16"], ["dem,", "g17.12.16", true], ["och", "g17.12.17"], ["ingen", "g17.12.18"], ["av", "g17.12.19", true], ["dem", "g17.12.20"], ["gick", "g17.12.21", true], ["förlorad", "g17.12.21"], ["utom", "g17.12.22 g17.12.23"], ["fördärvets", "g17.12.26 g17.12.27"], ["son,", "g17.12.24 g17.12.25"], ["för", "g17.12.28", true], ["att", "g17.12.28"], ["Skriften", "g17.12.30", true], ["skulle", "g17.12.31", true], ["uppfyllas.", "g17.12.29 g17.12.31"],
     ],
-    annotations: [],
+    annotations: [
+      {
+        kind: "concept", refs: "g17.12.21 g17.12.25 g17.12.27", lemma: "ὁ υἱὸς τῆς ἀπωλείας",
+        title: "”Fördärvets son”",
+        body: "Det enda undantaget från Jesu *”jag förlorade ingen”* är **Judas Iskariot**. **”Fördärvets son”** (*ho huios tēs apōleias*) är ett hebreiskt idiom — ”son av X” betyder *en som präglas av, och är bestämd för, X* (som i ”ljusets barn,” 12:36) — så det namnger Judas som den som hörde fördärvet till. Det finns en ordlek som svenskan inte riktigt kan bära: Jesus säger att ingen **gick förlorad** (*apōleto*) utom **fördärvets** (*apōleias*) son; det enda undantaget från ”jag bevarade dem alla” är den som var själva förlusten. Johannes håller samman två sanningar utan att lösa upp någon av dem: Judas fall *”uppfyllde Skriften”* (här Psalm 41:10, som Jesus citerade vid måltiden, 13:18) — det var förutsett och invävt i Faderns plan — och ändå valde Judas det fritt, öppnade sig för Satan (13:27) och handlade av egen vilja. Varken den gudomliga planen eller den mänskliga skulden upphäver den andra. Det enda andra stället där just denna fras förekommer i Nya testamentet är 2 Thess 2:3, om ändens ”laglöshetens människa”; den delade titeln gör Judas till ett slags urbild för den yttersta förrädaren — den som står ljuset närmast och vänder sig helt emot det.",
+      },
+    ],
   },
   13: {
     english: [

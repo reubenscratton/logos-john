@@ -395,7 +395,14 @@ const OVERLAY: Record<number, { english: EnglishToken[]; annotations: Annotation
         { id: 'e17.12.33', text: "uppfyllas", after: ".", align: ['g17.12.29', 'g17.12.31'] },
     ],
     annotations: [
-
+        {
+          id: 'a17.12.1',
+          kind: "concept",
+          refs: ['g17.12.21', 'g17.12.25', 'g17.12.27'],
+          lemma: "ὁ υἱὸς τῆς ἀπωλείας",
+          title: "”Fördärvets son”",
+          body: "Det enda undantaget från Jesu *”jag förlorade ingen”* är **Judas Iskariot**. **”Fördärvets son”** (*ho huios tēs apōleias*) är ett hebreiskt idiom — ”son av X” betyder *en som präglas av, och är bestämd för, X* (som i ”ljusets barn,” 12:36) — så det namnger Judas som den som hörde fördärvet till. Det finns en ordlek som svenskan inte riktigt kan bära: Jesus säger att ingen **gick förlorad** (*apōleto*) utom **fördärvets** (*apōleias*) son; det enda undantaget från ”jag bevarade dem alla” är den som var själva förlusten. Johannes håller samman två sanningar utan att lösa upp någon av dem: Judas fall *”uppfyllde Skriften”* (här Psalm 41:10, som Jesus citerade vid måltiden, 13:18) — det var förutsett och invävt i Faderns plan — och ändå valde Judas det fritt, öppnade sig för Satan (13:27) och handlade av egen vilja. Varken den gudomliga planen eller den mänskliga skulden upphäver den andra. Det enda andra stället där just denna fras förekommer i Nya testamentet är 2 Thess 2:3, om ändens ”laglöshetens människa”; den delade titeln gör Judas till ett slags urbild för den yttersta förrädaren — den som står ljuset närmast och vänder sig helt emot det.",
+        },
     ],
   },
   13: {

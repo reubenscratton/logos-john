@@ -736,7 +736,7 @@ export default function HolyLandMap({
           </>
         ) : (
           <>
-            <div className="hlmap__title">The Holy Land</div>
+            <div className="hlmap__title">{lang === 'sv' ? 'Det heliga landet' : 'The Holy Land'}</div>
             <div className="hlmap__hint">
               {lang === 'sv'
                 ? 'Dra för att panorera · två fingrar roterar · nyp för att zooma · klicka en plats'

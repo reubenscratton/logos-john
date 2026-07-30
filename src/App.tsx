@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { HighlightProvider, useHighlight } from './components/HighlightContext';
 import { Reader } from './components/Reader';
 import { Inspector } from './components/Inspector';
@@ -74,6 +74,7 @@ const BOOK: { en: Chapter; sv: Chapter }[] = [
   { en: john21, sv: john21Sv },
 ];
 const LANGS: Lang[] = ['en', 'sv'];
+const HolyLandMap = lazy(() => import('./components/HolyLandMap'));
 
 function readStored<T>(key: string, ok: (v: string) => T | null, fallback: T): T {
   try {
@@ -103,6 +104,8 @@ function Study() {
   const [chapterIdx, setChapterIdx] = useState<number>(() =>
     readStored('chapter', (v) => (Number(v) >= 0 && Number(v) < BOOK.length ? Number(v) : null), 0),
   );
+  const [showMap, setShowMap] = useState(false);
+  const [mapFocus, setMapFocus] = useState<string | null>(null);
   const { clear } = useHighlight();
 
   const ui = UI[lang];
@@ -164,6 +167,17 @@ function Study() {
             </div>
           </div>
           <div className="masthead__right">
+            <button
+              type="button"
+              className="mapbtn"
+              onClick={() => {
+                setMapFocus(null);
+                setShowMap(true);
+              }}
+              title="Explore the Holy Land in 3D"
+            >
+              {ui.mapLabel}
+            </button>
             <div className="langtoggle" role="group" aria-label="Language / Språk">
               {LANGS.map((l) => (
                 <button
@@ -185,7 +199,15 @@ function Study() {
       </header>
 
       <main>
-        <Reader key={`${chapterIdx}-${lang}`} chapter={chapter} />
+        <Reader
+          key={`${chapterIdx}-${lang}`}
+          chapter={chapter}
+          lang={lang}
+          onOpenPlace={(id) => {
+            setMapFocus(id);
+            setShowMap(true);
+          }}
+        />
 
         <nav className="chapter-foot">
           {hasPrev ? (
@@ -213,6 +235,31 @@ function Study() {
       </main>
 
       <Inspector lang={lang} />
+
+      {showMap ? (
+        <div
+          className="hlmap__overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Map of the Holy Land"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setShowMap(false);
+          }}
+        >
+          <Suspense fallback={<div className="hlmap__loading">Loading map…</div>}>
+            <HolyLandMap
+              key={mapFocus ?? '_all'}
+              focus={mapFocus}
+              lang={lang}
+              onClose={() => setShowMap(false)}
+              onGoChapter={(ch) => {
+                setShowMap(false);
+                goChapter(ch - 1);
+              }}
+            />
+          </Suspense>
+        </div>
+      ) : null}
     </div>
   );
 }

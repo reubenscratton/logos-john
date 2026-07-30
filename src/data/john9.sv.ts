@@ -113,7 +113,14 @@ const OVERLAY: Record<number, { english: EnglishToken[]; annotations: Annotation
         { id: 'e9.4.20', text: "arbeta", after: ".", align: ['g9.4.17'] },
     ],
     annotations: [
-
+        {
+          id: 'a9.4.1',
+          kind: "text",
+          refs: ['g9.4.1', 'g9.4.3'],
+          lemma: "ἡμᾶς δεῖ ἐργάζεσθαι",
+          title: "”*Vi* måste göra” — gärningarna räcks vidare",
+          body: "De äldsta handskrifterna läser **ἡμᾶς** — ”**vi** måste göra hans gärningar som har sänt mig” — och senare avskrivare, som fann pluralen förvånande, jämnade ut den till ἐμέ, ”*jag* måste göra”. Förvåningen är själva poängen. I samma andetag som Jesus förkunnar att Guds gärningar ska uppenbaras, kallar han in lärjungarna i arbetet. (Den antika texten saknade skiljetecken, och meningen kan rentav läsas i ett svep från v. 3: *”Varken han syndade eller hans föräldrar. Men för att Guds gärningar skulle uppenbaras i honom måste vi göra…”* — syftet knutet inte till blindheten utan till svaret.) Guds gärningar är alltså inte begränsade till vad Jesus gör med lera och saliv en enda sabbat; de räcks vidare — *”den som tror på mig, han ska också göra de gärningar som jag gör, och större än dessa”* (14:12). För varje generation som möter lidande den inte kan förklara vänder pluralen lärjungarnas fråga tillbaka mot dem som frågar: inte *vem har syndat?* utan *vad ska vi göra — medan det är dag?*",
+        },
     ],
   },
   5: {

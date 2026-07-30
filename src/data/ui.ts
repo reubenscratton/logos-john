@@ -17,6 +17,7 @@ export interface UIStrings {
   transLabel: string;
   transSource: string;
   colophon: string;
+  mapLabel: string;
   kinds: Record<AnnotationKind, string>;
   inspector: { translit: string; lemma: string; parse: string; gloss: string };
 }
@@ -40,6 +41,7 @@ export const UI: Record<Lang, UIStrings> = {
     colophon:
       'Greek: Nestle 1904 (public domain). Translation & annotations: this edition. ' +
       'A working prototype — the Gospel of John, chapter by chapter.',
+    mapLabel: 'Map',
     kinds: {
       translation: 'Translation',
       concept: 'Concept',
@@ -68,6 +70,7 @@ export const UI: Record<Lang, UIStrings> = {
     colophon:
       'Grekiska: Nestle 1904 (fri text). Översättning och noter: denna utgåva. ' +
       'En prototyp under arbete — Johannesevangeliet, kapitel för kapitel.',
+    mapLabel: 'Karta',
     kinds: {
       translation: 'Översättning',
       concept: 'Begrepp',

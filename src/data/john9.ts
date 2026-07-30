@@ -153,7 +153,7 @@ export const john9: Chapter = {
       chapter: 9,
       verse: 4,
       greek: [
-        { id: 'g9.4.1', text: "ἡμᾶς", lemma: "ἐγώ", translit: "hēmas", morph: "pers. pron., 1st person, acc. pl.", gloss: "I" },
+        { id: 'g9.4.1', text: "ἡμᾶς", lemma: "ἐγώ", translit: "hēmas", morph: "pers. pron., 1st person, acc. pl.", gloss: "we, us" },
         { id: 'g9.4.2', text: "δεῖ", lemma: "δεῖ", translit: "dei", morph: "pres. act. ind., 3sg.", gloss: "it is necessary, must" },
         { id: 'g9.4.3', text: "ἐργάζεσθαι", lemma: "ἐργάζομαι", translit: "ergazesthai", morph: "pres. mid./pass. dep. inf.", gloss: "to work, do" },
         { id: 'g9.4.4', text: "τὰ", lemma: "ὁ", translit: "ta", morph: "article, acc. pl. neut.", gloss: "the" },
@@ -196,7 +196,14 @@ export const john9: Chapter = {
         { id: 'e9.4.22', text: "work", after: ".", align: ['g9.4.17'] },
       ],
       annotations: [
-
+        {
+          id: 'a9.4.1',
+          kind: "text",
+          refs: ['g9.4.1', 'g9.4.3'],
+          lemma: "ἡμᾶς δεῖ ἐργάζεσθαι",
+          title: "“*We* must work” — the works handed on",
+          body: "The earliest manuscripts read **ἡμᾶς** — “**we** must work the works of him who sent me” — and later copyists, finding the plural surprising, smoothed it to ἐμέ, “*I* must work.” The surprise is the point. In the very breath in which Jesus announces that the works of God will be displayed, he conscripts the disciples into the working. (The ancient text had no punctuation, and the sentence can even be read straight through from v. 3: *“Neither this man sinned nor his parents. But so that the works of God may be displayed in him, we must work…”* — purpose attached not to the blindness but to the response.) The works of God are thus not confined to what Jesus does with clay and spittle on one Sabbath; they are handed on — *“whoever believes in me will also do the works that I do, and greater works than these”* (14:12). For every generation that meets suffering it cannot explain, the plural turns the disciples’ question back on the askers: not *who sinned?* but *what are we to do — while it is day?*",
+        },
       ],
     },
     {

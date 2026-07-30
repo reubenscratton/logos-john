@@ -1,0 +1,14 @@
+{
+  "west": 34.8,
+  "east": 35.95,
+  "south": 31.25,
+  "north": 33.1,
+  "nx": 256,
+  "ny": 487,
+  "minEle": -430.0,
+  "maxEle": 1209.0,
+  "physWidthKm": 108.36,
+  "physHeightKm": 204.56,
+  "seaLevel": 0,
+  "exagBake": 2.0
+}

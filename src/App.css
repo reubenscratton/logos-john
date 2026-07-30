@@ -483,3 +483,362 @@ main {
     max-width: none;
   }
 }
+
+/* ============================================================
+   Holy Land 3D map
+   ============================================================ */
+.masthead__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mapbtn {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: var(--paper-2);
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.mapbtn:hover {
+  color: var(--gold);
+  border-color: var(--gold-line);
+}
+
+.hlmap__overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: min(4vw, 40px);
+  background: rgba(20, 16, 10, 0.5);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.hlmap {
+  position: relative;
+  width: min(96vw, 1120px);
+  height: min(90vh, 780px);
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+.hlmap__loading {
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 14px;
+}
+.hlmap__stage {
+  position: absolute;
+  inset: 0;
+}
+.hlmap__stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.hlmap__labels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.hlmap__label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: block;
+  touch-action: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--ink);
+  text-shadow:
+    0 0 3px var(--paper), 0 0 3px var(--paper),
+    0 1px 2px var(--paper), 0 -1px 2px var(--paper);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: color 0.12s;
+}
+.hlmap__label:hover .hlmap__ltext {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.hlmap__label--site {
+  width: 9px;
+  height: 9px;
+}
+.hlmap__dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 0 2px var(--paper);
+}
+.hlmap__label--site .hlmap__ltext {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hlmap__label--water {
+  transform: translate(-50%, -50%);
+}
+.hlmap__label--water .hlmap__ltext {
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  color: #3f5a68;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.8), 0 0 4px rgba(255, 255, 255, 0.8);
+}
+.hlmap__label--region {
+  transform: translate(-50%, -50%);
+}
+.hlmap__label--region .hlmap__ltext {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6f5f34;
+  text-shadow: 0 0 4px var(--paper), 0 0 4px var(--paper);
+}
+/* focus dimming / emphasis */
+.hlmap__labels.is-focused .hlmap__label:not(.is-active) {
+  opacity: 0.62;
+}
+.hlmap__label.is-active {
+  z-index: 3;
+}
+.hlmap__label.is-active .hlmap__ltext {
+  color: var(--gold);
+}
+.hlmap__label.is-active .hlmap__dot {
+  background: var(--gold);
+  box-shadow: 0 0 0 2px var(--paper), 0 0 10px 1px rgba(199, 154, 58, 0.8);
+}
+.hlmap__marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  touch-action: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 0 3px var(--paper), 0 0 14px 2px rgba(199, 154, 58, 0.9);
+  pointer-events: none;
+  z-index: 4;
+}
+.hlmap__marker::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  animation: hlm-pulse 1.7s ease-out infinite;
+}
+@keyframes hlm-pulse {
+  0% { transform: scale(0.55); opacity: 0.9; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
+
+/* focus banner in the panel */
+.hlmap__back {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 0;
+  background: none;
+  border: 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+.hlmap__back:hover {
+  color: var(--gold);
+}
+.hlmap__blurb {
+  font-family: var(--serif-en);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 4px 0 10px;
+}
+.hlmap__read {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 12px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gold);
+  background: var(--gold-bg);
+  border: 1px solid var(--gold-line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.hlmap__read:hover {
+  color: var(--ink);
+}
+
+/* place-name markers in the reading text */
+.place {
+  position: relative;
+}
+.place .tok--en {
+  text-decoration: underline dotted var(--gold-line);
+  text-underline-offset: 3px;
+}
+.place__pin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: super;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--gold);
+  cursor: pointer;
+  pointer-events: none;
+  transition: max-width 0.14s ease, opacity 0.14s ease, margin 0.14s ease;
+}
+.place:hover .place__pin,
+.place:focus-within .place__pin,
+.place.is-open .place__pin {
+  max-width: 1.2em;
+  opacity: 1;
+  margin-left: 1px;
+  pointer-events: auto;
+}
+.place__pin:hover {
+  color: var(--ink);
+}
+.place__pinicon {
+  width: 0.82em;
+  height: 0.82em;
+}
+
+.hlmap__panel {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 400; /* above the place labels (they stack up to ~300) */
+  max-width: min(84vw, 320px);
+  padding: 14px 16px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--rule-strong);
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+.hlmap__pclose {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 2px 6px;
+  background: none;
+  border: 0;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--ink-faint);
+  cursor: pointer;
+}
+.hlmap__pclose:hover {
+  color: var(--ink);
+}
+.hlmap__title {
+  font-family: var(--serif-en);
+  font-size: 18px;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.hlmap__slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.hlmap__slider input {
+  flex: 1;
+  accent-color: var(--gold);
+}
+.hlmap__hint {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.hlmap__schema {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-style: italic;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
+}
+.hlmap__credit {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--ink-faint);
+  opacity: 0.85;
+}
+.hlmap__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--rule-strong);
+  background: color-mix(in srgb, var(--paper) 90%, transparent);
+  color: var(--ink-soft);
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.hlmap__close:hover {
+  color: var(--gold);
+  border-color: var(--gold-line);
+}
+.hlmap__status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+@media (max-width: 560px) {
+  .hlmap__panel { left: 10px; right: 10px; top: 10px; max-width: none; }
+}

@@ -47,9 +47,8 @@
 }
 .masthead__right {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
+  align-items: center;
+  gap: 12px;
 }
 .masthead__summary {
   max-width: 1500px;
@@ -730,17 +729,17 @@ main {
 .place:hover .place__pin,
 .place:focus-within .place__pin,
 .place.is-open .place__pin {
-  max-width: 1.2em;
+  max-width: 2.2em;
   opacity: 1;
-  margin-left: 1px;
+  margin-left: 2px;
   pointer-events: auto;
 }
 .place__pin:hover {
   color: var(--ink);
 }
 .place__pinicon {
-  width: 0.82em;
-  height: 0.82em;
+  width: 1.64em;
+  height: 1.64em;
 }
 
 .hlmap__panel {

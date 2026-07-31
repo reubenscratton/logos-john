@@ -30,8 +30,9 @@ function inRing(lon: number, lat: number, ring: [number, number][]): boolean {
 
 // The Temple Mount, to which the diorama is glued.
 const JLM = { lon: 35.2354, lat: 31.778 };
-// Relief exaggeration (fixed; eases toward natural near the city).
-const BASE_EXAG = 2;
+// Relief exaggeration (fixed at natural scale; the diorama's own gentle
+// 1.5x vertical presence takes over on approach).
+const BASE_EXAG = 1;
 // Camera-to-city distances (km) governing the continuous level-of-detail.
 const CITY_FAR = 34;   // beyond this the diorama is gone
 const CITY_NEAR = 9;   // within this it is fully present, relief eased to 1.5×
@@ -41,7 +42,7 @@ const CITY_RELIEF = 1.5;
 const CITY_DIST: Record<string, number> = {
   temple: 0.6, 'solomons-colonnade': 0.45, antonia: 0.45, bethesda: 0.4,
   siloam: 0.4, gabbatha: 0.5, 'herods-palace': 0.55, golgotha: 0.45,
-  kidron: 0.85, 'mount-of-olives': 1.15,
+  kidron: 0.85, 'mount-of-olives': 1.15, gethsemane: 0.5, 'high-priests-house': 0.5,
 };
 
 export default function HolyLandMap({

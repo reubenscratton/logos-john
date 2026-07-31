@@ -179,6 +179,18 @@ export const PLACES: Place[] = [
     blurb: { en: 'The Place of a Skull, outside the city wall — where Jesus was crucified (John 19).', sv: 'Huvudskalleplatsen, utanför stadsmuren — där Jesus korsfästes (Joh 19).' },
   },
   {
+    id: 'gethsemane', type: 'site', name: { en: 'Gethsemane', sv: 'Getsemane' },
+    lon: 35.2410, lat: 31.7792, focusKm: 20, within: 'jerusalem', ch: 18,
+    aliases: { en: ['gethsemane'], sv: ['getsemane'] },
+    blurb: { en: 'The olive garden across the Kidron, where Jesus was arrested (John 18).', sv: 'Olivträdgården på andra sidan Kidron, där Jesus greps (Joh 18).' },
+  },
+  {
+    id: 'high-priests-house', type: 'site', name: { en: "The High Priest's House", sv: 'Översteprästens hus' },
+    lon: 35.2308, lat: 31.7752, focusKm: 20, within: 'jerusalem', ch: 18,
+    aliases: { en: ['annas', 'caiaphas'], sv: ['hannas', 'kajafas', 'kaifas'] },
+    blurb: { en: 'The palatial mansion in the Upper City where Annas and Caiaphas questioned Jesus, and Peter denied him (John 18).', sv: 'Palatset i Övre staden där Hannas och Kajafas förhörde Jesus, och Petrus förnekade honom (Joh 18).' },
+  },
+  {
     id: 'gabbatha', type: 'site', name: { en: 'The Stone Pavement (Gabbatha)', sv: 'Stenläggningen (Gabbata)' },
     lon: 35.2285, lat: 31.7765, focusKm: 22, within: 'jerusalem', ch: 19,
     aliases: { en: ['gabbatha', 'the stone pavement', 'stone pavement'], sv: ['gabbata', 'stenläggningen'] },

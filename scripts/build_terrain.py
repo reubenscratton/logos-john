@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFilter
 WEST, EAST = 34.80, 35.95
 SOUTH, NORTH = 31.25, 33.10
 ZOOM = 11           # ~65 m/px at this latitude
-EXAG_BAKE = 2.0     # relief exaggeration the normal map is baked for
+EXAG_BAKE = 1.0     # relief exaggeration the normal map is baked for
 OUT = os.path.join(os.path.dirname(__file__), "out_map")
 os.makedirs(OUT, exist_ok=True)
 TILE = "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"

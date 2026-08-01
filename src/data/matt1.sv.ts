@@ -27,6 +27,14 @@ const OVERLAY: Record<number, { english: EnglishToken[]; annotations: Annotation
           title: "”En bok om tillblivelse”",
           body: "Matteus två första ord är ett medvetet eko. **Βίβλος γενέσεως** — *bok om tillblivelse* — är exakt den fras Gamla testamentets grekiska översättning använder i 1 Mos 2:4 och 5:1 (”boken om himlarnas och jordens… om Adams tillblivelse”). Innan ett enda namn har räknats upp har evangelisten alltså gjort sitt anspråk: det som börjar här är av samma ordning som skapelsen själv — en *ny* genesis. Vi översätter ordet med **”tillblivelse”** snarare än det plattare ”släkttavla”: samma substantiv återkommer i v. 18 om Jesu avlelse, och Matteus menar att klangen ska bära. Det är också en signal om metod — detta evangelium är skrivet med hela den hebreiska Bibeln surrande under ytan, och det räknar med att du hör ackorden.",
         },
+        {
+          id: 'a1.1.2',
+          kind: "translation",
+          refs: ['g1.1.5', 'g1.1.6', 'g1.1.7', 'g1.1.8'],
+          lemma: "υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ",
+          title: "”Son” — och nej, inte bokstavligt",
+          body: "En rimlig invändning: Jesus var inte Davids son i någon biologisk mening — tusen år skiljer dem åt — så varför inte översätta **”Davids ättling, Abrahams ättling”**? Det ärliga svaret har två delar. För det första bär det grekiska ordet υἱός (*son*) verkligen betydelsen ”ättling” — precis som hebreiskans *ben* och arameiskans *bar* når det ner genom en hel släktlinje, inte bara ett led. ”Ättling” är alltså ingen felöversättning; det är bara den plattare läsningen av ett uttryck som rymmer bådadera. För det andra — och därför behåller vi **”son”** — är *υἱὸς Δαυίδ*, ”Davids son”, inte en anteckning om härstamning här. Det är en **titel**, det kungliga messianska namn Matteus kommer att lägga i mun efter mun i tjugo kapitel till: de blindas rop (9:27; 20:30), folkskarornas ”*Hosianna, Davids son*” vid Jerusalems portar (21:9), och den kluriga fråga Jesus ställer om vems son Messias egentligen är (22:42–45). Översätt v. 1 med ”ättling” och du kapar tyst den inledande raden från trumslaget som går genom hela boken. Lägg också märke till att själva släkttavlan (v. 2–16) använder ett helt annat verb — *födde* — för de faktiska biologiska leden; v. 1 står *ovanför* den kedjan som en rubrik. Raden har alltså aldrig påstått att David födde Jesus. Den nämner en titel (David, den utlovade kungen) och ett förbund (Abraham, genom vars ”säd alla folk skulle bli välsignade”, 1 Mos 22:18), och låter båda vila över allt som följer.",
+        },
     ],
   },
   2: {

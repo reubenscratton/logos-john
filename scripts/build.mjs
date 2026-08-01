@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 17,
+    titles: { en: 'The Transfiguration, the Boy the Disciples Failed, the Coin in the Fish', sv: 'Förklaringen, pojken lärjungarna misslyckades med, myntet i fisken' },
+    summaries: {
+      en: 'Six days after the passion prediction, three disciples see what walks the road to Jerusalem: a face **shining like the sun**, Moses and Elijah — Law and Prophets in person — and a voice correcting Peter\'s three-tent shrine plan: *listen to **him***. Then the detail no Old Testament theophany contains: the glory has hands — a touch, *rise, do not fear*, and looking up they see **Jesus only**. Down the mountain waits the other half of the picture: a kneeling father, a convulsing boy, and disciples who tried and **could not** — the failed prayer kept on the record, and the healing given anyway. Faith\'s problem was never size (*a mustard seed moves mountains*) but its quiet decay into technique — and the missing verse 21 shows textual criticism doing honest work. The chapter ends with the strangest miracle: exempt sons who pay the temple tax anyway, with a **stater from a fish\'s mouth** — sovereignty wearing courtesy.',
+      sv: 'Sex dagar efter lidandesförutsägelsen ser tre lärjungar vad som vandrar vägen till Jerusalem: ett ansikte **lysande som solen**, Mose och Elia — Lagen och Profeterna i egen person — och en röst som korrigerar Petrus trehyddsplan: *lyssna till **honom***. Sedan detaljen ingen gammaltestamentlig teofani innehåller: härligheten har händer — en beröring, *stig upp, frukta inte*, och när de ser upp ser de **Jesus allena**. Nedanför berget väntar bildens andra halva: en knäböjande far, en pojke i kramp, och lärjungar som försökte och **inte kunde** — den misslyckade bönen förd till protokollet, och helandet givet ändå. Trons problem var aldrig storleken (*ett senapskorn flyttar berg*) utan dess tysta förfall till teknik — och den saknade vers 21 visar textkritiken i ärligt arbete. Kapitlet slutar med det märkligaste undret: befriade söner som betalar tempelskatten ändå, med en **stater ur en fiskmun** — suveränitet klädd i hövlighet.',
+    },
+  },
+  {
     num: 16,
     titles: { en: 'Caesarea Philippi: the Confession, the Rock, the Cross', sv: 'Caesarea Filippi: bekännelsen, klippan, korset' },
     summaries: {

@@ -681,4 +681,12 @@ export const GLOSS_EN = {
   "πάσχω": "to suffer", "προσλαμβάνω": "to take aside", "ἵλεως": "merciful; far be it",
   "φρονέω": "to be minded, think", "ἀπαρνέομαι": "to deny", "κερδαίνω": "to gain",
   "ζημιόω": "to forfeit, lose", "ἀντάλλαγμα": "exchange, price", "πρᾶξις": "deed, practice",
+  // Matthew 17
+  "ἀναφέρω": "to lead up", "μεταμορφόω": "to transfigure, transform", "συλλαλέω": "to talk with",
+  "σκηνή": "tent, booth", "νεφέλη": "cloud", "ἐπισκιάζω": "to overshadow",
+  "ὅραμα": "vision", "γονυπετέω": "to kneel", "διαστρέφω": "to twist, pervert",
+  "ἀνέχω": "to bear with, endure", "ὀλιγοπιστία": "little faith", "ἔνθεν": "from here",
+  "ἀδυνατέω": "to be impossible", "συστρέφω": "to gather", "δίδραχμον": "double-drachma (temple tax)",
+  "προφθάνω": "to anticipate, speak first", "κῆνσος": "tax, tribute", "ἄγκιστρον": "fish-hook",
+  "στατήρ": "stater (coin)",
 };

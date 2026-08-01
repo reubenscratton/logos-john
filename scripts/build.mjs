@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 4,
+    titles: { en: 'The Test in the Wilderness, and the First Followers', sv: 'Provet i öknen, och de första efterföljarna' },
+    summaries: {
+      en: 'Led by the Spirit into the wilderness, Jesus fasts **forty days** — Israel\'s forty years compressed — and meets the tester three times: bread, the temple pinnacle, the kingdoms of the world. Each answer is Deuteronomy; where the first son failed the exam, this one **retakes it and passes**. The devil leaves; *angels come and serve him* — unforced, the sign he refused to extort. Hearing of John\'s arrest he settles in **Capernaum**, and light dawns first in *“Galilee of the nations,”* exactly where Assyria\'s darkness fell first. Walking by the sea he calls four fishermen — **“Come, follow me”** — and at once they leave their nets. Teaching, proclaiming, healing, he is followed by crowds from every direction.',
+      sv: 'Förd av Anden ut i öknen fastar Jesus **fyrtio dagar** — Israels fyrtio år sammanpressade — och möter frestaren tre gånger: brödet, tempeltinnarna, världens riken. Varje svar är Femte Mosebok; där den förste sonen föll på provet **gör denne om det och består**. Djävulen går; *änglar kommer och betjänar honom* — otvingat, tecknet han vägrade pressa fram. När han hör om Johannes fängslande bosätter han sig i **Kafarnaum**, och ljuset gryr först i *”hedningarnas Galileen”*, precis där Assyriens mörker föll först. Vandrande vid sjön kallar han fyra fiskare — **”Kom, följ mig”** — och genast lämnar de sina nät. Undervisande, förkunnande, botande följs han av skaror från alla håll.',
+    },
+  },
+  {
     num: 3,
     titles: { en: 'The Baptist, and the Baptism', sv: 'Döparen, och dopet' },
     summaries: {

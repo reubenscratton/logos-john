@@ -499,4 +499,13 @@ export const GLOSS_EN = {
   "ἀποθήκη": "barn, storehouse", "ἄχυρον": "chaff", "κατακαίω": "to burn up",
   "ἄσβεστος": "unquenchable", "διακωλύω": "to hinder, prevent", "πρέπω": "to be fitting",
   "ὡσεί": "like, as", "ἀγαπητός": "beloved", "εὐδοκέω": "to delight, be well pleased",
+  "ἀνάγω": "to lead up", "νηστεύω": "to fast", "πτερύγιον": "pinnacle, little wing",
+  "ἐκπειράζω": "to put to the test", "ὑψηλός": "high", "λατρεύω": "to serve, worship",
+  "παραθαλάσσιος": "by the sea", "Ζαβουλών": "Zebulun", "Νεφθαλίμ": "Naphtali",
+  "σκιά": "shadow", "ἀνατέλλω": "to rise, dawn", "ἀμφίβληστρον": "casting-net",
+  "ἁλιεύς": "fisherman", "προβαίνω": "to go on, advance", "Ἰάκωβος": "James (Jacob)",
+  "καταρτίζω": "to mend, prepare", "περιάγω": "to go about", "εὐαγγέλιον": "good news, gospel",
+  "νόσος": "disease", "μαλακία": "infirmity, ailment", "Συρία": "Syria",
+  "ποικίλος": "various", "βάσανος": "torment", "συνέχω": "to afflict, seize",
+  "σεληνιάζομαι": "to be moonstruck, epileptic", "παραλυτικός": "paralytic", "Δεκάπολις": "Decapolis",
 };

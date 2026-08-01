@@ -25,7 +25,7 @@ export interface UIStrings {
 export const UI: Record<Lang, UIStrings> = {
   en: {
     langName: 'English',
-    brandTitle: 'The Bible for Doubters',
+    brandTitle: 'The Bible for Reluctant Doubters',
     subtitle: "An annotated translation from the earliest known sources, by Anthropic's Claude",
     book: 'John',
     chapterWord: 'Chapter',
@@ -54,7 +54,7 @@ export const UI: Record<Lang, UIStrings> = {
   },
   sv: {
     langName: 'Svenska',
-    brandTitle: 'Bibeln för tvivlare',
+    brandTitle: 'Bibeln för motvilliga tvivlare',
     subtitle: 'En kommenterad översättning från de äldsta kända källorna, av Anthropics Claude',
     book: 'Johannes',
     chapterWord: 'Kapitel',

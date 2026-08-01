@@ -700,4 +700,13 @@ export const GLOSS_EN = {
   "τάλαντον": "talent (large sum)", "μακροθυμέω": "to be patient", "δάνειον": "loan, debt",
   "σύνδουλος": "fellow slave", "πνίγω": "to choke", "ὀφειλή": "debt",
   "βασανιστής": "torturer, jailer",
+  // Matthew 19
+  "κτίζω": "to create", "ἄρσην": "male", "θῆλυς": "female",
+  "κολλάω": "to join, cleave to", "συζεύγνυμι": "to yoke together", "χωρίζω": "to separate",
+  "σκληροκαρδία": "hardness of heart", "εὐνοῦχος": "eunuch", "εὐνουχίζω": "to make a eunuch",
+  "κωλύω": "to hinder, forbid", "ψευδομαρτυρέω": "to bear false witness", "νεανίσκος": "young man",
+  "ὑπάρχω": "to possess; belongings", "κτῆμα": "possession", "πλούσιος": "rich",
+  "δυσκόλως": "with difficulty", "τρῆμα": "eye (of needle), hole", "ῥαφίς": "needle",
+  "ἀδύνατος": "impossible", "δυνατός": "possible, able", "παλιγγενεσία": "regeneration, rebirth",
+  "φυλή": "tribe", "πολλαπλασίων": "many times more",
 };

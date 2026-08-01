@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 19,
+    titles: { en: 'Marriage, the Rich Young Man, and the Needle', sv: 'Äktenskapet, den rike unge mannen och nålsögat' },
+    summaries: {
+      en: 'A rigged question about divorce *“for any cause”* — the Hillel-Shammai debate — is answered by going **behind Moses to Genesis**: Deuteronomy\'s provision was a concession to hard hearts, damage-limitation, never the design. Then two blessings on the states the world pitied: **eunuchs** — born, made, and chosen for the kingdom, no shame on any — and **children** brought for blessing past objecting disciples. The rich young man keeps every rule and asks the honest question — *what do I still lack?* — receives a scalpel instead of a rule, and becomes the only person to leave Jesus **grieving**. The camel goes through a real needle (no, there was no gate): *with men impossible, with God all things possible*. And Peter\'s unpious *what do we get?* is answered lavishly — twelve thrones in the **regeneration**, the hundredfold — then bent by the closing proverb: *many first will be last.*',
+      sv: 'En riggad fråga om skilsmässa *”av vilken orsak som helst”* — Hillel-Shammai-debatten — besvaras genom att gå **bakom Mose till Första Mosebok**: Femte Mosebokens bestämmelse var en eftergift åt hårda hjärtan, skadebegränsning, aldrig konstruktionen. Sedan två välsignelser över tillstånden världen ömkade: **snöpta** — födda, gjorda och valda för riket, ingen skam över någon — och **barn** framburna till välsignelse förbi protesterande lärjungar. Den rike unge mannen håller varje regel och ställer den ärliga frågan — *vad fattas mig ännu?* — får en skalpell i stället för en regel, och blir den ende som lämnar Jesus **bedrövad**. Kamelen går genom ett verkligt nålsöga (nej, det fanns ingen port): *för människor omöjligt, för Gud är allt möjligt*. Och Petrus ofromma *vad får vi?* besvaras frikostigt — tolv troner i **pånyttfödelsen**, hundrafalt igen — och böjs sedan av slutordspråket: *många första ska bli sista.*',
+    },
+  },
+  {
     num: 18,
     titles: { en: 'The Child, the Millstone, and Seventy Times Seven', sv: 'Barnet, kvarnstenen och sjuttio gånger sju' },
     summaries: {

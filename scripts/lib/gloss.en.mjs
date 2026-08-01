@@ -754,4 +754,18 @@ export const GLOSS_EN = {
   "κοινωνός": "partner, sharer", "Ἅβελ": "Abel", "Ζαχαρίας": "Zechariah",
   "Βαραχίας": "Barachiah", "ἐπισυνάγω": "to gather together", "τρόπος": "way, manner",
   "ὄρνις": "hen, bird", "νοσσίον": "chick", "πτέρυξ": "wing",
+  // Matthew 24
+  "οἰκοδομή": "building", "παρουσία": "coming, arrival", "πόλεμος": "war",
+  "θροέω": "to alarm, frighten", "λιμός": "famine", "ὠδίν": "birth pang",
+  "πληθύνω": "to multiply", "ψύχω": "to grow cold", "οἰκουμένη": "inhabited world",
+  "βδέλυγμα": "abomination", "ἐρήμωσις": "desolation", "Δανιήλ": "Daniel",
+  "φυγή": "flight", "οἷος": "such as", "κολοβόω": "to shorten, cut short",
+  "ψευδόχριστος": "false christ", "προλέγω": "to tell beforehand", "ἀστραπή": "lightning",
+  "ἀετός": "vulture, eagle", "σκοτίζω": "to darken", "σελήνη": "moon",
+  "φέγγος": "light, radiance", "σάλπιγξ": "trumpet", "ἄκρον": "end, extremity",
+  "ἁπαλός": "tender", "ἐκφύω": "to put out (leaves)", "θέρος": "summer",
+  "Νῶε": "Noah", "κατακλυσμός": "flood", "ἄχρι": "until",
+  "κιβωτός": "ark", "ἀλήθω": "to grind", "γρηγορέω": "to watch, stay awake",
+  "ἐάω": "to let, allow", "καθίστημι": "to set over, appoint", "οἰκετεία": "household",
+  "χρονίζω": "to delay", "τύπτω": "to beat, strike", "διχοτομέω": "to cut in two",
 };

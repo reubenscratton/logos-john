@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 24,
+    titles: { en: 'The Olivet Discourse: Stones, Signs, and the Unknown Hour', sv: 'Talet på Olivberget: stenar, tecken och den okända stunden' },
+    summaries: {
+      en: '*Not one stone on another* — and the disciples\' **double question** braids the temple\'s fall with the end of the age; the whole discourse is Jesus unbraiding them. Wars, famines, earthquakes are **birth pangs, not countdowns** — every generation that read them as terminal signs has so far been wrong, as predicted. The *abomination of desolation* decodes to AD 70, with flight advice concrete enough that the Jerusalem church survived by following it. Then the two verses that police each other: *this generation will not pass* (fulfilled, if the temple is the referent) and **“not even the Son”** knows the day — an ignorance no church would invent, and the charter of every honest agnosticism about dates. One taken, one left (in Noah\'s terms, *taken* is what you don\'t want); and watching turns out to mean something almost comically domestic: **feeding the household at the proper time**.',
+      sv: '*Inte sten på sten* — och lärjungarnas **dubbelfråga** flätar samman templets fall med tidsålderns slut; hela talet är Jesus som flätar isär dem. Krig, svält, jordbävningar är **födslovärkar, inte nedräkningar** — varje generation som läst dem som slutgiltiga tecken har hittills haft fel, som förutsagt. *Förödelsens styggelse* avkodas till år 70, med flyktråd konkreta nog att Jerusalems församling överlevde genom att följa dem. Sedan de två verser som vaktar varandra: *detta släkte ska inte förgås* (uppfylld, om templet är referenten) och **”inte heller Sonen”** vet dagen — en okunskap ingen kyrka skulle uppfinna, och stadgan för varje ärlig agnosticism om datum. En tas med, en lämnas (i Noas termer är *tas med* vad man inte vill); och vakandet visar sig betyda något nästan komiskt husligt: **att ge husfolket maten i rätt tid**.',
+    },
+  },
+  {
     num: 23,
     titles: { en: 'Seven Woes, and a Hen Gathering Her Chicks', sv: 'Sju verop, och en höna som samlar sina kycklingar' },
     summaries: {

@@ -61,6 +61,8 @@ import { matt7 } from './data/matt7';
 import { matt7Sv } from './data/matt7.sv';
 import { matt8 } from './data/matt8';
 import { matt8Sv } from './data/matt8.sv';
+import { matt9 } from './data/matt9';
+import { matt9Sv } from './data/matt9.sv';
 import { UI, type Lang } from './data/ui';
 import type { Chapter } from './data/types';
 import './App.css';
@@ -102,6 +104,7 @@ const BOOKS: Record<BookKey, { en: Chapter; sv: Chapter }[]> = {
     { en: matt6, sv: matt6Sv },
     { en: matt7, sv: matt7Sv },
     { en: matt8, sv: matt8Sv },
+    { en: matt9, sv: matt9Sv },
   ],
   john: JOHN,
 };

@@ -574,4 +574,17 @@ export const GLOSS_EN = {
   "ποταπός": "what sort of", "ὑπακούω": "to obey", "Γαδαρηνός": "Gadarene",
   "χαλεπός": "violent, fierce", "ἀγέλη": "herd", "δαίμων": "demon",
   "ὁρμάω": "to rush", "κρημνός": "steep bank, cliff",
+  // Matthew 9
+  "διαπεράω": "to cross over", "κλίνη": "bed, couch", "ἐνθύμησις": "thought, inner reflection",
+  "εὔκοπος": "easy", "τελώνιον": "tax booth, toll station", "Μαθθαῖος": "Matthew",
+  "συνανάκειμαι": "to recline (at table) with", "ἰατρός": "physician, doctor", "ἔλεος": "mercy",
+  "θυσία": "sacrifice", "νυμφών": "bridal chamber", "ἀπαίρω": "to take away",
+  "ἐπίβλημα": "patch", "ῥάκος": "piece of cloth", "ἄγναφος": "unshrunk, new",
+  "παλαιός": "old", "ἀσκός": "wineskin", "ἀμφότεροι": "both",
+  "συντηρέω": "to preserve, keep safe", "αἱμορροέω": "to suffer a flow of blood", "ὄπισθεν": "behind",
+  "κράσπεδον": "fringe, tassel", "αὐλητής": "flute player", "θορυβέω": "to make an uproar",
+  "κοράσιον": "girl", "καταγελάω": "to laugh at, deride", "φήμη": "report, fame",
+  "διαφημίζω": "to spread abroad", "κωφός": "mute, deaf", "σπλαγχνίζομαι": "to be moved with compassion",
+  "σκύλλω": "to harass, weary", "ῥίπτω": "to throw down, cast", "ἐργάτης": "worker, labourer",
+  "δέομαι": "to beg, plead",
 };

@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 9,
+    titles: { en: 'Forgiveness Proved, a Tax Collector Called, a Girl Raised', sv: 'Förlåtelse bevisad, en tullindrivare kallad, en flicka uppväckt' },
+    summaries: {
+      en: 'Four friends lower a stretcher and Jesus answers a question nobody asked: *your sins are forgiven*. The scribes are right that only God can say that — so he stakes the invisible claim on a visible one: **“Which is easier?”** — and the man walks. Then a tax collector\'s nine-word call (*only this gospel names him Matthew*), a dinner with sinners defended by **Hosea\'s line — mercy, not sacrifice**, and new wine that old skins cannot hold. A ruler\'s dead daughter and a bleeding woman interleave: she touches the **tzitzit fringe** and becomes the only person he ever calls *daughter*; the funeral professionals **laugh at him**, and are wrong. Two blind men, a mute man freed — and then the chapter\'s hinge: seeing the harassed crowds he is moved **in the gut**, and sets a trap disguised as a prayer: *beg the Lord of the harvest to thrust out workers.* Chapter 10 springs it.',
+      sv: 'Fyra vänner firar ner en bår och Jesus besvarar en fråga ingen ställt: *dina synder är förlåtna*. De skriftlärda har rätt i att bara Gud kan säga så — därför sätter han det osynliga anspråket i pant på ett synligt: **”Vilket är lättare?”** — och mannen går. Sedan en tullindrivares kallelse på nio ord (*bara detta evangelium kallar honom Matteus*), en middag med syndare försvarad med **Hoseas rad — barmhärtighet, inte offer**, och nytt vin som gamla säckar inte rymmer. En föreståndares döda dotter och en blödande kvinna flätas samman: hon rör vid **tzitzit-tofsen** och blir den enda han någonsin kallar *dotter*; begravningsproffsen **skrattar åt honom**, och har fel. Två blinda, en stum man befriad — och sedan kapitlets gångjärn: vid åsynen av de illa medfarna skarorna grips han **i det innersta**, och gillrar en fälla förklädd till bön: *be skördens Herre att driva ut arbetare.* Kapitel 10 slår igen den.',
+    },
+  },
+  {
     num: 8,
     titles: { en: 'Down the Mountain: The Leper, the Centurion, and the Storm', sv: 'Nedför berget: den spetälske, officeren och stormen' },
     summaries: {

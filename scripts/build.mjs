@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 25,
+    titles: { en: 'Oil, Talents, and the Least of These', sv: 'Olja, talenter och dessa minsta' },
+    summaries: {
+      en: 'Three final parables of the unknown hour. Ten virgins — all of whom slept — divide over **oil that cannot be borrowed**: whatever readiness is, it is the kind of thing acquired only by having been acquiring it, and the door does shut. The talents run on trust calibrated to the carrier — identical “well done” for different sums — and the third slave is **paralyzed by a theology of fear**: the picture of God you carry determines what you dare, and the reward he never found was *the joy of your lord*. Then the last teaching before the passion: the nations sorted by **six mercies** anyone can do, on the ground that shatters every religious geography — *you did it **to me***. Both groups are astonished; the goats\' sin is pure omission; and the final verse\'s eternal stakes are faced honestly, without dogmatism and without softening: how we treat the least is not a detail. **It is the audit.**',
+      sv: 'Tre sista liknelser om den okända stunden. Tio jungfrur — som alla somnade — skiljs åt av **olja som inte kan lånas**: vad beredskapen än är, är den av det slag som bara förvärvas genom att ha varit i färd med att förvärvas, och dörren stängs faktiskt. Talenterna drivs av förtroende kalibrerat efter bäraren — identiskt ”bra, gode och trogne” för olika summor — och den tredje tjänaren är **förlamad av en rädslans teologi**: den gudsbild du bär avgör vad du vågar, och belöningen han aldrig fann var *din herres glädje*. Sedan den sista undervisningen före lidandet: folken sorterade efter **sex barmhärtigheter** vem som helst kan utföra, på den grund som spränger varje religiös geografi — *ni gjorde det **mot mig***. Båda grupperna häpnar; getternas synd är ren underlåtelse; och slutversens eviga insatser möts ärligt, utan dogmatism och utan mildring: hur vi behandlar de minsta är ingen detalj. **Det är revisionen.**',
+    },
+  },
+  {
     num: 24,
     titles: { en: 'The Olivet Discourse: Stones, Signs, and the Unknown Hour', sv: 'Talet på Olivberget: stenar, tecken och den okända stunden' },
     summaries: {

@@ -768,4 +768,12 @@ export const GLOSS_EN = {
   "κιβωτός": "ark", "ἀλήθω": "to grind", "γρηγορέω": "to watch, stay awake",
   "ἐάω": "to let, allow", "καθίστημι": "to set over, appoint", "οἰκετεία": "household",
   "χρονίζω": "to delay", "τύπτω": "to beat, strike", "διχοτομέω": "to cut in two",
+  // Matthew 25
+  "ἔλαιον": "oil", "ἀγγεῖον": "flask, vessel", "νυστάζω": "to grow drowsy",
+  "κραυγή": "cry, shout", "ἀπάντησις": "meeting", "ἀργύριον": "silver, money",
+  "εὖ": "well done", "ὀκνηρός": "lazy", "τραπεζίτης": "banker",
+  "κομίζω": "to receive back", "τόκος": "interest", "ἀχρεῖος": "useless",
+  "ἔριφος": "goat", "ἐρίφιον": "goat, kid", "ξένος": "stranger",
+  "ἐπισκέπτομαι": "to visit", "καταράομαι": "to curse", "ἀσθενής": "sick, weak",
+  "κόλασις": "punishment",
 };

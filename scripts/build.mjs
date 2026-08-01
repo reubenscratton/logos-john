@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 8,
+    titles: { en: 'Down the Mountain: The Leper, the Centurion, and the Storm', sv: 'Nedför berget: den spetälske, officeren och stormen' },
+    summaries: {
+      en: 'The Sermon ends and the sentences start acting. A leper says *“if you will”* — and Jesus **touches him first**, then speaks the one-word answer, *I will*. A Roman centurion reasons from chain-of-command to faith-at-a-distance, and becomes the only person in the gospels who ever **amazes** Jesus; Isaiah 53 is quoted not at the cross but over an evening clinic — *he took our weaknesses, carried our diseases*. Two would-be followers meet the cost: **the Son of Man** — his strange name, first used here — has nowhere to lay his head. Then a *seismos* on the sea, a Lord asleep in the stern, wind and wave **rebuked** like demons, and the question left ringing in the boat: *what sort of man is this?* Across the water, Gadara counts its drowned pigs — and asks him, politely, to leave.',
+      sv: 'Bergspredikan slutar och meningarna börjar handla. En spetälsk säger *”om du vill”* — och Jesus **rör vid honom först**, sedan kommer svaret på ett enda ord: *jag vill*. En romersk officer resonerar sig från befälsordning till tro-på-avstånd och blir den ende i evangelierna som någonsin får Jesus att **häpna**; Jesaja 53 citeras inte vid korset utan över en kvällsmottagning — *han tog våra svagheter, bar våra sjukdomar*. Två blivande efterföljare möter priset: **Människosonen** — hans egendomliga namn, här för första gången — har ingenstans att luta sitt huvud. Sedan en *seismos* på sjön, en Herre som sover i aktern, vind och våg **tillrättavisade** som demoner, och frågan som blir hängande i båten: *vad är detta för en man?* På andra stranden räknar Gadara sina drunknade svin — och ber honom, artigt, att gå.',
+    },
+  },
+  {
     num: 7,
     titles: { en: 'The Sermon on the Mount III: Two Roads, Two Houses', sv: 'Bergspredikan III: Två vägar, två hus' },
     summaries: {

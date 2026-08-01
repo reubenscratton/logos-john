@@ -561,4 +561,17 @@ export const GLOSS_EN = {
   "φρόνιμος": "sensible, prudent", "πέτρα": "rock", "βροχή": "rain",
   "προσπίπτω": "to fall upon", "θεμελιόω": "to found, ground", "ἄμμος": "sand",
   "πτῶσις": "fall", "ἐκπλήσσω": "to astonish",
+  // Matthew 8
+  "λεπρός": "leper", "καθαρίζω": "to cleanse, make clean", "λέπρα": "leprosy",
+  "μαρτύριον": "testimony, witness", "ἑκατοντάρχης": "centurion", "δεινῶς": "terribly",
+  "βασανίζω": "to torment", "στέγη": "roof", "πίστις": "faith, trust",
+  "δυσμή": "west, setting (of sun)", "ἀνακλίνω": "to recline (at table)", "ἐξώτερος": "outer",
+  "βρυγμός": "gnashing", "πενθερά": "mother-in-law", "πυρέσσω": "to have a fever",
+  "κελεύω": "to command, order", "ἀλώπηξ": "fox", "φωλεός": "den, hole",
+  "κατασκήνωσις": "nest, roost", "θάπτω": "to bury", "σεισμός": "shaking, storm; earthquake",
+  "καλύπτω": "to cover", "κῦμα": "wave", "καθεύδω": "to sleep",
+  "δειλός": "afraid, cowardly", "ἐπιτιμάω": "to rebuke", "γαλήνη": "calm",
+  "ποταπός": "what sort of", "ὑπακούω": "to obey", "Γαδαρηνός": "Gadarene",
+  "χαλεπός": "violent, fierce", "ἀγέλη": "herd", "δαίμων": "demon",
+  "ὁρμάω": "to rush", "κρημνός": "steep bank, cliff",
 };

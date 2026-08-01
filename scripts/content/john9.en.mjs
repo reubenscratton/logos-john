@@ -30,7 +30,13 @@ export const CONTENT = {
     english: [
       ["We", "g9.4.1"], ["must", "g9.4.2"], ["work", "g9.4.3"], ["the", "g9.4.4"], ["works", "g9.4.5"], ["of", "g9.4.6", true], ["him", "g9.4.7", true], ["who", "g9.4.7", true], ["sent", "g9.4.7"], ["me", "g9.4.8"], ["while", "g9.4.9"], ["it", "g9.4.11", true], ["is", "g9.4.11"], ["day;", "g9.4.10"], ["night", "g9.4.13"], ["is", "g9.4.12", true], ["coming,", "g9.4.12"], ["when", "g9.4.14"], ["no", "g9.4.15", true], ["one", "g9.4.15"], ["can", "g9.4.16"], ["work.", "g9.4.17"],
     ],
-    annotations: [],
+    annotations: [
+      {
+        kind: "text", refs: "g9.4.1 g9.4.3", lemma: "ἡμᾶς δεῖ ἐργάζεσθαι",
+        title: "“*We* must work” — the works handed on",
+        body: "The earliest manuscripts read **ἡμᾶς** — “**we** must work the works of him who sent me” — and later copyists, finding the plural surprising, smoothed it to ἐμέ, “*I* must work.” The surprise is the point. In the very breath in which Jesus announces that the works of God will be displayed, he conscripts the disciples into the working. (The ancient text had no punctuation, and the sentence can even be read straight through from v. 3: *“Neither this man sinned nor his parents. But so that the works of God may be displayed in him, we must work…”* — purpose attached not to the blindness but to the response.) The works of God are thus not confined to what Jesus does with clay and spittle on one Sabbath; they are handed on — *“whoever believes in me will also do the works that I do, and greater works than these”* (14:12). For every generation that meets suffering it cannot explain, the plural turns the disciples’ question back on the askers: not *who sinned?* but *what are we to do — while it is day?*",
+      },
+    ],
   },
   5: {
     english: [

@@ -25,8 +25,8 @@ export interface UIStrings {
 export const UI: Record<Lang, UIStrings> = {
   en: {
     langName: 'English',
-    brandTitle: 'John',
-    subtitle: "An annotated translation from the earliest known sources, by Anthropic's Opus 4.8",
+    brandTitle: 'The Bible for Doubters',
+    subtitle: "An annotated translation from the earliest known sources, by Anthropic's Claude",
     book: 'John',
     chapterWord: 'Chapter',
     summaryLabel: 'In this chapter',
@@ -39,8 +39,8 @@ export const UI: Record<Lang, UIStrings> = {
     transLabel: 'English',
     transSource: '· this edition',
     colophon:
-      'Greek: Nestle 1904 (public domain). Translation & annotations: this edition. ' +
-      'A working prototype — the Gospel of John, chapter by chapter.',
+      'Greek: Nestle 1904 (public domain). Translation & annotations: this edition — ' +
+      'John by Opus 4.8, Matthew by Fable 5. A working prototype, chapter by chapter.',
     mapLabel: 'Map',
     kinds: {
       translation: 'Translation',
@@ -54,8 +54,8 @@ export const UI: Record<Lang, UIStrings> = {
   },
   sv: {
     langName: 'Svenska',
-    brandTitle: 'Johannes',
-    subtitle: 'En kommenterad översättning från de äldsta kända källorna, av Anthropics Opus 4.8',
+    brandTitle: 'Bibeln för tvivlare',
+    subtitle: 'En kommenterad översättning från de äldsta kända källorna, av Anthropics Claude',
     book: 'Johannes',
     chapterWord: 'Kapitel',
     summaryLabel: 'I detta kapitel',
@@ -68,8 +68,8 @@ export const UI: Record<Lang, UIStrings> = {
     transLabel: 'Svenska',
     transSource: '· denna utgåva',
     colophon:
-      'Grekiska: Nestle 1904 (fri text). Översättning och noter: denna utgåva. ' +
-      'En prototyp under arbete — Johannesevangeliet, kapitel för kapitel.',
+      'Grekiska: Nestle 1904 (fri text). Översättning och noter: denna utgåva — ' +
+      'Johannes av Opus 4.8, Matteus av Fable 5. En prototyp under arbete, kapitel för kapitel.',
     mapLabel: 'Karta',
     kinds: {
       translation: 'Översättning',

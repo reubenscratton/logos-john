@@ -30,7 +30,13 @@ export const CONTENT = {
     english: [
       ["Vi", "g9.4.1"], ["måste", "g9.4.2"], ["göra", "g9.4.3"], ["hans", "g9.4.7", true], ["gärningar", "g9.4.5"], ["som", "g9.4.7", true], ["har", "g9.4.7", true], ["sänt", "g9.4.7"], ["mig", "g9.4.8"], ["så", "g9.4.4", true], ["länge", "g9.4.9", true], ["det", "g9.4.11", true], ["är", "g9.4.11"], ["dag;", "g9.4.10"], ["natten", "g9.4.13"], ["kommer,", "g9.4.12"], ["då", "g9.4.14"], ["ingen", "g9.4.15"], ["kan", "g9.4.16"], ["arbeta.", "g9.4.17"],
     ],
-    annotations: [],
+    annotations: [
+      {
+        kind: "text", refs: "g9.4.1 g9.4.3", lemma: "ἡμᾶς δεῖ ἐργάζεσθαι",
+        title: "”*Vi* måste göra” — gärningarna räcks vidare",
+        body: "De äldsta handskrifterna läser **ἡμᾶς** — ”**vi** måste göra hans gärningar som har sänt mig” — och senare avskrivare, som fann pluralen förvånande, jämnade ut den till ἐμέ, ”*jag* måste göra”. Förvåningen är själva poängen. I samma andetag som Jesus förkunnar att Guds gärningar ska uppenbaras, kallar han in lärjungarna i arbetet. (Den antika texten saknade skiljetecken, och meningen kan rentav läsas i ett svep från v. 3: *”Varken han syndade eller hans föräldrar. Men för att Guds gärningar skulle uppenbaras i honom måste vi göra…”* — syftet knutet inte till blindheten utan till svaret.) Guds gärningar är alltså inte begränsade till vad Jesus gör med lera och saliv en enda sabbat; de räcks vidare — *”den som tror på mig, han ska också göra de gärningar som jag gör, och större än dessa”* (14:12). För varje generation som möter lidande den inte kan förklara vänder pluralen lärjungarnas fråga tillbaka mot dem som frågar: inte *vem har syndat?* utan *vad ska vi göra — medan det är dag?*",
+      },
+    ],
   },
   5: {
     english: [

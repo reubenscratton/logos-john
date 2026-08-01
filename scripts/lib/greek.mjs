@@ -3,14 +3,26 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { GLOSS_EN } from './gloss.en.mjs';
 
-// Turns the Nestle 1904 CSV into Greek token objects for a chapter of John.
+// Turns the Nestle 1904 CSV into Greek token objects for a chapter of a book.
 // Shared by scripts/build.mjs. Language-neutral: gloss comes from the English
 // lexicon (the base language); per-language inspector glosses live in
 // src/data/lexicon.<lang>.ts and are looked up at render time by lemma.
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CSV = path.join(__dirname, '../data/Nestle1904-john.csv');
-const rows = fs.readFileSync(CSV, 'utf8').split('\n').slice(1).map((l) => l.split('\t'));
+// CSV BCV prefix → file. Each file is the same tagged Nestle 1904 edition,
+// filtered to one book.
+const BOOK_CSVS = {
+  John: '../data/Nestle1904-john.csv',
+  Matt: '../data/Nestle1904-matt.csv',
+};
+const rowCache = new Map();
+function bookRows(book) {
+  if (!rowCache.has(book)) {
+    const csv = path.join(__dirname, BOOK_CSVS[book]);
+    rowCache.set(book, fs.readFileSync(csv, 'utf8').split('\n').slice(1).map((l) => l.split('\t')));
+  }
+  return rowCache.get(book);
+}
 
 // ── Morphology (Robinson tags → readable) ─────────────────────────────────
 const CASE = { N: 'nom.', G: 'gen.', D: 'dat.', A: 'acc.', V: 'voc.' };
@@ -96,14 +108,24 @@ export function splitPunct(text) {
   return { core: text, after: '' };
 }
 
+// Personal pronouns gloss by lemma (ἐγώ → “I”), which misleads for the
+// plural and oblique forms — override those per surface form.
+const FORM_GLOSS = {
+  'ἡμεῖς': 'we', 'ἡμᾶς': 'we, us', 'ἡμῶν': 'our, of us', 'ἡμῖν': 'to us',
+  'ὑμεῖς': 'you (pl.)', 'ὑμᾶς': 'you (pl.)', 'ὑμῶν': 'your (pl.)', 'ὑμῖν': 'to you (pl.)',
+  'με': 'me', 'ἐμέ': 'me', 'μου': 'my, of me', 'ἐμοῦ': 'my, of me', 'μοι': 'to me', 'ἐμοί': 'to me',
+  'σε': 'you', 'σέ': 'you', 'σου': 'your, of you', 'σοῦ': 'your, of you', 'σοι': 'to you', 'σοί': 'to you',
+};
+
 // ── Public API ────────────────────────────────────────────────────────────
-/** Returns { [verse]: GreekToken[] } for John chapter `ch`. If `only` (an array
- *  of verse numbers) is given, limits output to those verses. */
-export function chapterGreek(ch, only) {
+/** Returns { [verse]: GreekToken[] } for `book` chapter `ch` (book is the CSV
+ *  BCV prefix: 'John', 'Matt'). If `only` (an array of verse numbers) is
+ *  given, limits output to those verses. */
+export function chapterGreek(ch, only, book = 'John') {
   const keep = only ? new Set(only) : null;
   const byVerse = {};
-  for (const r of rows) {
-    if (!r[0] || !r[0].startsWith(`John ${ch}:`)) continue;
+  for (const r of bookRows(book)) {
+    if (!r[0] || !r[0].startsWith(`${book} ${ch}:`)) continue;
     const v = Number(r[0].split(':')[1]);
     if (keep && !keep.has(v)) continue;
     (byVerse[v] ??= []).push(r);
@@ -119,7 +141,7 @@ export function chapterGreek(ch, only) {
       tok.lemma = lemma;
       tok.translit = translit(core);
       tok.morph = expandMorph(w[2]);
-      const g = GLOSS_EN[lemma];
+      const g = FORM_GLOSS[core.toLowerCase()] ?? GLOSS_EN[lemma];
       if (g) tok.gloss = g;
       else missing.add(lemma);
       return tok;

@@ -45,12 +45,14 @@ import { john20 } from './data/john20';
 import { john20Sv } from './data/john20.sv';
 import { john21 } from './data/john21';
 import { john21Sv } from './data/john21.sv';
+import { matt1 } from './data/matt1';
+import { matt1Sv } from './data/matt1.sv';
 import { UI, type Lang } from './data/ui';
 import type { Chapter } from './data/types';
 import './App.css';
 
-// The book, as ordered chapters, each available in both languages.
-const BOOK: { en: Chapter; sv: Chapter }[] = [
+// The Gospel of John, as ordered chapters, each available in both languages.
+const JOHN: { en: Chapter; sv: Chapter }[] = [
   { en: john1, sv: john1Sv },
   { en: john2, sv: john2Sv },
   { en: john3, sv: john3Sv },
@@ -73,6 +75,18 @@ const BOOK: { en: Chapter; sv: Chapter }[] = [
   { en: john20, sv: john20Sv },
   { en: john21, sv: john21Sv },
 ];
+
+// The library: each gospel in reading order. Matthew is in progress.
+type BookKey = 'john' | 'matthew';
+const BOOKS: Record<BookKey, { en: Chapter; sv: Chapter }[]> = {
+  matthew: [{ en: matt1, sv: matt1Sv }],
+  john: JOHN,
+};
+const BOOK_KEYS: BookKey[] = ['matthew', 'john'];
+const BOOK_NAMES: Record<BookKey, { en: string; sv: string }> = {
+  matthew: { en: 'Matthew', sv: 'Matteus' },
+  john: { en: 'John', sv: 'Johannes' },
+};
 const LANGS: Lang[] = ['en', 'sv'];
 const HolyLandMap = lazy(() => import('./components/HolyLandMap'));
 
@@ -101,15 +115,20 @@ function Study() {
   const [lang, setLang] = useState<Lang>(() =>
     readStored('lang', (v) => (v === 'en' || v === 'sv' ? v : null), 'en'),
   );
-  const [chapterIdx, setChapterIdx] = useState<number>(() =>
-    readStored('chapter', (v) => (Number(v) >= 0 && Number(v) < BOOK.length ? Number(v) : null), 0),
+  const [bookKey, setBookKey] = useState<BookKey>(() =>
+    readStored('book', (v) => (v === 'john' || v === 'matthew' ? v : null), 'john'),
   );
+  const [chapterIdx, setChapterIdx] = useState<number>(() => {
+    const bk = readStored<BookKey>('book', (v) => (v === 'john' || v === 'matthew' ? v : null), 'john');
+    return readStored('chapter', (v) => (Number(v) >= 0 && Number(v) < BOOKS[bk].length ? Number(v) : null), 0);
+  });
   const [showMap, setShowMap] = useState(false);
   const [mapFocus, setMapFocus] = useState<string | null>(null);
   const { clear } = useHighlight();
 
   const ui = UI[lang];
-  const chapter = BOOK[chapterIdx][lang];
+  const book = BOOKS[bookKey];
+  const chapter = book[chapterIdx][lang];
 
   const persist = (k: string, v: string) => {
     try {
@@ -122,16 +141,29 @@ function Study() {
     setLang(l);
     persist('lang', l);
   };
-  const goChapter = (i: number) => {
-    if (i < 0 || i >= BOOK.length) return;
+  const goChapter = (i: number, bk: BookKey = bookKey) => {
+    if (i < 0 || i >= BOOKS[bk].length) return;
+    if (bk !== bookKey) {
+      setBookKey(bk);
+      persist('book', bk);
+    }
     setChapterIdx(i);
     persist('chapter', String(i));
     clear();
     window.scrollTo({ top: 0 });
   };
+  const chooseBook = (bk: BookKey) => {
+    if (bk === bookKey) return;
+    setBookKey(bk);
+    persist('book', bk);
+    setChapterIdx(0);
+    persist('chapter', '0');
+    clear();
+    window.scrollTo({ top: 0 });
+  };
 
   const hasPrev = chapterIdx > 0;
-  const hasNext = chapterIdx < BOOK.length - 1;
+  const hasNext = chapterIdx < book.length - 1;
 
   return (
     <div className="page" lang={lang}>
@@ -141,6 +173,18 @@ function Study() {
             <div className="brand__headline">
               <h1>{ui.brandTitle}</h1>
               <div className="chapter-stepper">
+                <select
+                  className="bookselect"
+                  value={bookKey}
+                  aria-label={lang === 'sv' ? 'Bok' : 'Book'}
+                  onChange={(e) => chooseBook(e.target.value as BookKey)}
+                >
+                  {BOOK_KEYS.map((k) => (
+                    <option key={k} value={k}>
+                      {BOOK_NAMES[k][lang]}
+                    </option>
+                  ))}
+                </select>
                 <button
                   type="button"
                   className="chapter-stepper__btn"
@@ -200,7 +244,7 @@ function Study() {
 
       <main>
         <Reader
-          key={`${chapterIdx}-${lang}`}
+          key={`${bookKey}-${chapterIdx}-${lang}`}
           chapter={chapter}
           lang={lang}
           onOpenPlace={(id) => {
@@ -212,16 +256,16 @@ function Study() {
         <nav className="chapter-foot">
           {hasPrev ? (
             <button type="button" className="chapter-foot__btn" onClick={() => goChapter(chapterIdx - 1)}>
-              <span className="chapter-foot__dir">‹ {ui.chapterWord} {BOOK[chapterIdx - 1][lang].chapter}</span>
-              <span className="chapter-foot__title">{BOOK[chapterIdx - 1][lang].title}</span>
+              <span className="chapter-foot__dir">‹ {ui.chapterWord} {book[chapterIdx - 1][lang].chapter}</span>
+              <span className="chapter-foot__title">{book[chapterIdx - 1][lang].title}</span>
             </button>
           ) : (
             <span />
           )}
           {hasNext ? (
             <button type="button" className="chapter-foot__btn chapter-foot__btn--next" onClick={() => goChapter(chapterIdx + 1)}>
-              <span className="chapter-foot__dir">{ui.chapterWord} {BOOK[chapterIdx + 1][lang].chapter} ›</span>
-              <span className="chapter-foot__title">{BOOK[chapterIdx + 1][lang].title}</span>
+              <span className="chapter-foot__dir">{ui.chapterWord} {book[chapterIdx + 1][lang].chapter} ›</span>
+              <span className="chapter-foot__title">{book[chapterIdx + 1][lang].title}</span>
             </button>
           ) : (
             <span />
@@ -254,7 +298,7 @@ function Study() {
               onClose={() => setShowMap(false)}
               onGoChapter={(ch) => {
                 setShowMap(false);
-                goChapter(ch - 1);
+                goChapter(ch - 1, 'john'); // the map's chapter links are John's
               }}
             />
           </Suspense>

@@ -459,4 +459,20 @@ export const GLOSS_EN = {
   "ἐξετάζω": "to question, examine", "βόσκω": "to feed, tend", "ἀρνίον": "lamb", "ποιμαίνω": "to shepherd, tend",
   "προβάτιον": "sheep, little sheep", "νέος": "young", "ζωννύω": "to gird, dress", "γηράσκω": "to grow old",
   "ἐκτείνω": "to stretch out", "ἐπιστρέφω": "to turn around", "οἴομαι": "to suppose, think",
+
+  // ── Matthew ──
+  "βίβλος": "book, scroll", "γένεσις": "genesis, origin, birth", "Ἰσαάκ": "Isaac",
+  "Φάρες": "Perez", "Ζάρα": "Zerah", "Θαμάρ": "Tamar", "Ἑσρώμ": "Hezron", "Ἀράμ": "Aram",
+  "Ἀμιναδάβ": "Amminadab", "Ναασσών": "Nahshon", "Σαλμών": "Salmon", "Βόες": "Boaz",
+  "Ῥαχάβ": "Rahab", "Ἰωβήδ": "Obed", "Ῥούθ": "Ruth", "Ἰεσσαί": "Jesse", "Οὐρίας": "Uriah",
+  "Ῥοβοάμ": "Rehoboam", "Ἀβιά": "Abijah", "Ἀσάφ": "Asaph", "Ἰωσαφάτ": "Jehoshaphat",
+  "Ἰωράμ": "Joram", "Ὀζίας": "Uzziah", "Ἰωαθάμ": "Jotham", "Ἀχάζ": "Ahaz",
+  "Ἑζεκίας": "Hezekiah", "Μανασσῆ": "Manasseh", "Ἀμώς": "Amos", "Ἰωσίας": "Josiah",
+  "Ἰεχονίας": "Jechoniah", "μετοικεσία": "deportation, exile", "Βαβυλών": "Babylon",
+  "Σαλαθιήλ": "Shealtiel", "Ζοροβαβέλ": "Zerubbabel", "Ἀβιούδ": "Abiud", "Ἐλιακίμ": "Eliakim",
+  "Ἀζώρ": "Azor", "Σαδώκ": "Zadok", "Ἀχίμ": "Achim", "Ἐλιούδ": "Eliud", "Ἐλεάζαρ": "Eleazar",
+  "Ματθάν": "Matthan", "γενεά": "generation", "δεκατέσσαρες": "fourteen",
+  "μνηστεύω": "to betroth", "γαστήρ": "womb, belly", "δειγματίζω": "to expose publicly, disgrace",
+  "ἐνθυμέομαι": "to ponder, consider", "ὄναρ": "dream", "παρθένος": "virgin, maiden",
+  "Ἐμμανουήλ": "Immanuel", "προστάσσω": "to command, direct",
 };

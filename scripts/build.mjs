@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 11,
+    titles: { en: 'John Doubts, the Towns Shrug, and the Yoke Is Kind', sv: 'Johannes tvivlar, städerna rycker på axlarna, och oket är milt' },
+    summaries: {
+      en: 'The chapter this project was made for. From prison, the man who certified Jesus at the Jordan sends the doubter\'s question: **“Are you the one — or should we wait for another?”** The answer is Isaiah\'s checklist with one clause conspicuously omitted — *the opening of the prison* — and a beatitude aimed straight at the cell: *blessed is whoever is not scandalized by me*. Then the highest praise Jesus ever gives anyone, the untranslatable **violence verse**, and the children in the marketplace: John too grim, Jesus too festive — *a glutton and a drunkard* — the unpleasable audience exposed. Woes fall on towns whose miracles we never saw (**Chorazin**), Sodom ranked above Capernaum; and out of the wreckage, a prayer thanking the Father for hiding it all from the credentialed, the **Johannine thunderbolt** — and the gentlest sentence in the gospels: *come to me, all who labour… my yoke is kind, and my burden is light.*',
+      sv: 'Kapitlet detta projekt gjordes för. Från fängelset sänder mannen som intygade Jesus vid Jordan tvivlarens fråga: **”Är du den som ska komma — eller ska vi vänta på en annan?”** Svaret är Jesajas checklista med en sats påfallande utelämnad — *fängelsets öppnande* — och en saligprisning riktad rakt mot cellen: *salig är den som inte kommer på fall för min skull*. Sedan det högsta beröm Jesus någonsin ger någon, den oöversättliga **våldsversen**, och barnen på torget: Johannes för dyster, Jesus för festlig — *en frossare och vindrinkare* — den obehagbara publiken avslöjad. Verop faller över städer vars under vi aldrig fick se (**Korasin**), Sodom rankad över Kafarnaum; och ur vraket en bön som prisar Fadern för att allt dolts för de meriterade, den **johanneiska blixten** — och evangeliernas mildaste mening: *kom till mig, alla ni som arbetar… mitt ok är milt, och min börda är lätt.*',
+    },
+  },
+  {
     num: 10,
     titles: { en: 'The Twelve Sent: Sheep Among Wolves', sv: 'De tolv utsända: får bland vargar' },
     summaries: {

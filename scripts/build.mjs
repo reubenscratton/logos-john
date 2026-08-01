@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 23,
+    titles: { en: 'Seven Woes, and a Hen Gathering Her Chicks', sv: 'Sju verop, och en höna som samlar sina kycklingar' },
+    summaries: {
+      en: 'The fiercest chapter in the gospel — and it ends in tears. First the portrait: **heavy burdens** bound onto other shoulders, piety broadened into costume, and a countercommunity with its titles struck: *one is your Teacher, and you are all siblings*. Then seven prophetic **woes** — grief as much as denunciation: gatekeepers who lock the kingdom, proselytes made twice the sons of Gehenna, oath-casuistry, mint and dill tithed while **justice, mercy, faithfulness** go undone (*straining the gnat, swallowing the camel* — a pun in Aramaic), cups clean outside, **whitewashed tombs** — with an honest note on this chapter\'s bloody afterlife in Christian anti-Judaism, and its real target: whoever sits in the equivalent seats now. And then the thunder breaks into the gospel\'s tenderest image: a **hen gathering her chicks under her wings** — *how often I wanted… and you were not willing* — judgment as consent, not eagerness, and even the abandoned house left with an **until**.',
+      sv: 'Evangeliets hårdaste kapitel — och det slutar i tårar. Först porträttet: **tunga bördor** bundna på andras axlar, fromhet breddad till kostym, och en motgemenskap med titlarna strukna: *en är er Lärare, och ni är alla syskon*. Sedan sju profetiska **verop** — sorg lika mycket som fördömande: portvakter som låser riket, proselyter gjorda till dubbla Gehennas barn, edskasuistik, mynta och dill i tionde medan **rätt, barmhärtighet, trohet** lämnas ogjorda (*sila myggan, svälja kamelen* — en ordlek på arameiska), bägare rena utanpå, **vitkalkade gravar** — med en ärlig not om detta kapitels blodiga efterliv i kristen antijudaism, och dess verkliga måltavla: de som nu sitter på motsvarande stolar. Och så bryter åskan ut i evangeliets ömmaste bild: en **höna som samlar kycklingarna under vingarna** — *hur ofta har jag inte velat… och ni ville inte* — domen som samtycke, inte iver, och till och med det övergivna huset lämnat med ett **förrän**.',
+    },
+  },
+  {
     num: 22,
     titles: { en: 'The Banquet, the Coin, and the Greatest Commandment', sv: 'Banketten, myntet och det största budet' },
     summaries: {

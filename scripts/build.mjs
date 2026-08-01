@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 12,
+    titles: { en: 'Lord of the Sabbath, the Unforgivable Sin, and the Sign of Jonah', sv: 'Sabbatens herre, den oförlåtliga synden och Jonas tecken' },
+    summaries: {
+      en: 'Hungry disciples pluck grain and the Sabbath war begins: David\'s holy bread, working priests, **mercy not sacrifice** (Hosea quoted a second time), and two claims no rabbi made — *greater than the temple*, **lord of the Sabbath**. A sheep in a pit wins the argument; a healed hand triggers **the first death plot** in the gospel. Jesus withdraws into Isaiah\'s Servant Song: *a bruised reed he will not break, a smouldering wick he will not quench* — the charter of this whole project. Then the Beelzebul accusation and the sentence that has terrorized the anxious for centuries, read carefully in context: **the blasphemy against the Spirit** is a red line for the confident, not a trapdoor for the fearful — those who dread having committed it thereby prove they haven\'t. Sign-seekers get one sign only: **Jonah** — three days in the heart of the earth. A swept-but-empty house invites seven worse spirits; and *who is my mother?* founds a family anyone can join.',
+      sv: 'Hungriga lärjungar rycker ax och sabbatskriget börjar: Davids heliga bröd, arbetande präster, **barmhärtighet inte offer** (Hosea citerad en andra gång), och två anspråk ingen rabbin gjorde — *större än templet*, **sabbatens herre**. Ett får i en grop vinner argumentet; en helad hand utlöser **den första dödskomplotten** i evangeliet. Jesus drar sig undan in i Jesajas Tjänarsång: *ett knäckt strå ska han inte bryta, en rykande veke ska han inte släcka* — hela detta projekts stiftelseurkund. Sedan Beelsebul-anklagelsen och meningen som skrämt de ängsliga i århundraden, noggrant läst i sitt sammanhang: **hädelsen mot Anden** är en röd linje för de självsäkra, inte en fallucka för de rädda — den som fruktar att ha begått den bevisar därmed att den inte begåtts. Teckenkrävarna får ett enda tecken: **Jona** — tre dygn i jordens hjärta. Ett sopat men tomt hus bjuder in sju värre andar; och *vem är min mor?* grundar en familj vem som helst kan gå med i.',
+    },
+  },
+  {
     num: 11,
     titles: { en: 'John Doubts, the Towns Shrug, and the Yoke Is Kind', sv: 'Johannes tvivlar, städerna rycker på axlarna, och oket är milt' },
     summaries: {

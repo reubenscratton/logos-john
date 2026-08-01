@@ -615,4 +615,18 @@ export const GLOSS_EN = {
   "φορτίζω": "to load, burden", "ἀναπαύω": "to give rest", "ζυγός": "yoke",
   "ταπεινός": "lowly, humble", "ἀνάπαυσις": "rest", "χρηστός": "kind, good",
   "φορτίον": "burden, load", "ἐλαφρός": "light (in weight)",
+  // Matthew 12
+  "σπόριμος": "grainfield", "τίλλω": "to pluck", "στάχυς": "head of grain",
+  "πρόθεσις": "setting forth; (bread of) the Presence", "βεβηλόω": "to profane", "ἀναίτιος": "guiltless",
+  "καταδικάζω": "to condemn", "ἐμπίπτω": "to fall into", "βόθυνος": "pit",
+  "ἀποκαθιστάνω": "to restore", "συμβούλιον": "counsel, plot", "φανερός": "known, manifest",
+  "αἱρετίζω": "to choose", "ἐρίζω": "to quarrel", "λίνον": "wick, flax",
+  "τύφω": "to smoulder", "σβέννυμι": "to quench, extinguish", "νῖκος": "victory",
+  "ἐξίστημι": "to be amazed", "μερίζω": "to divide", "ἐρημόω": "to lay waste",
+  "φθάνω": "to arrive, come upon", "διαρπάζω": "to plunder", "περίσσευμα": "overflow, abundance",
+  "ἀργός": "idle, useless", "μοιχαλίς": "adulterous", "Ἰωνᾶς": "Jonah",
+  "κῆτος": "sea monster", "Νινευίτης": "Ninevite", "κήρυγμα": "proclamation",
+  "βασίλισσα": "queen", "νότος": "south", "πέρας": "end, limit",
+  "ἄνυδρος": "waterless", "ὅθεν": "from where", "σχολάζω": "to stand empty",
+  "σαρόω": "to sweep", "κοσμέω": "to adorn, decorate", "ἑπτά": "seven",
 };

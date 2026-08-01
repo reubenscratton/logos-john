@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 21,
+    titles: { en: 'Palm Sunday: the Donkey, the Tables, the Tenants', sv: 'Palmsöndagen: åsnan, borden, vinodlarna' },
+    summaries: {
+      en: 'The King arrives as staged Scripture: over the Mount of Olives, **gentle and on a donkey** (Zechariah\'s anti-war-horse), while the crowds shout a prayer worn into a cheer — *Hosanna*, ”save, now!” — and the whole city is **shaken**. In the temple the tables go over: Isaiah\'s *house of prayer* (”for all nations”) had become Jeremiah\'s **cave of brigands** — religion as safehouse — and when the sellers leave, the blind and lame come in and are healed. A leafy, fruitless fig tree withers as an acted parable of the same verdict. Challenged on authority, Jesus counters with John\'s baptism and springs two traps: the **two sons** — *tax collectors and prostitutes go ahead of you* — and the **wicked tenants**, Isaiah\'s vineyard song rotated one click, in which the priests grade the story\'s villains and thereby sentence themselves. *The stone the builders rejected has become the head of the corner.*',
+      sv: 'Kungen anländer som iscensatt Skrift: över Olivberget, **mild och på en åsna** (Sakarjas anti-stridshäst), medan skarorna ropar en bön nött till hyllning — *Hosianna*, ”rädda, nu!” — och hela staden **skakas**. I templet välts borden: Jesajas *bönens hus* (”för alla folk”) hade blivit Jeremias **rövarkula** — religionen som skyddsrum — och när säljarna går kommer de blinda och lama in och botas. Ett lövrikt, fruktlöst fikonträd vissnar som en agerad liknelse över samma dom. Utmanad om sin makt kontrar Jesus med Johannes dop och gillrar två fällor: **de två sönerna** — *tullindrivarna och skökorna går före er* — och **de onda vinodlarna**, Jesajas vingårdssång vriden ett snäpp, där prästerna betygsätter berättelsens skurkar och därmed dömer sig själva. *Stenen byggarna förkastade har blivit hörnsten.*',
+    },
+  },
+  {
     num: 20,
     titles: { en: 'The Eleventh Hour, the Cup, and the Ransom', sv: 'Elfte timmen, bägaren och lösensumman' },
     summaries: {

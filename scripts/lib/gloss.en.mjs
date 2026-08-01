@@ -717,4 +717,16 @@ export const GLOSS_EN = {
   "ἀγανακτέω": "to be indignant", "κατακυριεύω": "to lord it over", "κατεξουσιάζω": "to wield authority over",
   "λύτρον": "ransom", "Ἰεριχώ": "Jericho", "σιωπάω": "to be silent",
   "ὄμμα": "eye",
+  // Matthew 21
+  "Βηθφαγή": "Bethphage", "κατέναντι": "opposite", "ἐπιβαίνω": "to mount, ride on",
+  "ὑποζύγιον": "beast of burden", "συντάσσω": "to direct, order", "ἐπικαθίζω": "to sit on",
+  "στρωννύω": "to spread", "ὕψιστος": "highest", "σείω": "to shake",
+  "καταστρέφω": "to overturn", "καθέδρα": "seat, chair", "προσευχή": "prayer",
+  "θαυμάσιος": "wonderful thing", "θηλάζω": "to nurse, suckle", "αἶνος": "praise",
+  "αὐλίζομαι": "to spend the night", "ἐπανάγω": "to return", "φύλλον": "leaf",
+  "παραχρῆμα": "at once, immediately", "μεταμέλομαι": "to repent, change one's mind", "πόρνη": "prostitute",
+  "φραγμός": "fence, hedge", "ὀρύσσω": "to dig", "ληνός": "winepress",
+  "πύργος": "tower", "ἐκδίδωμι": "to lease out", "ἀποδημέω": "to go abroad",
+  "ἐντρέπω": "to respect", "κληρονόμος": "heir", "κληρονομία": "inheritance",
+  "ἀποδοκιμάζω": "to reject", "συνθλάω": "to break in pieces", "λικμάω": "to crush, scatter",
 };

@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 14,
+    titles: { en: 'Two Banquets: a Head on a Platter, Bread for Five Thousand', sv: 'Två banketter: ett huvud på ett fat, bröd åt fem tusen' },
+    summaries: {
+      en: 'Herod hears of Jesus and produces the gospel\'s strangest christology — *it\'s John, back from the dead*: **a tyrant\'s guilty arithmetic**. The flashback shows how power dines: a birthday, a dance, an oath, and the greatest man born of women beheaded as a party favour — one flat verb, no angel, **the prison door never opened**. Jesus hears and withdraws to grieve; the crowds get there first, and compassion cuts straight through the mourning: healings, then the desert banquet — *took, blessed, broke, gave* — five loaves, five thousand fed, twelve baskets over, **the answer to Herod\'s table**. That night he comes walking on the sea at the fourth watch: *take heart, **I am**, do not fear* — Job\'s God treads the waves. Peter climbs out, walks, sees the wind, sinks, and prays the shortest prayer in Scripture: **“Lord, save me”** — and the grip comes *before* the rebuke. The boat\'s verdict is the gospel\'s first human confession: *truly you are God\'s Son.*',
+      sv: 'Herodes hör om Jesus och producerar evangeliets märkligaste kristologi — *det är Johannes, tillbaka från de döda*: **en tyranns skuldtyngda aritmetik**. Tillbakablicken visar hur makten äter middag: en födelsedag, en dans, en ed, och den störste av kvinna född halshuggen som partytillbehör — ett enda platt verb, ingen ängel, **fängelsedörren öppnades aldrig**. Jesus hör det och drar sig undan för att sörja; skarorna hinner först, och medlidandet skär rakt genom sorgen: helanden, sedan öknens bankett — *tog, välsignade, bröt, gav* — fem bröd, fem tusen mättade, tolv korgar över, **svaret på Herodes bord**. Den natten kommer han gående på sjön i fjärde nattväkten: *var vid gott mod, **jag är**, frukta inte* — Jobs Gud går på vågorna. Petrus kliver ur, går, ser vinden, sjunker och ber Skriftens kortaste bön: **”Herre, rädda mig”** — och greppet kommer *före* tillrättavisningen. Båtens dom är evangeliets första mänskliga bekännelse: *sannerligen är du Guds Son.*',
+    },
+  },
+  {
     num: 13,
     titles: { en: 'The Parables: Sower, Weeds, Treasure, Pearl', sv: 'Liknelserna: såningsmannen, ogräset, skatten, pärlan' },
     summaries: {

@@ -650,4 +650,13 @@ export const GLOSS_EN = {
   "ἄγγος": "vessel", "ἀφορίζω": "to separate", "μαθητεύω": "to disciple, make a disciple",
   "μεταίρω": "to move on", "τέκτων": "carpenter, builder", "ἄτιμος": "without honour",
   "ἀπιστία": "unbelief",
+  // Matthew 14
+  "τετραάρχης": "tetrarch", "ἐνεργέω": "to be at work", "ἀποτίθημι": "to put away",
+  "Ἡρῳδιάς": "Herodias", "γενέσια": "birthday celebration", "ἀρέσκω": "to please",
+  "προβιβάζω": "to prompt, urge forward", "πίναξ": "platter", "ἀποκεφαλίζω": "to behead",
+  "πτῶμα": "corpse", "πεζῇ": "on foot", "ἄρρωστος": "sick, ill",
+  "κλάω": "to break", "ἀναγκάζω": "to compel, make", "ἐναντίος": "against, contrary",
+  "τέταρτος": "fourth", "φάντασμα": "ghost, apparition", "καταποντίζω": "to sink",
+  "ἐπιλαμβάνομαι": "to take hold of", "διστάζω": "to doubt, waver", "κοπάζω": "to drop, cease",
+  "Γεννησαρέτ": "Gennesaret", "διασῴζω": "to bring safely through",
 };

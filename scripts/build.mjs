@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 10,
+    titles: { en: 'The Twelve Sent: Sheep Among Wolves', sv: 'De tolv utsända: får bland vargar' },
+    summaries: {
+      en: 'The Twelve get names — a founder-list kept unairbrushed: **Matthew the tax collector** (only this gospel keeps the epithet), Simon the *zealot* beside him, and Judas last, epitaph and all. The mission travels light: **freely you received, freely give** — no gold, no bag, and the moment the gospel becomes a revenue stream it has stopped being the gospel. Then the weather report: *sheep among wolves* — be **serpent-shrewd and dove-innocent**; floggings, governors, divided households. The hard verse about the towns of Israel is left standing, teeth and all. Fear is dismantled from the bottom up: the sparrow still falls, but never **without your Father**; your hairs are numbered. *Not peace but a sword* — a blade his coming provokes, never one his followers wield. And after demanding everything, the chapter ends at the smallest scale that still counts: **a cup of cold water**, guaranteed never to lose its reward.',
+      sv: 'De tolv får namn — en grundarlista utan retusch: **Matteus tullindrivaren** (bara detta evangelium behåller tillnamnet), Simon *seloten* bredvid honom, och Judas sist, med gravskrift och allt. Missionen reser lätt: **för intet har ni fått, för intet ska ni ge** — inget guld, ingen väska, och i det ögonblick evangeliet blir en intäktskälla har det upphört att vara evangelium. Sedan väderrapporten: *får bland vargar* — var **ormkloka och duvorena**; gisslingar, ståthållare, splittrade hushåll. Den svåra versen om Israels städer får stå kvar, med tänder och allt. Fruktan monteras ner nedifrån: sparven faller ändå, men aldrig **utan er Fader**; era hårstrån är räknade. *Inte frid utan svärd* — en klinga hans ankomst framkallar, aldrig en hans efterföljare svingar. Och efter att ha begärt allt slutar kapitlet i minsta skala som ändå räknas: **en bägare kallt vatten**, garanterad att aldrig mista sin lön.',
+    },
+  },
+  {
     num: 9,
     titles: { en: 'Forgiveness Proved, a Tax Collector Called, a Girl Raised', sv: 'Förlåtelse bevisad, en tullindrivare kallad, en flicka uppväckt' },
     summaries: {

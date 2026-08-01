@@ -587,4 +587,17 @@ export const GLOSS_EN = {
   "διαφημίζω": "to spread abroad", "κωφός": "mute, deaf", "σπλαγχνίζομαι": "to be moved with compassion",
   "σκύλλω": "to harass, weary", "ῥίπτω": "to throw down, cast", "ἐργάτης": "worker, labourer",
   "δέομαι": "to beg, plead",
+  // Matthew 10
+  "προσκαλέω": "to call to oneself", "ἀκάθαρτος": "unclean", "Βαρθολομαῖος": "Bartholomew",
+  "Ἁλφαῖος": "Alphaeus", "Θαδδαῖος": "Thaddaeus", "Καναναῖος": "Cananaean, zealot",
+  "παραγγέλλω": "to instruct, command", "κτάομαι": "to acquire, get", "ἄργυρος": "silver",
+  "χαλκός": "copper, bronze", "πήρα": "bag, knapsack", "ῥάβδος": "staff",
+  "ἐκτινάσσω": "to shake off", "κονιορτός": "dust", "ἀνεκτός": "bearable, tolerable",
+  "Σόδομα": "Sodom", "Γόμορρα": "Gomorrah", "ἀκέραιος": "innocent, unmixed",
+  "ἐπανίστημι": "to rise up against", "θανατόω": "to put to death", "ὑπομένω": "to endure",
+  "οἰκοδεσπότης": "master of the house", "Βεελζεβούλ": "Beelzebul", "ἐπικαλέω": "to call, name",
+  "οἰκιακός": "member of a household", "οὖς": "ear", "δῶμα": "housetop, roof",
+  "στρουθίον": "sparrow", "ἀσσάριον": "assarion (small coin)", "ἄνευ": "without",
+  "ἀριθμέω": "to number, count", "διχάζω": "to divide, set against", "ποτίζω": "to give to drink",
+  "ψυχρός": "cold",
 };

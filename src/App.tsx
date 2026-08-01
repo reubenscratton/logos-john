@@ -47,6 +47,8 @@ import { john21 } from './data/john21';
 import { john21Sv } from './data/john21.sv';
 import { matt1 } from './data/matt1';
 import { matt1Sv } from './data/matt1.sv';
+import { matt2 } from './data/matt2';
+import { matt2Sv } from './data/matt2.sv';
 import { UI, type Lang } from './data/ui';
 import type { Chapter } from './data/types';
 import './App.css';
@@ -79,7 +81,10 @@ const JOHN: { en: Chapter; sv: Chapter }[] = [
 // The library: each gospel in reading order. Matthew is in progress.
 type BookKey = 'john' | 'matthew';
 const BOOKS: Record<BookKey, { en: Chapter; sv: Chapter }[]> = {
-  matthew: [{ en: matt1, sv: matt1Sv }],
+  matthew: [
+    { en: matt1, sv: matt1Sv },
+    { en: matt2, sv: matt2Sv },
+  ],
   john: JOHN,
 };
 const BOOK_KEYS: BookKey[] = ['matthew', 'john'];

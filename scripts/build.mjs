@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 2,
+    titles: { en: 'The Magi, the Flight, and the Massacre', sv: 'Magierna, flykten och barnamorden' },
+    summaries: {
+      en: 'Pagan star-readers from the east arrive asking where the **newborn king of the Jews** is — and Jerusalem\'s experts, who can cite the prophecy, do not move. The magi follow the star to a *house* in Bethlehem, worship the child, and offer **gold, frankincense, and myrrh**; warned in a dream, they go home by another road. Joseph flees with the child and his mother to **Egypt** — *"out of Egypt I called my son"* — while Herod, outwitted, kills the boys of Bethlehem, and **Rachel weeps** with a grief the quotation leaves unconsoled. When Herod dies the family returns, avoiding Archelaus, and settles in **Nazareth**: *he shall be called a Nazarene.*',
+      sv: 'Hedniska stjärntydare från östern kommer och frågar var **judarnas nyfödde kung** är — och Jerusalems experter, som kan citera profetian, rör sig inte. Magierna följer stjärnan till ett *hus* i Betlehem, tillber barnet och bär fram **guld, rökelse och myrra**; varnade i en dröm far de hem en annan väg. Josef flyr med barnet och dess mor till **Egypten** — *"ut ur Egypten kallade jag min son"* — medan Herodes, gäckad, dödar Betlehems gossar, och **Rakel gråter** en sorg som citatet lämnar otröstad. När Herodes dör vänder familjen åter, undviker Arkelaus och bosätter sig i **Nasaret**: *han ska kallas nasaré.*',
+    },
+  },
+  {
     num: 1,
     titles: { en: 'The Genealogy, and the Birth of Jesus', sv: 'Släkttavlan och Jesu födelse' },
     summaries: {

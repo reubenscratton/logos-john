@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 15,
+    titles: { en: 'Clean Hands, a Far Heart — and the Woman Who Won', sv: 'Rena händer, ett fjärran hjärta — och kvinnan som vann' },
+    summaries: {
+      en: 'Jerusalem\'s inspectors arrive with a hygiene complaint and get an audit in return: the **Corban loophole** — piety engineered to void the fifth commandment — and Isaiah\'s verdict, *lips near, heart far*. Then the sentence that rewired the ancient world: **it is not what enters the mouth that defiles** — contamination flows *outward*, from the heart, which is why quarantine never cures and every purity project aimed at outsiders is aimed at the wrong door. Jesus then walks straight into unclean territory and meets the gospel\'s hardest scene: a Canaanite mother met with silence, refusal, and *the dogs* — who takes the metaphor and **wins the argument**, the only person in Scripture to do it: *even the dogs eat the crumbs*. Great faith: found twice now, both times in outsiders. The chapter closes on gentile hills — crowds glorifying *the God of Israel*, four thousand fed, **seven baskets** — the crumbs she asked for, scaled to a banquet.',
+      sv: 'Jerusalems inspektörer anländer med ett hygienklagomål och får en revision tillbaka: **korban-kryphålet** — fromhet konstruerad att upphäva femte budet — och Jesajas dom, *läppar nära, hjärta fjärran*. Sedan meningen som kopplade om den antika världen: **det är inte det som går in i munnen som orenar** — föroreningen flödar *utåt*, från hjärtat, och därför botar karantän aldrig, och varje renhetsprojekt riktat mot utomstående siktar på fel dörr. Jesus går därpå rakt in på orent territorium och möter evangeliets svåraste scen: en kananeisk mor bemött med tystnad, avslag och *hundarna* — som tar metaforen och **vinner argumentet**, den enda i Skriften som gör det: *också hundvalparna äter smulorna*. Stor tro: nu funnen två gånger, båda hos utomstående. Kapitlet slutar på hedniska höjder — skaror som prisar *Israels Gud*, fyra tusen mättade, **sju korgar** — smulorna hon bad om, uppskalade till bankett.',
+    },
+  },
+  {
     num: 14,
     titles: { en: 'Two Banquets: a Head on a Platter, Bread for Five Thousand', sv: 'Två banketter: ett huvud på ett fat, bröd åt fem tusen' },
     summaries: {

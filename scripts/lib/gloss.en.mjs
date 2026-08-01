@@ -659,4 +659,18 @@ export const GLOSS_EN = {
   "τέταρτος": "fourth", "φάντασμα": "ghost, apparition", "καταποντίζω": "to sink",
   "ἐπιλαμβάνομαι": "to take hold of", "διστάζω": "to doubt, waver", "κοπάζω": "to drop, cease",
   "Γεννησαρέτ": "Gennesaret", "διασῴζω": "to bring safely through",
+  // Matthew 15
+  "παραβαίνω": "to transgress", "παράδοσις": "tradition", "κακολογέω": "to speak evil of",
+  "ἀκυρόω": "to void, annul", "χεῖλος": "lip", "πόρρω": "far away",
+  "μάτην": "in vain", "σέβω": "to worship", "διδασκαλία": "teaching",
+  "ἔνταλμα": "commandment, precept", "κοινόω": "to defile, make common", "φυτεία": "plant",
+  "φυτεύω": "to plant", "ὁδηγός": "guide", "φράζω": "to explain",
+  "ἀκμήν": "still, even now", "ἀσύνετος": "without understanding", "εἰσπορεύομαι": "to enter",
+  "ἀφεδρών": "latrine", "διαλογισμός": "design, reasoning", "φόνος": "murder",
+  "κλοπή": "theft", "ψευδομαρτυρία": "false testimony", "ἄνιπτος": "unwashed",
+  "Χαναναῖος": "Canaanite", "βοηθέω": "to help", "κυνάριον": "little dog, house-dog",
+  "ψιχίον": "crumb", "ὦ": "O", "κυλλός": "maimed, crippled",
+  "προσμένω": "to stay with, remain", "νῆστις": "fasting, hungry", "ἐκλύω": "to collapse, give out",
+  "ἐρημία": "desert, wilderness", "ἰχθύδιον": "small fish", "σπυρίς": "basket, hamper",
+  "τετρακισχίλιοι": "four thousand", "Μαγαδάν": "Magadan",
 };

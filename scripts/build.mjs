@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 7,
+    titles: { en: 'The Sermon on the Mount III: Two Roads, Two Houses', sv: 'Bergspredikan III: Två vägar, två hus' },
+    summaries: {
+      en: 'The Sermon closes with a volley of endings. **Judge not** — the log in your own eye first; keep **asking, seeking, knocking**, for the Father does not hand his children stones; and *everything you want done for you, do* — for **this is the law and the prophets**. Then the partings: the narrow gate against the broad road; wolves in wool, tested **by their fruits**; and the chilling *“Lord, Lord… I never knew you”* — religion itself as the last disguise. Finally two builders, one storm: whoever **hears these words and does them** builds on rock. The crowds are astonished: he teaches *as one having authority*.',
+      sv: 'Bergspredikan sluter med en salva av slut. **Döm inte** — bjälken i ditt eget öga först; fortsätt **be, sök, bulta**, ty Fadern räcker inte sina barn stenar; och *allt ni vill att människorna ska göra er, gör dem* — ty **detta är lagen och profeterna**. Sedan vägskälen: den trånga porten mot den breda vägen; vargar i ull, prövade **av deras frukt**; och det isande *”Herre, Herre… jag har aldrig känt er”* — religionen själv som sista förklädnad. Till sist två byggare, en storm: den som **hör dessa ord och gör dem** bygger på klippan. Skarorna häpnar: han undervisar *som en som har makt*.',
+    },
+  },
+  {
     num: 6,
     titles: { en: 'The Sermon on the Mount II: In Secret, and Without Anxiety', sv: 'Bergspredikan II: I det fördolda, och utan bekymmer' },
     summaries: {

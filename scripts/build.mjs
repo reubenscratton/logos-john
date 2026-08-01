@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 6,
+    titles: { en: 'The Sermon on the Mount II: In Secret, and Without Anxiety', sv: 'Bergspredikan II: I det fördolda, och utan bekymmer' },
+    summaries: {
+      en: 'Three practices, one warning: alms, prayer, and fasting done **for spectators** are theatre, and the applause is the whole wage — *your Father who sees in secret will repay you*. At the centre stands the **Our Father**: fifty-seven words, plural from the first, with an untranslatable word at its heart and no doxology in the oldest text. Then the ledger widens: treasures where **moth and rust consume**, the impossibility of serving **God and Mammon**, and the great passage on anxiety — *look at the birds… study the lilies*. Seek first the kingdom; **tomorrow can be anxious for itself.**',
+      sv: 'Tre bruk, en varning: allmosor, bön och fasta inför **åskådare** är teater, och applåderna är hela gaget — *din Fader som ser i det fördolda ska vedergälla dig*. I mitten står **Vår Fader**: femtiosju ord, plural från det första, med ett oöversättbart ord i sitt hjärta och utan doxologi i den äldsta texten. Sedan vidgas bokföringen: skatter där **mal och rost förtär**, omöjligheten att tjäna **Gud och Mammon**, och det stora stycket om bekymmer — *se på fåglarna… betrakta liljorna*. Sök först riket; **morgondagen får bekymra sig om sitt.**',
+    },
+  },
+  {
     num: 5,
     titles: { en: 'The Sermon on the Mount I: Blessed, Salt, and “But I Say”', sv: 'Bergspredikan I: Saliga, salt och ”men jag säger”' },
     summaries: {

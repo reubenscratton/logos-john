@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 13,
+    titles: { en: 'The Parables: Sower, Weeds, Treasure, Pearl', sv: 'Liknelserna: såningsmannen, ogräset, skatten, pärlan' },
+    summaries: {
+      en: 'Jesus gets into a boat and says everything in stories. A sower scatters seed with scandalous indiscriminateness — path, rock, thorns, good soil — and the parable\'s only free variable is the hearer. The hard question *why parables?* gets an honest treatment: Matthew\'s **because** against Mark\'s troubling *so that*, and a form of speech that survives its own rejection. The thorn-death is the quiet one — **anxiety and the deceit of wealth**, a faith not killed but crowded out. The weeds among the wheat answer both the inquisitor and the sufferer: *let both grow* — premature judgement kills wheat. Mustard seed and hidden leaven mock the kingdom\'s embarrassing size; **treasure and pearl** put joy in charge of the selling; the net gathers every kind. And at Nazareth the chapter lands: the carpenter\'s son, every fact correct, every fact insulation — *he did not do many mighty works there, because of their unbelief.*',
+      sv: 'Jesus stiger i en båt och säger allt i berättelser. En såningsman strör säd med skandalös urskillningslöshet — stig, sten, törnen, god jord — och liknelsens enda fria variabel är höraren. Den svåra frågan *varför liknelser?* får en ärlig behandling: Matteus **eftersom** mot Markus plågsamma *för att*, och en talform som överlever sitt eget förkastande. Törnedöden är den tysta — **bekymren och rikedomens svek**, en tro inte dödad utan utträngd. Ogräset i vetet svarar både inkvisitorn och den lidande: *låt båda växa* — förhastad dom dödar vete. Senapskorn och gömd surdeg driver med rikets pinsamma storlek; **skatten och pärlan** sätter glädjen vid försäljningsdisken; noten samlar av alla slag. Och i Nasaret landar kapitlet: snickarens son, varje faktum korrekt, varje faktum isolering — *han gjorde inte många kraftgärningar där, för deras otros skull.*',
+    },
+  },
+  {
     num: 12,
     titles: { en: 'Lord of the Sabbath, the Unforgivable Sin, and the Sign of Jonah', sv: 'Sabbatens herre, den oförlåtliga synden och Jonas tecken' },
     summaries: {

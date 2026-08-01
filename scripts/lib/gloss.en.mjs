@@ -729,4 +729,14 @@ export const GLOSS_EN = {
   "πύργος": "tower", "ἐκδίδωμι": "to lease out", "ἀποδημέω": "to go abroad",
   "ἐντρέπω": "to respect", "κληρονόμος": "heir", "κληρονομία": "inheritance",
   "ἀποδοκιμάζω": "to reject", "συνθλάω": "to break in pieces", "λικμάω": "to crush, scatter",
+  // Matthew 22
+  "ἄριστον": "dinner, feast", "ταῦρος": "bull", "σιτιστός": "fatling, fattened animal",
+  "ἀμελέω": "to pay no attention", "ἐμπορία": "business, trade", "λοιπός": "the rest",
+  "ὑβρίζω": "to abuse, insult", "στράτευμα": "army", "φονεύς": "murderer",
+  "ἐμπίπρημι": "to burn", "διέξοδος": "crossroads", "πίμπλημι": "to fill",
+  "φιμόω": "to silence, muzzle", "κλητός": "called, invited", "ἐκλεκτός": "chosen",
+  "παγιδεύω": "to trap, ensnare", "Ἡρῳδιανοί": "Herodians", "πονηρία": "malice, wickedness",
+  "νόμισμα": "coin", "εἰκών": "image", "ἐπιγραφή": "inscription",
+  "ἐπιγαμβρεύω": "to marry (as next of kin)", "γαμίζω": "to give in marriage", "νομικός": "lawyer",
+  "διάνοια": "mind, understanding",
 };

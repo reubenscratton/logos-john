@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 22,
+    titles: { en: 'The Banquet, the Coin, and the Greatest Commandment', sv: 'Banketten, myntet och det största budet' },
+    summaries: {
+      en: 'A royal wedding refused by the invited — not from hostility but *schedule* — fills instead with everyone the servants can find, **evil and good alike**; yet the free feast still has a garment, and *many are called, few chosen* is arithmetic of response, not machinery of fate. Then three ambushes in one afternoon. The tax trap dies on a question: *whose **image**?* — Caesar keeps his metal; what bears God\'s image is you. The Sadducees\' seven-husband reductio breaks on a present-tense verb: *I **AM** the God of Abraham* — God does not introduce himself by dead men\'s names. The lawyer\'s test yields the two commandments on which **everything hangs** — with the mind explicitly drafted into loving God. And then Jesus\' own question — *David\'s son, whom David calls Lord?* — which no one could answer, and after which no one dared ask anything more.',
+      sv: 'Ett kungligt bröllop avböjt av de inbjudna — inte av fientlighet utan av *kalendern* — fylls i stället av alla tjänarna kan finna, **onda och goda om vartannat**; ändå har den fria festen en dräkt, och *många är kallade, få utvalda* är gensvarets aritmetik, inte ödets maskineri. Sedan tre bakhåll på en eftermiddag. Skattefällan dör på en fråga: *vems **bild**?* — kejsaren behåller sin metall; det som bär Guds bild är du. Saddukeernas sjumans-reductio bryts mot ett presensverb: *jag **ÄR** Abrahams Gud* — Gud presenterar sig inte med döda mäns namn. Den laglärdes prov ger de två bud på vilka **allting hänger** — med förståndet uttryckligen inkallat i kärleken till Gud. Och till sist Jesu egen fråga — *Davids son, som David kallar Herre?* — som ingen kunde besvara, och efter vilken ingen vågade fråga något mer.',
+    },
+  },
+  {
     num: 21,
     titles: { en: 'Palm Sunday: the Donkey, the Tables, the Tenants', sv: 'Palmsöndagen: åsnan, borden, vinodlarna' },
     summaries: {

@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 3,
+    titles: { en: 'The Baptist, and the Baptism', sv: 'Döparen, och dopet' },
+    summaries: {
+      en: 'John the Baptist appears in the wilderness — camel hair, locusts, and the cry **“Turn around: the kingdom of the heavens has drawn near.”** Crowds stream to the Jordan; to the Pharisees and Sadducees he is all fire: *brood of vipers*, the axe at the root, wheat and **chaff**. One mightier is coming, whose sandals John is unworthy to carry. Then Jesus arrives from Galilee — to be baptized. John protests (**“I need to be baptized by you”**), and Jesus answers: *“so it is fitting for us to fulfil all righteousness.”* He goes down into the water where the sinners stand; the heavens open, the **Spirit descends like a dove**, and a voice: **“This is my Son, the beloved, in whom I delight.”**',
+      sv: 'Johannes Döparen träder fram i öknen — kamelhår, gräshoppor, och ropet **”Vänd om: himlarnas rike har kommit nära.”** Skarorna strömmar till Jordan; mot fariseerna och saddukeerna är han idel eld: *huggormsyngel*, yxan vid roten, vete och **agnar**. En starkare kommer, vars sandaler Johannes inte är värdig att bära. Då kommer Jesus från Galileen — för att döpas. Johannes protesterar (**”Jag behöver döpas av dig”**), och Jesus svarar: *”så bör vi fullborda all rättfärdighet.”* Han går ner i vattnet där syndarna står; himlarna öppnas, **Anden sänker sig som en duva**, och en röst: **”Denne är min Son, den älskade, i vilken jag har min glädje.”**',
+    },
+  },
+  {
     num: 2,
     titles: { en: 'The Magi, the Flight, and the Massacre', sv: 'Magierna, flykten och barnamorden' },
     summaries: {

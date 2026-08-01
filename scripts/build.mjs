@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 5,
+    titles: { en: 'The Sermon on the Mount I: Blessed, Salt, and “But I Say”', sv: 'Bergspredikan I: Saliga, salt och ”men jag säger”' },
+    summaries: {
+      en: 'Jesus goes up the mountain, sits, and congratulates all the wrong people: **blessed** are the poor in spirit, the mourning, the meek, the persecuted — theirs, *now*, is the kingdom. His hearers are **salt** and **light**, and the law is not being demolished but *filled full* — not one iota. Then six times the same audacious swing: *“You have heard it was said… but I say to you”* — from murder down to contempt, adultery down to the acquisitive gaze, oaths down to a plain yes; the slapped cheek turned, the second mile walked, and the crescendo: **love your enemies**, for your Father\'s sun rises on evil and good alike. *Be whole, as your heavenly Father is whole.*',
+      sv: 'Jesus går upp på berget, sätter sig, och gratulerar alla fel människor: **saliga** är de i anden fattiga, de sörjande, de ödmjuka, de förföljda — deras, *nu*, är riket. Hans åhörare är **salt** och **ljus**, och lagen rivs inte utan *fylls full* — inte en jota. Sedan sex gånger samma djärva sving: *”Ni har hört att det sades… men jag säger er”* — från mordet ner till föraktet, äktenskapsbrottet ner till den ägande blicken, ederna ner till ett enkelt ja; den slagna kinden vänd, den andra milen gången, och crescendot: **älska era fiender**, ty er Faders sol går upp över onda och goda. *Var hela, som er himmelske Fader är hel.*',
+    },
+  },
+  {
     num: 4,
     titles: { en: 'The Test in the Wilderness, and the First Followers', sv: 'Provet i öknen, och de första efterföljarna' },
     summaries: {

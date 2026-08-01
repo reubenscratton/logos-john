@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 16,
+    titles: { en: 'Caesarea Philippi: the Confession, the Rock, the Cross', sv: 'Caesarea Filippi: bekännelsen, klippan, korset' },
+    summaries: {
+      en: 'Weather-wise and time-blind, the examiners get Jonah again. Then the hinge of the whole gospel, staged at a pagan shrine city with the reputed gate of the underworld in view: **“But you — who do you say I am?”** Peter\'s confession earns the pun that split the church — *you are **Petros**, and on this **petra*** — the first ἐκκλησία in any gospel, keys, and gates of Hades that turn out to be the *besieged* party. Then the whiplash no one saw coming: the first passion prediction, Peter\'s loving rebuke, and **“Get behind me, Satan”** — rock to stumbling-stone in five verses, same stone, wrong position. What follows prices discipleship in pre-jewellery currency: **take up your cross** — come as one already condemned — and the exchange question no one can answer: *what will a man give for his life?* The chapter closes on the second hard clock, translated straight and left standing.',
+      sv: 'Vädervisa och tidsblinda får examinatorerna Jona igen. Sedan hela evangeliets gångjärn, iscensatt i en hednisk helgedomsstad med underjordens ryktbara port i blickfånget: **”Men ni — vem säger ni att jag är?”** Petrus bekännelse förtjänar ordleken som klöv kyrkan — *du är **Petros**, och på denna **petra*** — det första ἐκκλησία i något evangelium, nycklar, och Hades portar som visar sig vara den *belägrade* parten. Sedan kastet ingen såg komma: den första lidandesförutsägelsen, Petrus kärleksfulla tillrättavisning, och **”Gå bakom mig, Satan”** — klippa till stötesten på fem verser, samma sten, fel position. Det som följer prissätter lärjungaskapet i försmyckesvaluta: **ta upp ditt kors** — kom som en redan dömd — och bytesfrågan ingen kan besvara: *vad ska en människa ge för sitt liv?* Kapitlet slutar med den andra svåra klockan, rakt översatt och kvarlämnad stående.',
+    },
+  },
+  {
     num: 15,
     titles: { en: 'Clean Hands, a Far Heart — and the Woman Who Won', sv: 'Rena händer, ett fjärran hjärta — och kvinnan som vann' },
     summaries: {

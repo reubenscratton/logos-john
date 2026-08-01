@@ -673,4 +673,12 @@ export const GLOSS_EN = {
   "προσμένω": "to stay with, remain", "νῆστις": "fasting, hungry", "ἐκλύω": "to collapse, give out",
   "ἐρημία": "desert, wilderness", "ἰχθύδιον": "small fish", "σπυρίς": "basket, hamper",
   "τετρακισχίλιοι": "four thousand", "Μαγαδάν": "Magadan",
+  // Matthew 16
+  "ἐπιδείκνυμι": "to show, display", "εὐδία": "fair weather", "πυρράζω": "to be red",
+  "στυγνάζω": "to be lowering, gloomy", "διακρίνω": "to discern", "ἐπιλανθάνομαι": "to forget",
+  "διαλογίζομαι": "to reason, discuss", "Καισάρεια": "Caesarea", "Βαριωνᾶ": "Bar-Jonah",
+  "ἐκκλησία": "church, assembly", "κατισχύω": "to prevail against", "κλείς": "key",
+  "πάσχω": "to suffer", "προσλαμβάνω": "to take aside", "ἵλεως": "merciful; far be it",
+  "φρονέω": "to be minded, think", "ἀπαρνέομαι": "to deny", "κερδαίνω": "to gain",
+  "ζημιόω": "to forfeit, lose", "ἀντάλλαγμα": "exchange, price", "πρᾶξις": "deed, practice",
 };

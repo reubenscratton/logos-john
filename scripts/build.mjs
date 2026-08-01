@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 18,
+    titles: { en: 'The Child, the Millstone, and Seventy Times Seven', sv: 'Barnet, kvarnstenen och sjuttio gånger sju' },
+    summaries: {
+      en: 'The disciples ask who is greatest and get a living visual aid: a **child in the midst** — zero status, unembarrassed dependence — with the conversion demanded being from the question itself. Then the fiercest sentence Jesus ever spoke: the **donkey-millstone** for whoever damages a little one — and their angels see the Father\'s face. The shepherd leaves the ninety-nine for the one who *strayed*. The four-step reconciliation protocol follows — alone first, the goal to *win your brother* — with **“where two or three are gathered”** promised to that unglamorous room, not just the prayer meeting. Peter offers seven forgivenesses and gets **seventy times seven**: Lamech\'s revenge song from Genesis 4, repealed by direct citation. And the unforgiving servant runs the arithmetic: ten thousand talents forgiven, a hundred denarii choked out of a colleague — the pardon revoked, and the last phrase closing every loophole: *from your hearts*.',
+      sv: 'Lärjungarna frågar vem som är störst och får ett levande åskådningsexempel: ett **barn i mitten** — nollstatus, ogenerad beroendeställning — där den begärda omvändelsen gäller själva frågan. Sedan den hårdaste mening Jesus någonsin uttalade: **åsnekvarnstenen** för den som skadar en av de små — och deras änglar ser Faderns ansikte. Herden lämnar de nittionio för det enda som *gått vilse*. Fyrstegsprotokollet för försoning följer — ensam först, målet att *vinna din bror* — där **”där två eller tre är samlade”** utlovas åt just det oglamorösa rummet, inte bara bönemötet. Petrus erbjuder sju förlåtelser och får **sjuttio gånger sju**: Lemeks hämndsång ur 1 Mos 4, upphävd genom direkt citering. Och den obarmhärtige tjänaren räknar ut aritmetiken: tio tusen talenter efterskänkta, hundra denarer strypta ur en kollega — benådningen återkallad, och slutfrasen som stänger varje kryphål: *av era hjärtan*.',
+    },
+  },
+  {
     num: 17,
     titles: { en: 'The Transfiguration, the Boy the Disciples Failed, the Coin in the Fish', sv: 'Förklaringen, pojken lärjungarna misslyckades med, myntet i fisken' },
     summaries: {

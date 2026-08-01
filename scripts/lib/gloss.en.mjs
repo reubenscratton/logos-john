@@ -689,4 +689,15 @@ export const GLOSS_EN = {
   "ἀδυνατέω": "to be impossible", "συστρέφω": "to gather", "δίδραχμον": "double-drachma (temple tax)",
   "προφθάνω": "to anticipate, speak first", "κῆνσος": "tax, tribute", "ἄγκιστρον": "fish-hook",
   "στατήρ": "stater (coin)",
+  // Matthew 18
+  "ἆρα": "then, so", "ταπεινόω": "to lower, humble", "κρεμάννυμι": "to hang",
+  "μύλος": "millstone", "ὀνικός": "of a donkey", "τράχηλος": "neck",
+  "πέλαγος": "open sea, depth", "ἀνάγκη": "necessity", "μονόφθαλμος": "one-eyed",
+  "ἐνενήκοντα": "ninety", "ἐννέα": "nine", "μάρτυς": "witness",
+  "παρακούω": "to refuse to hear", "συμφωνέω": "to agree", "πρᾶγμα": "matter, thing",
+  "ποσάκις": "how often", "ἑπτάκις": "seven times", "ἑβδομηκοντάκις": "seventy times",
+  "συναίρω": "to settle (accounts)", "προσάγω": "to bring to", "μύριοι": "ten thousand, countless",
+  "τάλαντον": "talent (large sum)", "μακροθυμέω": "to be patient", "δάνειον": "loan, debt",
+  "σύνδουλος": "fellow slave", "πνίγω": "to choke", "ὀφειλή": "debt",
+  "βασανιστής": "torturer, jailer",
 };

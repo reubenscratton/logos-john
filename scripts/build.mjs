@@ -249,6 +249,14 @@ function validate(chNum, greek, content) {
 
 const MATT_CHAPTERS = [
   {
+    num: 20,
+    titles: { en: 'The Eleventh Hour, the Cup, and the Ransom', sv: 'Elfte timmen, bägaren och lösensumman' },
+    summaries: {
+      en: 'A landowner pays the eleventh-hour men — *“no one hired us”* — a full day\'s wage, **what their children need rather than what their hours earned**, and pays them first so the twelve-hour men must watch: *is your eye evil because I am good?* Grace offends the payroll. Then the third and most detailed passion prediction — mock, flog, **crucify** — answered instantly by a mother\'s request for thrones: *you don\'t know what you\'re asking*; the seats at right and left will go to two crucified robbers, and **the cup** is promised to the brothers as both honour and sentence. The indignant ten receive the constitution of power: *not so among you* — greatness is the table-waiter, and the Son of Man came **to give his life as a ransom for many** — the gospel\'s own one-line theory of the cross. At Jericho, the same question asked of the ambitious goes to two blind men — who ask to see, receive it, and use their new eyes to follow him up the road to Jerusalem.',
+      sv: 'En jordägare betalar elfte timmens män — *”ingen har lejt oss”* — full dagslön, **vad deras barn behöver i stället för vad deras timmar tjänat**, och betalar dem först så att tolvtimmarsmännen måste se på: *är ditt öga ont därför att jag är god?* Nåden förolämpar lönelistan. Sedan den tredje och mest detaljerade lidandesförutsägelsen — hånas, gisslas, **korsfästas** — omedelbart besvarad av en mors begäran om troner: *ni vet inte vad ni ber om*; platserna till höger och vänster ska gå till två korsfästa rövare, och **bägaren** utlovas bröderna som både ära och dom. De förbittrade tio får maktens grundlag: *så är det inte bland er* — storheten är bordstjänaren, och Människosonen kom **för att ge sitt liv till lösen för många** — evangeliets egen enradsteori om korset. Vid Jeriko går samma fråga som ställdes till de ambitiösa till två blinda — som ber att få se, får det, och använder sina nya ögon till att följa honom uppför vägen mot Jerusalem.',
+    },
+  },
+  {
     num: 19,
     titles: { en: 'Marriage, the Rich Young Man, and the Needle', sv: 'Äktenskapet, den rike unge mannen och nålsögat' },
     summaries: {

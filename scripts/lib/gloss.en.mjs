@@ -709,4 +709,12 @@ export const GLOSS_EN = {
   "δυσκόλως": "with difficulty", "τρῆμα": "eye (of needle), hole", "ῥαφίς": "needle",
   "ἀδύνατος": "impossible", "δυνατός": "possible, able", "παλιγγενεσία": "regeneration, rebirth",
   "φυλή": "tribe", "πολλαπλασίων": "many times more",
+  // Matthew 20
+  "μισθόω": "to hire", "ἀμπελών": "vineyard", "ἔνατος": "ninth",
+  "ὡσαύτως": "likewise", "ἑνδέκατος": "eleventh", "ἐπίτροπος": "steward",
+  "βάρος": "burden", "καύσων": "scorching heat", "ἑταῖρος": "friend, comrade",
+  "ἀδικέω": "to wrong, do injustice", "εὐώνυμος": "left (side)", "δέκα": "ten",
+  "ἀγανακτέω": "to be indignant", "κατακυριεύω": "to lord it over", "κατεξουσιάζω": "to wield authority over",
+  "λύτρον": "ransom", "Ἰεριχώ": "Jericho", "σιωπάω": "to be silent",
+  "ὄμμα": "eye",
 };
